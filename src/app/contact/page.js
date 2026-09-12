@@ -74,6 +74,18 @@ export default function ContactPage() {
                 <p>
                   Office # M-7, Mezzanine Floor, Falaknaz Heights, Shahrah-e-Faisal, Near Airport Road, Karachi, Pakistan.
                 </p>
+                <div style={{ width: "100%", height: "200px", borderRadius: "12px", overflow: "hidden", margin: "1rem 0" }}>
+                  <iframe 
+                    width="100%" 
+                    height="100%" 
+                    frameBorder="0" 
+                    scrolling="no" 
+                    marginHeight="0" 
+                    marginWidth="0" 
+                    src="https://www.google.com/maps?q=Falaknaz+Heights,+Shahrah-e-Faisal,+Karachi&output=embed"
+                    title="Karachi Head Office Map"
+                  ></iframe>
+                </div>
                 <a
                   href="https://maps.app.goo.gl/mivsPu4eiUD7EUqt7"
                   target="_blank"
@@ -81,7 +93,7 @@ export default function ContactPage() {
                   className={styles.mapBtn}
                 >
                   <IconMapPin size={15} />
-                  <span>Open Location in Google Maps</span>
+                  <span>Open in Google Maps App</span>
                   <IconArrowRight size={14} />
                 </a>
               </div>
@@ -95,6 +107,18 @@ export default function ContactPage() {
                 <p>
                   Abrar Plaza, Plot# 09, Near PSO Pump, IJP Road, New Katarian Satellite Town, Islamabad.
                 </p>
+                <div style={{ width: "100%", height: "200px", borderRadius: "12px", overflow: "hidden", margin: "1rem 0" }}>
+                  <iframe 
+                    width="100%" 
+                    height="100%" 
+                    frameBorder="0" 
+                    scrolling="no" 
+                    marginHeight="0" 
+                    marginWidth="0" 
+                    src="https://www.google.com/maps?q=Abrar+Plaza,+IJP+Road,+Islamabad&output=embed"
+                    title="Islamabad Regional Office Map"
+                  ></iframe>
+                </div>
                 <a
                   href="https://maps.app.goo.gl/szN9kBiiwfZ6CcRRA"
                   target="_blank"
@@ -102,7 +126,7 @@ export default function ContactPage() {
                   className={styles.mapBtn}
                 >
                   <IconMapPin size={15} />
-                  <span>Open Location in Google Maps</span>
+                  <span>Open in Google Maps App</span>
                   <IconArrowRight size={14} />
                 </a>
               </div>

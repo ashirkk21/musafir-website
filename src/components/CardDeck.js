@@ -137,7 +137,13 @@ export default function CardDeck({ cards: initialCards }) {
               key={card.id}
               layout
               className={styles.card}
-              initial={false}
+              initial={{
+                scale: isTop ? 1 : 1 - (3 - idx) * 0.04,
+                y: isTop ? 0 : (3 - idx) * 20,
+                rotate: rotation,
+                zIndex: idx,
+                opacity: (3 - idx) >= 3 ? 0 : 1
+              }}
               animate={{
                 scale: isTop ? 1 : 1 - (3 - idx) * 0.04,
                 y: isTop ? 0 : (3 - idx) * 20,

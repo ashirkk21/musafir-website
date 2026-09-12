@@ -84,6 +84,12 @@ export const metadata = {
   }
 };
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 // JSON-LD Organization structured data
 const organizationJsonLd = {
   "@context": "https://schema.org",

@@ -24,12 +24,6 @@ import {
 
 const heroSlides = [
   {
-    image: "/images/autumn_hero.jpg",
-    title: "Hunza Valley",
-    region: "Gilgit-Baltistan",
-    tag: "Golden Autumn Foliage"
-  },
-  {
     image: "/images/skardu.jpg",
     title: "Skardu Valley",
     region: "Baltistan",
@@ -52,6 +46,12 @@ const heroSlides = [
     title: "Karakoram Corridors",
     region: "Gilgit-Baltistan",
     tag: "High Mountain Expeditions"
+  },
+  {
+    image: "/images/autumn_hero.jpg",
+    title: "Hunza Valley",
+    region: "Gilgit-Baltistan",
+    tag: "Golden Autumn Foliage"
   }
 ];
 

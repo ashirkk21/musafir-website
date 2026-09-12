@@ -14,6 +14,8 @@ export default function AdminDashboard() {
   const [saving, setSaving] = useState(false);
   const [checkingAuth, setCheckingAuth] = useState(true);
 
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
   useEffect(() => {
     fetchPackages(true);
   }, []);
@@ -57,6 +59,8 @@ export default function AdminDashboard() {
       if (Array.isArray(data)) {
         setPackages(data);
         setIsAuthenticated(true);
+        // Automatically set the first package active if none selected
+        setActivePackage(prev => prev || JSON.parse(JSON.stringify(data[0] || null)));
       } else {
         console.error("API returned error:", data);
         setPackages([]);
@@ -72,6 +76,10 @@ export default function AdminDashboard() {
   const handlePackageSelect = (pkg) => {
     // Clone to avoid mutating original state before save
     setActivePackage(JSON.parse(JSON.stringify(pkg)));
+    setSidebarOpen(false); // Close mobile drawer
+    if (typeof window !== "undefined" && window.innerWidth <= 900) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
   };
 
   const handlePriceChange = (type, value) => {
@@ -119,6 +127,7 @@ export default function AdminDashboard() {
   };
 
   const handleSave = async () => {
+    if (!activePackage) return;
     setSaving(true);
     try {
       const res = await fetch(`/api/admin/packages/${activePackage.id}`, {
@@ -131,20 +140,25 @@ export default function AdminDashboard() {
         })
       });
       if (res.ok) {
-        alert("Package updated successfully!");
+        alert(`Package "${activePackage.title}" updated successfully!`);
         fetchPackages(); // Refresh list
       } else {
         alert("Failed to update package");
       }
     } catch (err) {
       console.error(err);
-      alert("An error occurred");
+      alert("An error occurred while saving");
     }
     setSaving(false);
   };
 
   if (checkingAuth) {
-    return <div style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#0f172a', color: 'white' }}>Verifying Secure Session...</div>;
+    return (
+      <div className={styles.loadingScreen}>
+        <div className={styles.spinner} />
+        <p>Loading Musafir Admin...</p>
+      </div>
+    );
   }
 
   if (!isAuthenticated) {
@@ -171,42 +185,91 @@ export default function AdminDashboard() {
 
   return (
     <div className={styles.dashboard}>
-      {/* Sidebar List */}
-      <aside className={styles.sidebar}>
-        <h3 className={styles.sidebarTitle}>Tour Packages</h3>
+      {/* Mobile Top Bar with Selected Package & Switch Button */}
+      <div className={styles.mobileControlBar}>
+        <div className={styles.mobileSelectedInfo}>
+          <span className={styles.mobileSelectedLabel}>Editing Package</span>
+          <span className={styles.mobileSelectedTitle}>
+            {activePackage ? activePackage.title : "No Package Selected"}
+          </span>
+        </div>
+        <button 
+          className={styles.mobileToggleBtn} 
+          onClick={() => setSidebarOpen(true)}
+        >
+          ☰ Packages ({packages.length})
+        </button>
+      </div>
+
+      {/* Backdrop for Mobile Slide-Out Drawer */}
+      <div 
+        className={`${styles.backdrop} ${sidebarOpen ? styles.backdropActive : ''}`}
+        onClick={() => setSidebarOpen(false)}
+      />
+
+      {/* Sidebar List (Permanent on desktop, Drawer on mobile) */}
+      <aside className={`${styles.sidebar} ${sidebarOpen ? styles.sidebarOpen : ''}`}>
+        <div className={styles.sidebarHeader}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <h3 className={styles.sidebarTitle}>Tour Packages</h3>
+            <span className={styles.sidebarCount}>{packages.length}</span>
+          </div>
+          <button 
+            className={styles.closeSidebarBtn}
+            onClick={() => setSidebarOpen(false)}
+          >
+            ✕ Close
+          </button>
+        </div>
         <div className={styles.packageList}>
           {loading ? (
-            <div style={{ padding: "1rem", textAlign: "center" }}>Loading...</div>
+            <div style={{ padding: "2rem 1rem", textAlign: "center", color: "#64748b" }}>
+              <div className={styles.spinner} style={{ margin: "0 auto 0.5rem auto", width: 24, height: 24 }} />
+              Loading packages...
+            </div>
           ) : packages.length === 0 ? (
-            <div style={{ padding: "1rem", textAlign: "center", color: "#ef4444" }}>No packages found or failed to load.</div>
+            <div style={{ padding: "2rem 1rem", textAlign: "center", color: "#ef4444" }}>
+              No packages found in database.
+            </div>
           ) : (
-            (packages || []).map(pkg => (
-              <div 
+            packages.map(pkg => (
+              <button 
                 key={pkg.id} 
                 className={`${styles.packageItem} ${activePackage?.id === pkg.id ? styles.packageItemActive : ''}`}
                 onClick={() => handlePackageSelect(pkg)}
               >
                 <h4 className={styles.itemTitle}>{pkg.title}</h4>
-                <p className={styles.itemMeta}>{pkg.type} • {pkg.duration?.days} Days</p>
-              </div>
+                <p className={styles.itemMeta}>{pkg.type} • {pkg.duration?.days || 0} Days / {pkg.duration?.nights || 0} Nights</p>
+              </button>
             ))
           )}
         </div>
       </aside>
 
-      {/* Editor Panel */}
+      {/* Editor Panel (Main Screen Update Form) */}
       <div className={styles.editorPanel}>
         {!activePackage ? (
           <div className={styles.emptyState}>
-            Select a package from the sidebar to edit its pricing and route plan.
+            Select a package from the list to edit its pricing and route plan.
           </div>
         ) : (
           <div>
             <div className={styles.editorHeader}>
               <div>
                 <h2 className={styles.editorTitle}>{activePackage.title}</h2>
-                <p className={styles.editorTagline}>{activePackage.id}</p>
+                <div className={styles.editorTagline}>
+                  <span className={styles.tagBadge}>ID: {activePackage.id}</span>
+                  <span>•</span>
+                  <span>{activePackage.type || "Tour"}</span>
+                </div>
               </div>
+              <button 
+                className={styles.saveBtn} 
+                onClick={handleSave}
+                disabled={saving}
+              >
+                {saving ? "Saving Changes..." : "✓ Save Changes"}
+              </button>
             </div>
 
             {/* Duration Section */}
@@ -237,7 +300,7 @@ export default function AdminDashboard() {
               <h3 className={styles.sectionTitle}>💰 Package Pricing (PKR)</h3>
               <div className={styles.grid2}>
                 <div className={styles.formGroup}>
-                  <label>Solo / Per Person Rate</label>
+                  <label>Solo / Per Person Rate (PKR)</label>
                   <input 
                     type="number" 
                     value={activePackage.pricing?.solo || 0} 
@@ -245,7 +308,7 @@ export default function AdminDashboard() {
                   />
                 </div>
                 <div className={styles.formGroup}>
-                  <label>Couple Rate</label>
+                  <label>Couple Rate (PKR)</label>
                   <input 
                     type="number" 
                     value={activePackage.pricing?.couple || 0} 
@@ -262,48 +325,49 @@ export default function AdminDashboard() {
               {(activePackage.routePlan || []).map((day, index) => (
                 <div key={index} className={styles.routeDayCard}>
                   <div className={styles.dayHeader}>
-                    <h4 className={styles.dayTitle}>Day {day.day}</h4>
+                    <span className={styles.dayBadge}>Day {day.day}</span>
                     <button 
                       className={styles.deleteBtn}
                       onClick={() => removeRouteDay(index)}
+                      type="button"
                     >
-                      Remove Day
+                      ✕ Remove Day
                     </button>
                   </div>
                   
-                  <div className={styles.formGroup} style={{ marginBottom: '1rem' }}>
-                    <label>Title</label>
+                  <div className={styles.formGroup} style={{ marginBottom: '0.85rem' }}>
+                    <label>Day Title</label>
                     <input 
                       type="text" 
-                      value={day.title} 
+                      value={day.title || ""} 
                       onChange={(e) => handleRoutePlanChange(index, 'title', e.target.value)}
                     />
                   </div>
                   <div className={styles.formGroup}>
-                    <label>Description</label>
+                    <label>Day Description</label>
                     <textarea 
                       rows={3}
-                      value={day.description} 
+                      value={day.description || ""} 
                       onChange={(e) => handleRoutePlanChange(index, 'description', e.target.value)}
                     />
                   </div>
                 </div>
               ))}
               
-              <button className={styles.addDayBtn} onClick={addRouteDay}>
-                + Add Another Day to Itinerary
+              <button className={styles.addDayBtn} onClick={addRouteDay} type="button">
+                + Add Another Day to Route Plan
               </button>
             </div>
             
             {/* Action Footer */}
-            <div style={{ marginTop: '3rem', paddingTop: '1.5rem', borderTop: '1px solid #e2e8f0', display: 'flex', justifyContent: 'flex-end' }}>
+            <div style={{ marginTop: '2.5rem', paddingTop: '1.5rem', borderTop: '1px solid #e2e8f0', display: 'flex', justifyContent: 'flex-end' }}>
               <button 
                 className={styles.saveBtn} 
                 onClick={handleSave}
                 disabled={saving}
-                style={{ fontSize: '1.1rem', padding: '0.8rem 2.5rem' }}
+                style={{ minWidth: '220px' }}
               >
-                {saving ? "Saving..." : "Save Changes"}
+                {saving ? "Saving Changes..." : "✓ Save Changes"}
               </button>
             </div>
           </div>
