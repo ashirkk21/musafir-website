@@ -1,0 +1,713 @@
+.pageContainer {
+  min-height: 100vh;
+  background-color: #fafcfb;
+  padding-bottom: 6rem;
+}
+
+.heroHeader {
+  position: relative;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.82) 0%, rgba(15, 23, 42, 0.65) 50%, rgba(15, 23, 42, 0.92) 100%),
+              url('/images/hotels/skardu-arcadian.jpg') center/cover no-repeat;
+  color: white;
+  padding: 5.5rem 2rem 5rem 2rem;
+  text-align: center;
+}
+
+.heroInner {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(59, 177, 67, 0.2);
+  border: 1px solid rgba(59, 177, 67, 0.4);
+  color: #4ade80;
+  padding: 0.35rem 1.1rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.heroTitle {
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-weight: 900;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.heroSubtitle {
+  color: #d1d5db;
+  font-size: clamp(1.05rem, 2vw, 1.22rem);
+  max-width: 720px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Floating Filter Section */
+.filterSection {
+  max-width: 1240px;
+  margin: -3.2rem auto 2.5rem auto;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 20;
+}
+
+.filterCard {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 20px 45px -12px rgba(15, 23, 42, 0.1), 0 4px 12px rgba(0, 0, 0, 0.03);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.filterTopRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.searchBox {
+  flex: 1;
+  min-width: 280px;
+  max-width: 520px;
+  display: flex;
+  align-items: center;
+  background: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 0.65rem 1rem;
+  gap: 0.75rem;
+  transition: all 0.2s ease;
+}
+
+.searchBox:focus-within {
+  background: #ffffff;
+  border-color: var(--primary-color, #16a34a);
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.15);
+}
+
+.searchIcon {
+  flex-shrink: 0;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 0.92rem;
+  color: #0f172a;
+  width: 100%;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.searchInput::placeholder {
+  color: #94a3b8;
+}
+
+.clearSearchBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  border-radius: 50%;
+  color: #94a3b8;
+  transition: all 0.15s ease;
+}
+
+.clearSearchBtn:hover {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.filterStatus {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.resultsCount {
+  font-size: 0.92rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.resultsCount strong {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.resetBtn {
+  background: #f1f5f9;
+  color: #475569;
+  border: 1px solid #cbd5e1;
+  padding: 0.4rem 0.85rem;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.resetBtn:hover {
+  background: #fee2e2;
+  color: #dc2626;
+  border-color: #fca5a5;
+}
+
+/* Destination Pills Strip */
+.destNavWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.destNav {
+  display: flex;
+  gap: 0.6rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  padding: 0.2rem 0.1rem;
+}
+
+.destNav::-webkit-scrollbar {
+  display: none;
+}
+
+.destPill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.55rem 1.1rem;
+  border-radius: 9999px;
+  background: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  color: #475569;
+  font-size: 0.88rem;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  flex-shrink: 0;
+}
+
+.destPill:hover {
+  background: #f1f5f9;
+  color: #0f172a;
+  border-color: #cbd5e1;
+  transform: translateY(-1px);
+}
+
+.destPill:active {
+  transform: scale(0.96);
+}
+
+.destPillActive {
+  background: linear-gradient(135deg, #15803d 0%, #16a34a 100%) !important;
+  border-color: #15803d !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 14px rgba(22, 163, 74, 0.32);
+  transform: translateY(-1px);
+  animation: pillPop 0.24s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes pillPop {
+  0% {
+    transform: scale(0.94);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: translateY(-1px) scale(1);
+  }
+}
+
+.destCountBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: #e2e8f0;
+  color: #64748b;
+  transition: all 0.2s ease;
+}
+
+.destPillActive .destCountBadge {
+  background: rgba(255, 255, 255, 0.26);
+  color: #ffffff;
+}
+
+/* Empty State */
+.noResultsBox {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1.5px dashed #cbd5e1;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.noResultsBox h3 {
+  font-size: 1.35rem;
+  color: #0f172a;
+  font-weight: 700;
+  margin: 0;
+}
+
+.noResultsBox p {
+  color: #64748b;
+  font-size: 0.95rem;
+  max-width: 480px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.viewAllBtn {
+  margin-top: 0.65rem;
+  background: var(--primary-color, #16a34a);
+  color: white;
+  border: none;
+  padding: 0.65rem 1.4rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.viewAllBtn:hover {
+  background: #15803d;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3);
+}
+
+.mainContent {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@keyframes cardEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(22px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.hotelsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr));
+  gap: 2.5rem;
+  margin-bottom: 5rem;
+  align-items: stretch;
+}
+
+.hotelCard {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eef3f0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+  animation: cardEntrance 0.4s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+  will-change: transform, opacity;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+}
+
+.hotelCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-color: #d1fae5;
+}
+
+.imageWrapper {
+  position: relative;
+  height: 240px;
+  width: 100%;
+}
+
+.ratingBadge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(6px);
+  color: #facc15;
+  padding: 0.35rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.destBadge {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  background: var(--primary-color);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cardBody {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.hotelName {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--secondary-color);
+  margin-bottom: 0.35rem;
+  line-height: 1.3;
+  min-height: 2.6rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.hotelLocation {
+  color: #6b7280;
+  font-size: 0.88rem;
+  margin-bottom: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 1.35rem;
+}
+
+.hotelDesc {
+  color: #4b5563;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  height: 4.5em;
+  margin-bottom: 1.25rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.amenitiesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 1.25rem;
+  min-height: 3.8rem;
+  align-content: flex-start;
+}
+
+.amenityChip {
+  background: #f3f4f6;
+  color: #374151;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #f0f4f2;
+  padding-top: 1.2rem;
+  margin-top: auto;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.priceCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.priceLabel {
+  font-size: 0.75rem;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.priceVal {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+.footerActions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.detailsBtn {
+  background: #f8fafc;
+  color: #0f172a;
+  border: 1px solid #cbd5e1;
+  padding: 0.65rem 1.1rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.detailsBtn:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+  transform: translateY(-1px);
+}
+
+.bookBtn {
+  background: #25d366;
+  color: white;
+  padding: 0.65rem 1.1rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.bookBtn:hover {
+  background: #20ba5a;
+  transform: translateY(-2px);
+}
+
+/* Policy Card */
+.policyCard {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  border: 1px solid #e2ece5;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.policyCard h3 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--secondary-color);
+  margin-bottom: 1.5rem;
+}
+
+.policyGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 1.5rem;
+}
+
+.policyItem {
+  background: #fcfdfc;
+  border: 1px solid #e9f0ec;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.policyItem h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.policyItem p {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .heroHeader {
+    padding: 4.5rem 1.25rem 3.8rem 1.25rem;
+  }
+
+  .filterSection {
+    margin-top: -2.5rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .filterCard {
+    padding: 1.1rem;
+    border-radius: 16px;
+    gap: 0.85rem;
+  }
+
+  .filterTopRow {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+
+  .searchBox {
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .filterStatus {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .hotelsGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .mainContent {
+    padding: 0 1rem;
+    margin-top: 0;
+  }
+
+  .policyCard {
+    padding: 1.75rem 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroHeader {
+    padding: 3.8rem 1rem 3.2rem 1rem;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroSubtitle {
+    font-size: 0.95rem;
+  }
+
+  .filterSection {
+    margin-top: -2rem;
+    padding: 0 0.75rem;
+  }
+
+  .filterCard {
+    padding: 0.95rem;
+    border-radius: 14px;
+  }
+
+  .destPill {
+    padding: 0.45rem 0.9rem;
+    font-size: 0.82rem;
+    gap: 0.45rem;
+  }
+
+  .destCountBadge {
+    min-width: 18px;
+    height: 18px;
+    font-size: 0.7rem;
+    padding: 0 5px;
+  }
+
+  .mainContent {
+    padding: 0 0.75rem;
+  }
+
+  .cardBody {
+    padding: 1.25rem;
+  }
+
+  .cardFooter {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.85rem;
+  }
+
+  .priceCol {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footerActions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .detailsBtn, .bookBtn {
+    width: 100%;
+    padding: 0.75rem 0.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .heroHeader {
+    padding: 3rem 0.6rem 2.5rem 0.6rem;
+  }
+
+  .mainContent {
+    padding: 0 0.5rem;
+  }
+
+  .footerActions {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .priceCol {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+}

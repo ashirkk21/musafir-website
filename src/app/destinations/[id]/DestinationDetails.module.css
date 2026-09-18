@@ -1,0 +1,809 @@
+.pageContainer {
+  min-height: 100vh;
+  background-color: #fafcfb;
+  padding-bottom: 6rem;
+}
+
+/* ========================================================
+   HERO SECTION
+   ======================================================== */
+.heroSection {
+  position: relative;
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 5.5rem 2rem 5rem 2rem;
+  overflow: hidden;
+}
+
+.heroImageWrap {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(15, 23, 42, 0.85) 0%,
+    rgba(15, 23, 42, 0.65) 50%,
+    rgba(15, 23, 42, 0.94) 100%
+  );
+  z-index: 2;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 10;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 1.25rem;
+}
+
+.breadcrumbs a {
+  color: rgba(255, 255, 255, 0.85);
+  transition: color 0.2s ease;
+}
+
+.breadcrumbs a:hover {
+  color: #4ade80;
+  text-decoration: underline;
+}
+
+.currentCrumb {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.badgeRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.regionBadge {
+  background: rgba(34, 197, 94, 0.2);
+  border: 1px solid rgba(34, 197, 94, 0.4);
+  color: #4ade80;
+  padding: 0.35rem 0.95rem;
+  border-radius: 9999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.seasonBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(8px);
+  color: #fef08a;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.35rem 0.95rem;
+  border-radius: 9999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.verifiedBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(34, 197, 94, 0.15);
+  border: 1px solid rgba(34, 197, 94, 0.35);
+  color: #86efac;
+  padding: 0.35rem 0.95rem;
+  border-radius: 9999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.heroTitle {
+  font-size: clamp(2.8rem, 5.8vw, 4.4rem);
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1.1;
+  margin-bottom: 0.85rem;
+  letter-spacing: -0.025em;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+}
+
+.heroTagline {
+  font-size: clamp(1.05rem, 1.8vw, 1.25rem);
+  color: rgba(255, 255, 255, 0.95);
+  max-width: 820px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Quick Metrics Bar */
+.heroStatsBar {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 18px;
+  padding: 1.25rem 2rem;
+  max-width: 960px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  flex-wrap: wrap;
+}
+
+.heroStatItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.statLabel {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #94a3b8;
+  font-weight: 700;
+}
+
+.statValue {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.statValuePrice {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #4ade80;
+}
+
+.statDivider {
+  width: 1px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* ========================================================
+   MAIN CONTENT
+   ======================================================== */
+.mainContent {
+  max-width: 1200px;
+  margin: 3.5rem auto 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+}
+
+.sectionBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.6rem;
+}
+
+.sectionHeading {
+  font-size: clamp(1.85rem, 3.6vw, 2.6rem);
+  font-weight: 800;
+  color: var(--secondary-color, #1f2937);
+  letter-spacing: -0.018em;
+  margin-bottom: 0.6rem;
+  line-height: var(--lh-heading, 1.22);
+}
+
+.sectionSubheading {
+  color: #4b5563;
+  font-size: clamp(1rem, 1.8vw, 1.12rem);
+  line-height: 1.6;
+  max-width: 720px;
+  margin: 0;
+}
+
+.sectionHeaderCentered {
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto 2.5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ========================================================
+   DESTINATION OVERVIEW SECTION
+   ======================================================== */
+.overviewSection {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 24px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.overviewHeader {
+  margin-bottom: 2rem;
+}
+
+.overviewText {
+  color: #334155;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-top: 0.8rem;
+}
+
+.highlightsBox {
+  border-top: 1px solid #f1f5f9;
+  padding-top: 1.75rem;
+}
+
+.highlightsTitle {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 1rem;
+}
+
+.highlightsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.highlightChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+  padding: 0.45rem 1rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.highlightChip:hover {
+  background: #dcfce7;
+  transform: translateY(-1px);
+}
+
+/* ========================================================
+   ATTRACTIONS SECTION (EDITORIAL NARRATIVE PARAGRAPHS - NO CARDS)
+   ======================================================== */
+.attractionArticles {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.attractionArticle {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2.75rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.attractionArticle:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.articleHeadingBlock {
+  margin-bottom: 1.15rem;
+}
+
+.articleTitleRow {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.45rem;
+}
+
+.articleTitle {
+  font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+  font-weight: 800;
+  color: var(--secondary-color, #1f2937);
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  line-height: 1.25;
+}
+
+.articleNumber {
+  color: var(--primary-color, #16a34a);
+  font-weight: 900;
+}
+
+.articleBadge {
+  display: inline-block;
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+  padding: 0.2rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 700;
+}
+
+.articleMetaLine {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+  color: #64748b;
+  margin-bottom: 0.45rem;
+}
+
+.articleMetaItem strong {
+  color: #334155;
+  font-weight: 600;
+}
+
+.articleMetaDot {
+  color: #cbd5e1;
+  font-weight: bold;
+}
+
+.articleTagline {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color, #16a34a);
+  margin: 0;
+  line-height: 1.45;
+}
+
+.articleParagraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+}
+
+.articleDescriptionPara {
+  color: #334155;
+  font-size: 1.05rem;
+  line-height: 1.78;
+  margin: 0;
+}
+
+.articleHighlightsBox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  background: #f8fafc;
+  border-left: 3px solid var(--primary-color, #16a34a);
+  padding: 0.95rem 1.35rem;
+  border-radius: 0 10px 10px 0;
+}
+
+.articleInsightPara {
+  color: #475569;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.insightLabel {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+/* ========================================================
+   RELATED TOURS SECTION
+   ======================================================== */
+.toursGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+  gap: 2.5rem;
+}
+
+.tourCard {
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eef3f0;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tourCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-color: #bbf7d0;
+}
+
+.tourImageLink {
+  position: relative;
+  height: 240px;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.tourImg {
+  transition: transform 0.6s ease;
+}
+
+.tourCard:hover .tourImg {
+  transform: scale(1.06);
+}
+
+.tourTypeBadge {
+  position: absolute;
+  top: 0.85rem;
+  left: 0.85rem;
+  background: var(--primary-color, #16a34a);
+  color: white;
+  padding: 0.32rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.tourDurationBadge {
+  position: absolute;
+  bottom: 0.85rem;
+  right: 0.85rem;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(8px);
+  color: white;
+  padding: 0.32rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  white-space: nowrap;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.tourBody {
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.tourTitle {
+  font-size: 1.28rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 0.4rem;
+  line-height: 1.35;
+  transition: color 0.2s;
+}
+
+.tourTitle:hover {
+  color: var(--primary-color, #16a34a);
+}
+
+.tourTagline {
+  color: #64748b;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tourHighlightsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 1.5rem;
+}
+
+.tourHighlightChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: #f0fdf4;
+  color: #15803d;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.25rem 0.65rem;
+  border-radius: 6px;
+  border: 1px solid #dcfce7;
+}
+
+.tourFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #f1f5f9;
+  padding-top: 1.25rem;
+  margin-top: auto;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tourPriceBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.tourPriceLabel {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  color: #94a3b8;
+  font-weight: 700;
+}
+
+.tourPriceVal {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #0f172a;
+}
+
+.tourPriceVal small {
+  font-size: 0.76rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.tourActionBtns {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.viewTourBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #f1f5f9;
+  color: #0f172a;
+  border: 1px solid #e2e8f0;
+  padding: 0.55rem 1rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.viewTourBtn:hover {
+  background: #e2e8f0;
+  transform: translateY(-1px);
+}
+
+.bookTourBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #25d366;
+  color: white;
+  padding: 0.55rem 0.95rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.bookTourBtn:hover {
+  background: #1eb757;
+  transform: translateY(-1px);
+}
+
+/* ========================================================
+   CUSTOM CTA CARD
+   ======================================================== */
+.customCtaCard {
+  background: radial-gradient(circle at 85% 30%, rgba(34, 197, 94, 0.16), transparent 60%),
+              linear-gradient(135deg, #141f30 0%, #0b1220 100%);
+  border: 1px solid rgba(34, 197, 94, 0.35);
+  border-radius: 28px;
+  padding: 3.5rem 2.5rem;
+  color: white;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.customCtaContent {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.customCtaContent h3 {
+  font-size: clamp(1.6rem, 3.2vw, 2.2rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0.9rem;
+}
+
+.customCtaContent p {
+  color: #cbd5e1;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  margin-bottom: 2rem;
+}
+
+.customCtaButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.ctaWaBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: #22c55e;
+  color: #ffffff;
+  padding: 0.95rem 1.8rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 800;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(34, 197, 94, 0.3);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.ctaWaBtn:hover {
+  background: #16a34a;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(34, 197, 94, 0.4);
+}
+
+.ctaCustomBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  padding: 0.95rem 1.8rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.ctaCustomBtn:hover {
+  background: rgba(255, 255, 255, 0.18);
+  transform: translateY(-2px);
+}
+
+/* ========================================================
+   RESPONSIVE QUERIES
+   ======================================================== */
+@media (max-width: 768px) {
+  .heroSection {
+    padding: 4.5rem 1.25rem 3.5rem 1.25rem;
+  }
+
+  .heroStatsBar {
+    padding: 1rem 1.25rem;
+    gap: 1rem;
+  }
+
+  .statDivider {
+    display: none;
+  }
+
+  .mainContent {
+    padding: 0 1.25rem;
+    gap: 3.5rem;
+  }
+
+  .overviewSection {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .attractionArticle {
+    padding-bottom: 2rem;
+  }
+
+  .articleHighlightsBox {
+    padding: 0.85rem 1rem;
+  }
+
+  .tourFooter {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .tourActionBtns {
+    width: 100%;
+  }
+
+  .viewTourBtn,
+  .bookTourBtn {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .customCtaCard {
+    padding: 2.25rem 1.25rem;
+  }
+
+  .customCtaButtons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ctaWaBtn,
+  .ctaCustomBtn {
+    width: 100%;
+    justify-content: center;
+    padding: 0.85rem 1.25rem;
+    font-size: 0.92rem;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroTitle {
+    font-size: 2.2rem;
+  }
+
+  .heroStatsBar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tourTypeBadge {
+    top: 0.65rem;
+    left: 0.65rem;
+    font-size: 0.68rem;
+    padding: 0.25rem 0.6rem;
+  }
+
+  .tourDurationBadge {
+    bottom: 0.65rem;
+    right: 0.65rem;
+    font-size: 0.68rem;
+    padding: 0.25rem 0.6rem;
+  }
+}

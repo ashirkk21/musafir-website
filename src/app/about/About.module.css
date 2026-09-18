@@ -1,0 +1,1529 @@
+/* ========================================================
+   MUSAFIR PAKISTAN — ABOUT PAGE STYLESHEET
+   Strict Two-Background Palette System:
+   Primary Dark: #0B1220
+   Card Dark: #141F30
+   Light Section BG: #F5F7FA
+   Accent Green: #22C55E / #16A34A
+   Text on Dark: #FFFFFF / #A8B3C4
+   Text on Light: #0B1220 / #5B6472
+   ======================================================== */
+
+.aboutPage {
+  min-height: 100vh;
+  background-color: #0b1220;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Common Container */
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Common Section Headers (Dark Sections) */
+.sectionHeader {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 3.5rem auto;
+}
+
+.sectionBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(34, 197, 94, 0.12);
+  color: #22c55e;
+  padding: 0.45rem 1.15rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  margin-bottom: 1.25rem;
+}
+
+.sectionTitle {
+  font-size: clamp(2rem, 4.5vw, 2.75rem);
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.sectionSubtitle {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #a8b3c4;
+  margin: 0;
+}
+
+/* Light Section Header Variant */
+.sectionHeaderLight {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 3.5rem auto;
+}
+
+.sectionHeaderLight .sectionBadge {
+  background: rgba(22, 163, 74, 0.1);
+  color: #16a34a;
+  border: 1px solid rgba(22, 163, 74, 0.25);
+}
+
+.sectionHeaderLight .sectionTitle {
+  color: #0b1220;
+}
+
+.sectionHeaderLight .sectionSubtitle {
+  color: #5b6472;
+}
+
+/* ========================================================
+   HERO BANNER (With Scenic Northern Pakistan Backdrop)
+   ======================================================== */
+.heroSection {
+  position: relative;
+  padding: 8rem 1.5rem 6rem 1.5rem;
+  background-color: #0b1220;
+  overflow: hidden;
+  text-align: center;
+}
+
+.heroBgWrapper {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.heroBgImage {
+  object-fit: cover;
+  object-position: center 35%;
+  transform: scale(1.03);
+}
+
+.heroGradientOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(11, 18, 32, 0.72) 0%,
+    rgba(11, 18, 32, 0.85) 60%,
+    #0b1220 100%
+  );
+}
+
+.heroSection .container {
+  position: relative;
+  z-index: 2;
+}
+
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(34, 197, 94, 0.18);
+  color: #4ade80;
+  padding: 0.5rem 1.25rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border: 1px solid rgba(74, 222, 128, 0.35);
+  margin-bottom: 1.5rem;
+  backdrop-filter: blur(8px);
+}
+
+.heroTitle {
+  font-size: clamp(2.4rem, 5.8vw, 3.8rem);
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1.15;
+  max-width: 920px;
+  margin: 0 auto 1.5rem auto;
+  letter-spacing: -0.02em;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.heroTitle span {
+  background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroSubtitle {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #cbd5e1;
+  max-width: 780px;
+  margin: 0 auto 2.75rem auto;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.heroStats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.75rem 2rem;
+  background: #141f30;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.heroStatItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroStatVal {
+  font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+  font-weight: 800;
+  color: #22c55e;
+  margin-bottom: 0.25rem;
+}
+
+.heroStatLabel {
+  font-size: 0.85rem;
+  color: #a8b3c4;
+  font-weight: 600;
+}
+
+/* ========================================================
+   CEO INTRODUCTION SECTION (Dark Section)
+   ======================================================== */
+.ceoSection {
+  padding: 5rem 0 2rem 0;
+  background-color: #0b1220;
+}
+
+.ceoCard {
+  background: #141f30;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-radius: 28px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  padding: 3rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.ceoImageCol {
+  position: relative;
+  width: 250px;
+  height: 290px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(74, 222, 128, 0.4);
+}
+
+.ceoImage {
+  object-fit: cover;
+  object-position: center 20%;
+}
+
+.ceoContentCol {
+  flex: 1;
+}
+
+.ceoBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(34, 197, 94, 0.12);
+  color: #4ade80;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.4rem 0.95rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.25rem;
+  border: 1px solid rgba(74, 222, 128, 0.25);
+}
+
+.ceoQuote {
+  font-size: 1.12rem;
+  line-height: 1.8;
+  color: #e2e8f0;
+  font-style: italic;
+  margin: 0 0 1.5rem 0;
+}
+
+.ceoAuthor {
+  display: flex;
+  flex-direction: column;
+}
+
+.ceoName {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+
+.ceoTitle {
+  font-size: 0.88rem;
+  color: #4ade80;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* ========================================================
+   SECTION 1: MISSION & VISION (Dark Section)
+   ======================================================== */
+.missionSection {
+  padding: 5rem 0;
+  background-color: #0b1220;
+  position: relative;
+}
+
+.missionGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: stretch;
+}
+
+.missionGrid > div {
+  display: flex;
+  height: 100%;
+}
+
+.missionCard {
+  background: #141f30;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 24px;
+  padding: 3rem 2.5rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.25);
+}
+
+.missionCard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+}
+
+.missionCard:hover {
+  transform: translateY(-4px);
+  border-color: rgba(34, 197, 94, 0.35);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.35);
+}
+
+.cardWatermark {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  width: 140px;
+  height: 70px;
+  color: rgba(34, 197, 94, 0.07);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.cardIconCircle {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: rgba(34, 197, 94, 0.15);
+  color: #4ade80;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.missionCard h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.missionCard p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #a8b3c4;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+  flex: 1;
+}
+
+.missionList {
+  list-style: none;
+  padding: 0;
+  margin: auto 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  position: relative;
+  z-index: 1;
+}
+
+.missionList li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #f1f5f9;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.checkIcon {
+  color: #22c55e;
+  flex-shrink: 0;
+}
+
+/* ========================================================
+   SECTION 2: WHY CHOOSE US? (Soft Off-White Breather Section: #F5F7FA)
+   ======================================================== */
+.whyChooseSection {
+  padding: 6rem 0;
+  background-color: #f5f7fa;
+  border-top: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.whyGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.whyGrid > div {
+  display: flex;
+  height: 100%;
+}
+
+.whyCard {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 2.25rem 2rem;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 24px rgba(11, 18, 32, 0.05);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.whyCard:hover {
+  transform: translateY(-5px);
+  border-color: #22c55e;
+  box-shadow: 0 16px 36px rgba(34, 197, 94, 0.12);
+}
+
+.whyIconWrapper {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: rgba(22, 163, 74, 0.1);
+  color: #16a34a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.whyCard h3 {
+  font-size: 1.28rem;
+  font-weight: 800;
+  color: #0b1220;
+  margin-bottom: 0.75rem;
+  min-height: 1.5em;
+}
+
+.whyCard p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #5b6472;
+  margin: 0;
+  flex: 1;
+}
+
+/* ========================================================
+   TODAY'S QUOTE BANNER (Dark Section)
+   ======================================================== */
+.quoteSection {
+  padding: 5.5rem 0;
+  background-color: #0b1220;
+  position: relative;
+}
+
+.quoteBanner {
+  position: relative;
+  background: radial-gradient(circle at 50% 50%, rgba(34, 197, 94, 0.14), transparent 70%),
+              #141f30;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-radius: 28px;
+  padding: 4rem 2.5rem;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.quoteMark {
+  font-size: 4.5rem;
+  line-height: 1;
+  color: #22c55e;
+  font-family: Georgia, serif;
+  opacity: 0.8;
+  margin-bottom: -1rem;
+}
+
+.quoteText {
+  font-size: clamp(1.8rem, 4.2vw, 2.8rem);
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  max-width: 850px;
+  margin: 0 auto 1.5rem auto;
+}
+
+.quoteText span {
+  background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.quoteHashtag {
+  display: inline-block;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #a8b3c4;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 0.45rem 1.3rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ========================================================
+   SECTION 3: VERIFIED ALLIANCES & PARTNERS (Solid High Contrast Dark #141F30)
+   ======================================================== */
+.partnersSection {
+  padding: 6rem 0 0 0;
+  background-color: #0b1220;
+}
+
+.partnerCategories {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.75rem;
+  align-items: stretch;
+}
+
+.partnerCategories > div {
+  display: flex;
+  height: 100%;
+}
+
+.partnerCategoryCard {
+  background: #141f30;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 2rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.partnerCategoryCard:hover {
+  transform: translateY(-4px);
+  border-color: rgba(34, 197, 94, 0.35);
+}
+
+.partnerCatHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+  min-height: 52px;
+}
+
+.partnerCatIcon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.partnerCatTitle {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.partnerPillList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.partnerPill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 0.75rem 1rem;
+  background: #0b1220;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  font-size: 0.88rem;
+  color: #ffffff;
+  font-weight: 600;
+  min-height: 52px;
+  box-sizing: border-box;
+}
+
+.partnerPill span:first-child {
+  color: #ffffff;
+}
+
+.partnerPillBadge {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  background: rgba(34, 197, 94, 0.18);
+  color: #4ade80;
+  font-weight: 700;
+  border: 1px solid rgba(74, 222, 128, 0.3);
+  white-space: nowrap;
+}
+
+/* ========================================================
+   SECTION 4: MEET OUR TEAM (Soft Off-White Breather Section: #F5F7FA)
+   ======================================================== */
+.teamSection {
+  padding: 6.5rem 0;
+  background-color: #f5f7fa;
+  border-top: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Executive Leadership Grid (CEO & Co-Founder) */
+.leadershipGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.25rem;
+  margin-bottom: 4rem;
+  align-items: stretch;
+}
+
+.leadershipGrid > div {
+  display: flex;
+  height: 100%;
+}
+
+.execCard {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 26px;
+  padding: 2.75rem 2.25rem;
+  box-shadow: 0 12px 35px rgba(11, 18, 32, 0.06);
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.execCard:hover {
+  transform: translateY(-5px);
+  border-color: #22c55e;
+  box-shadow: 0 20px 45px rgba(34, 197, 94, 0.12);
+}
+
+.execAvatarCol {
+  width: 150px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.execAvatarWrapper {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #22c55e;
+  box-shadow: 0 8px 24px rgba(11, 18, 32, 0.12);
+  margin-bottom: 1rem;
+  background: #e2e8f0;
+}
+
+.execImage {
+  object-fit: cover;
+  object-position: center 20%;
+  filter: contrast(1.04) saturate(0.96);
+  transition: transform 0.4s ease;
+}
+
+.execCard:hover .execImage {
+  transform: scale(1.06);
+}
+
+.execDirectContact {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #16a34a;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-decoration: none;
+  background: rgba(22, 163, 74, 0.08);
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  transition: all 0.2s ease;
+}
+
+.execDirectContact:hover {
+  background: #16a34a;
+  color: #ffffff;
+}
+
+.execContentCol {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.execBadge {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 6px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #16a34a;
+  background: rgba(22, 163, 74, 0.1);
+  padding: 0.28rem 0.85rem;
+  border-radius: 999px;
+  margin-bottom: 0.5rem;
+}
+
+.execName {
+  font-size: 1.55rem;
+  font-weight: 900;
+  color: #0b1220;
+  margin: 0 0 0.2rem 0;
+  letter-spacing: -0.01em;
+}
+
+.execTitle {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #16a34a;
+  margin-bottom: 0.85rem;
+}
+
+.execBio {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: #5b6472;
+  margin: 0 0 1.25rem 0;
+  flex: 1;
+}
+
+.execQuote {
+  background: #f8fafc;
+  border-left: 3px solid #22c55e;
+  border-radius: 0 10px 10px 0;
+  padding: 0.75rem 1rem;
+  font-size: 0.86rem;
+  font-style: italic;
+  color: #475569;
+  line-height: 1.55;
+  margin: auto 0 0 0;
+}
+
+/* Department & Operations Leads */
+.deptSectionDivider {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.deptDividerTitle {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #0b1220;
+  margin-bottom: 0.35rem;
+}
+
+.deptDividerSubtitle {
+  font-size: 0.92rem;
+  color: #5b6472;
+  margin: 0;
+}
+
+.deptGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.deptGrid > div {
+  display: flex;
+  height: 100%;
+}
+
+.deptCard {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 22px;
+  padding: 2.25rem 1.75rem 1.75rem;
+  box-shadow: 0 8px 25px rgba(11, 18, 32, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.deptCard:hover {
+  transform: translateY(-5px);
+  border-color: #22c55e;
+  box-shadow: 0 18px 40px rgba(34, 197, 94, 0.12);
+}
+
+.deptAvatarWrapper {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #22c55e;
+  box-shadow: 0 8px 20px rgba(11, 18, 32, 0.1);
+  margin-bottom: 1.25rem;
+  background: #e2e8f0;
+  flex-shrink: 0;
+}
+
+.deptImage {
+  object-fit: cover;
+  object-position: center 20%;
+  filter: contrast(1.04) saturate(0.96);
+  transition: transform 0.4s ease;
+}
+
+.deptCard:hover .deptImage {
+  transform: scale(1.08);
+}
+
+.deptRole {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #16a34a;
+  background: rgba(22, 163, 74, 0.1);
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  margin-bottom: 0.5rem;
+}
+
+.deptName {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #0b1220;
+  margin: 0 0 0.35rem 0;
+  line-height: 1.3;
+  min-height: 1.6em;
+}
+
+.deptSubRole {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #64748b;
+  margin-bottom: 0.85rem;
+  min-height: 2.4em;
+}
+
+.deptBio {
+  font-size: 0.86rem;
+  line-height: 1.6;
+  color: #5b6472;
+  margin: 0 0 1.5rem 0;
+  flex: 1;
+}
+
+.deptTagRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.deptTag {
+  font-size: 0.7rem;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  color: #475569;
+  font-weight: 600;
+}
+
+/* ========================================================
+   SECTION 5: OUR RECENT TRIPS (Dark Section #0B1220)
+   ======================================================== */
+.recentTripsSection {
+  padding: 6rem 0;
+  background-color: #0b1220;
+}
+
+.tripsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3.5rem;
+  align-items: stretch;
+}
+
+.tripsGrid > div {
+  display: flex;
+  height: 100%;
+}
+
+.tripCard {
+  background: #141f30;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.tripCard:hover {
+  transform: translateY(-4px);
+  border-color: rgba(34, 197, 94, 0.35);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
+
+.tripImageWrapper {
+  position: relative;
+  width: 100%;
+  height: 230px;
+  background: #0b1220;
+  flex-shrink: 0;
+}
+
+.tripImage {
+  object-fit: cover;
+}
+
+.tripBadge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: rgba(11, 18, 32, 0.85);
+  backdrop-filter: blur(8px);
+  color: #4ade80;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 1px solid rgba(74, 222, 128, 0.3);
+}
+
+.tripContent {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.tripTitle {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  min-height: 2.8rem;
+}
+
+.tripLocation {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #a8b3c4;
+  font-size: 0.88rem;
+  margin-bottom: 1rem;
+}
+
+.tripHighlights {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: #cbd5e1;
+  margin: 0;
+  flex: 1;
+}
+
+.centerAction {
+  text-align: center;
+}
+
+.viewAllGalleryBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(34, 197, 94, 0.12);
+  color: #4ade80;
+  border: 1px solid rgba(74, 222, 128, 0.35);
+  padding: 0.9rem 2.2rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.viewAllGalleryBtn:hover {
+  background: #22c55e;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(34, 197, 94, 0.3);
+}
+
+/* ========================================================
+   SECTION 6: REVIEWS & TESTIMONIALS (Dark Section #0B1220)
+   ======================================================== */
+.reviewsSection {
+  padding: 6rem 0 0 0;
+  background-color: #0b1220;
+  position: relative;
+}
+
+.reviewsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3.5rem;
+  align-items: stretch;
+}
+
+.reviewsGrid > div {
+  display: flex;
+  height: 100%;
+}
+
+.reviewCard {
+  background: #141f30;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 20px;
+  padding: 2.25rem 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.reviewCard:hover {
+  transform: translateY(-4px);
+  border-color: rgba(245, 158, 11, 0.4);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+}
+
+.reviewTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.starCluster {
+  display: flex;
+  gap: 3px;
+}
+
+.tripTag {
+  font-size: 0.74rem;
+  background: rgba(255, 255, 255, 0.06);
+  color: #a8b3c4;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.reviewQuote {
+  font-size: 0.96rem;
+  line-height: 1.65;
+  color: #e2e8f0;
+  font-style: italic;
+  margin: 0 0 1.5rem 0;
+  flex: 1;
+}
+
+.reviewAuthorMeta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin-top: auto;
+}
+
+.authorInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.reviewAvatar {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #22c55e;
+  flex-shrink: 0;
+  background: #0b1220;
+}
+
+.avatarImg {
+  object-fit: cover;
+}
+
+.authorDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.authorName {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.authorRole {
+  font-size: 0.76rem;
+  color: #a8b3c4;
+}
+
+.verifiedPill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #22c55e;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* ========================================================
+   CTA CARD & OFFICE DETAILS
+   ======================================================== */
+.ctaCard {
+  background: radial-gradient(circle at 85% 30%, rgba(34, 197, 94, 0.16), transparent 60%),
+              linear-gradient(135deg, #141f30 0%, #0b1220 100%);
+  border: 1px solid rgba(34, 197, 94, 0.35);
+  border-radius: 28px;
+  padding: 3.5rem 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  margin-top: 4rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.ctaContent h3 {
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.ctaContent p {
+  font-size: 1.05rem;
+  color: #a8b3c4;
+  max-width: 650px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+.ctaPrimaryBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #22c55e;
+  color: #ffffff;
+  font-weight: 800;
+  padding: 0.95rem 1.8rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(34, 197, 94, 0.3);
+}
+
+.ctaPrimaryBtn:hover {
+  background: #16a34a;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(34, 197, 94, 0.4);
+}
+
+.ctaSecondaryBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  font-weight: 700;
+  padding: 0.95rem 1.8rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.ctaSecondaryBtn:hover {
+  background: rgba(255, 255, 255, 0.18);
+  transform: translateY(-2px);
+}
+
+/* Office & Contact strip */
+.officeCard {
+  margin-top: 2rem;
+  background: #141f30;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 20px;
+  padding: 1.75rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.officeInfoCol {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: #cbd5e1;
+  font-size: 0.9rem;
+}
+
+.officeInfoCol svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.officeInfoCol a {
+  color: #22c55e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.officeInfoCol a:hover {
+  text-decoration: underline;
+}
+
+/* Mountain Ridge Transition Divider to Footer */
+.footerMountainDivider {
+  width: 100%;
+  height: 60px;
+  margin-top: 1.5rem;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.footerMountainDivider svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ========================================================
+   RESPONSIVE DESIGN (300px - 1280px)
+   ======================================================== */
+@media (max-width: 1200px) {
+  .deptGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .heroStats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+
+  .ceoCard {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding: 2.5rem 2rem;
+  }
+
+  .ceoImageCol {
+    margin: 0 auto;
+  }
+
+  .whyGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .partnerCategories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .leadershipGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .deptGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .tripsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .reviewsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ctaCard {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ctaButtons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+    padding: 5.5rem 1.25rem 4rem 1.25rem;
+  }
+
+  .missionSection,
+  .whyChooseSection,
+  .teamSection,
+  .recentTripsSection,
+  .reviewsSection {
+    padding: 4rem 0;
+  }
+
+  .partnersSection {
+    padding: 4rem 0 0 0;
+  }
+
+  .ceoCard {
+    padding: 2rem 1.5rem;
+  }
+
+  .ceoImageCol {
+    width: 200px;
+    height: 240px;
+  }
+
+  .missionGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .missionCard {
+    padding: 2.25rem 1.75rem;
+  }
+
+  .whyGrid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .partnerCategories {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .execCard {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+  }
+
+  .execAvatarCol {
+    margin-bottom: 1rem;
+  }
+
+  .deptGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .tripsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .reviewsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ctaPrimaryBtn,
+  .ctaSecondaryBtn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroSection {
+    padding: 4.5rem 1rem 3rem 1rem;
+  }
+
+  .heroStats {
+    grid-template-columns: 1fr 1fr;
+    padding: 1.5rem 0.75rem;
+    gap: 1.25rem 0.5rem;
+  }
+
+  .heroStatVal {
+    font-size: 1.35rem;
+    white-space: nowrap;
+  }
+
+  .heroStatLabel {
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  .sectionTitle {
+    font-size: 1.8rem;
+  }
+
+  .sectionSubtitle {
+    font-size: 0.92rem;
+  }
+
+  .missionCard {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .missionCard h3 {
+    font-size: 1.45rem;
+  }
+
+  .ctaCard {
+    padding: 2.5rem 1.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .officeCard {
+    margin-top: 1.5rem;
+  }
+
+  .partnerPill {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.75rem 0.85rem;
+  }
+
+  .quoteBanner {
+    padding: 3rem 1rem;
+  }
+
+  .quoteHashtag {
+    font-size: 0.65rem;
+    padding: 0.35rem 0.6rem;
+    letter-spacing: 0;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

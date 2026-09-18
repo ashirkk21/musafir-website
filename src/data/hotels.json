@@ -1,0 +1,1204 @@
+[
+  {
+    "id": "arcadian-skardu",
+    "name": "Arcadian Resort Skardu",
+    "location": "Skardu, Gilgit-Baltistan",
+    "destination": "Skardu",
+    "rating": "4.8 / 5.0",
+    "reviewCount": 128,
+    "category": "Luxury Resort",
+    "image": "/images/hotels/arcadian-2.jpg",
+    "gallery": [
+      "/images/hotels/arcadian-2.jpg",
+      "/images/hotels/arcadian-1.jpg",
+      "/images/hotels/arcadian-3.jpg",
+      "/images/hotels/arcadian-4.jpg"
+    ],
+    "pricePerNight": 28000,
+    "description": "Nestled along the pristine Indus and Kachura valley streams with uninterrupted panoramic Karakoram vistas. Arcadian Resort Skardu is celebrated for its bespoke timber chalets, riverfront bonfire setups, fine Balti culinary heritage, and serene natural ambiance. Every chalet is designed with thermal insulation, warm wooden craftsmanship, and expansive mountain-facing glass fronts.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 72 hours before arrival date. 50% charge within 48 hours."
+    },
+    "locationDetails": {
+      "address": "Lower Kachura Road, Skardu, Gilgit-Baltistan",
+      "nearby": [
+        "Upper Kachura Lake (12 mins)",
+        "Shangrila Resort & Lake (15 mins)",
+        "Skardu International Airport (25 mins)",
+        "Sarfaranga Cold Desert (45 mins)"
+      ]
+    }
+  },
+  {
+    "id": "candela-resort-skardu",
+    "name": "Candela Resort Skardu",
+    "location": "Skardu Valley, Gilgit-Baltistan",
+    "destination": "Skardu",
+    "rating": "4.7 / 5.0",
+    "reviewCount": 94,
+    "category": "Deluxe Resort",
+    "image": "/images/hotels/candela-1.webp",
+    "gallery": [
+      "/images/hotels/candela-1.webp",
+      "/images/hotels/candela-2.webp",
+      "/images/hotels/candela-3.webp",
+      "/images/hotels/candela-4.webp"
+    ],
+    "pricePerNight": 22000,
+    "description": "A premier retreat offering spacious master suites, landscaped valley gardens, 24/7 concierge, and direct access to Sarfaranga desert and Shigar expeditions. Built with contemporary mountain architecture, Candela Resort ensures maximum tranquility and modern comfort in the heart of Baltistan.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to check-in."
+    },
+    "locationDetails": {
+      "address": "Near Gamba Skardu, Gilgit-Baltistan",
+      "nearby": [
+        "Sarfaranga Cold Desert (20 mins)",
+        "Skardu Main Bazaar (15 mins)",
+        "Manthal Buddha Rock (25 mins)",
+        "Shigar Fort (45 mins)"
+      ]
+    }
+  },
+  {
+    "id": "qayyam-skardu",
+    "name": "Qayyam Hotel Skardu",
+    "location": "Main Skardu City, Gilgit-Baltistan",
+    "destination": "Skardu",
+    "rating": "4.5 / 5.0",
+    "reviewCount": 86,
+    "category": "Executive Hotel",
+    "image": "/images/hotels/qayyam-skardu-1.webp",
+    "gallery": [
+      "/images/hotels/qayyam-skardu-1.webp",
+      "/images/hotels/qayyam-skardu-2.webp",
+      "/images/hotels/qayyam-skardu-3.webp",
+      "/images/hotels/qayyam-skardu-4.webp"
+    ],
+    "pricePerNight": 14000,
+    "description": "Ideal for families and group travelers looking for premier city-center convenience. Centrally situated near Skardu bazaar, offering comfortable executive rooms, secure parking, power generator backup, and round-the-clock room service with authentic local hospitality.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours before check-in."
+    },
+    "locationDetails": {
+      "address": "College Road, Near Yadgar Chowk, Skardu",
+      "nearby": [
+        "Skardu Historic Bazaar (3 mins walk)",
+        "Kharpocho Fort (10 mins drive)",
+        "Sadpara Lake (25 mins drive)",
+        "Deosai Plains Gateway (40 mins drive)"
+      ]
+    }
+  },
+  {
+    "id": "eliet-hotel-hunza",
+    "name": "Eliet Hotel Hunza",
+    "location": "Karimabad, Hunza Valley",
+    "destination": "Hunza",
+    "rating": "4.9 / 5.0",
+    "reviewCount": 164,
+    "category": "Boutique Mountain Hotel",
+    "image": "/images/hotels/eliet-1.webp",
+    "gallery": [
+      "/images/hotels/eliet-1.webp",
+      "/images/hotels/eliet-2.webp",
+      "/images/hotels/eliet-3.webp",
+      "/images/hotels/eliet-4.webp"
+    ],
+    "pricePerNight": 18000,
+    "description": "Overlooking the legendary Ultar Sar, Ladyfinger Peak, and Rakaposhi sunrise. Within walking distance to ancient Baltit Fort and Karimabad cobblestone handicrafts market, Eliet Hotel combines traditional Hunza woodcraft with luxury modern amenities and organic farm-to-table dining.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 72 hours prior to arrival date."
+    },
+    "locationDetails": {
+      "address": "Upper Karimabad Road, Hunza Valley, Gilgit-Baltistan",
+      "nearby": [
+        "Baltit Fort (7 mins walk)",
+        "Karimabad Heritage Bazaar (4 mins walk)",
+        "Altit Fort & Royal Garden (12 mins drive)",
+        "Attabad Lake (25 mins drive)",
+        "Eagle's Nest Duikar (20 mins drive)"
+      ]
+    }
+  },
+  {
+    "id": "alvi-hotel-hunza",
+    "name": "Alvi Hotel Hunza",
+    "location": "Aliabad, Hunza Valley",
+    "destination": "Hunza",
+    "rating": "4.6 / 5.0",
+    "reviewCount": 78,
+    "category": "Deluxe Hotel",
+    "image": "/images/hotels/alvi-1.webp",
+    "gallery": [
+      "/images/hotels/alvi-1.webp",
+      "/images/hotels/alvi-2.webp",
+      "/images/hotels/alvi-3.webp"
+    ],
+    "pricePerNight": 15000,
+    "description": "A favorite for discerning travelers along the Karakoram Highway. Featuring modern architectural design, spotless hygiene, direct KKH highway access, and warm Gilgiti hospitality. Ideal for families and tour convoys exploring Upper and Central Hunza.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours before check-in."
+    },
+    "locationDetails": {
+      "address": "Main Karakoram Highway, Aliabad, Hunza",
+      "nearby": [
+        "Aliabad Commercial Center (2 mins)",
+        "Ganish Historic Village (8 mins)",
+        "Karimabad Town (10 mins)",
+        "Hoper Glacier Valley (45 mins)"
+      ]
+    }
+  },
+  {
+    "id": "qayyam-hunza",
+    "name": "Qayyam Hotel Hunza",
+    "location": "Hunza Valley, Gilgit-Baltistan",
+    "destination": "Hunza",
+    "rating": "4.6 / 5.0",
+    "reviewCount": 92,
+    "category": "Family Friendly",
+    "image": "/images/hotels/qayyam-hunza-1.webp",
+    "gallery": [
+      "/images/hotels/qayyam-hunza-1.webp",
+      "/images/hotels/qayyam-hunza-2.webp",
+      "/images/hotels/qayyam-hunza-3.webp",
+      "/images/hotels/qayyam-hunza-4.webp"
+    ],
+    "pricePerNight": 16000,
+    "description": "Spectacular sunrise views over Mount Rakaposhi and Diran peak. Specifically designed to cater to families and tour groups with expansive bedding layouts, lush garden lawns, and curated northern culinary offerings.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to check-in."
+    },
+    "locationDetails": {
+      "address": "Near KKH Viewpoint, Hunza Valley, Gilgit-Baltistan",
+      "nearby": [
+        "Rakaposhi Viewpoint (15 mins)",
+        "Baltit Fort (15 mins drive)",
+        "Passu Cones (55 mins drive)",
+        "Khunjerab National Park (2.5 hrs drive)"
+      ]
+    }
+  },
+  {
+    "id": "nawab-hotel-balakot",
+    "name": "Nawab Hotel & Restaurant Balakot",
+    "location": "Kaghan Road, Balakot, KPK",
+    "destination": "Balakot",
+    "rating": "4.6 / 5.0",
+    "reviewCount": 78,
+    "category": "Riverside Hotel",
+    "image": "/images/hotels/nawab-hotel-balakot-1.png",
+    "gallery": [
+      "/images/hotels/nawab-hotel-balakot-1.png",
+      "/images/hotels/nawab-hotel-balakot-2.png",
+      "/images/hotels/nawab-hotel-balakot-3.jpg",
+      "/images/hotels/nawab-hotel-balakot-4.jpg"
+    ],
+    "pricePerNight": 9500,
+    "description": "Conveniently situated along the Kunhar River corridor in Balakot, Nawab Hotel is the classic gateway stopover for travelers heading to Naran, Kaghan, and Babusar Top. Features comfortable air-conditioned rooms, river-facing balconies, secure family parking, and an on-site restaurant serving traditional Pakistani and trout specialties.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Main Kaghan Road, Balakot, Khyber Pakhtunkhwa",
+      "nearby": [
+        "Kunhar River Bridge (3 mins)",
+        "Kawai Waterfall (25 mins)",
+        "Shogran Valley Turnoff (30 mins)",
+        "Naran Bazaar (2 hours)"
+      ]
+    }
+  },
+  {
+    "id": "royal-shangrila-balakot",
+    "name": "Royal Shangrila Hotel Balakot",
+    "location": "Bypass Road, Balakot, KPK",
+    "destination": "Balakot",
+    "rating": "4.7 / 5.0",
+    "reviewCount": 92,
+    "category": "Deluxe Hill Resort",
+    "image": "/images/hotels/royal-shangrila-balakot-1.png",
+    "gallery": [
+      "/images/hotels/royal-shangrila-balakot-1.png",
+      "/images/hotels/royal-shangrila-balakot-2.png",
+      "/images/hotels/royal-shangrila-balakot-3.png",
+      "/images/hotels/royal-shangrila-balakot-4.png"
+    ],
+    "pricePerNight": 12000,
+    "description": "A stylish and contemporary hillside retreat overlooking the lush pine terraced mountains of Balakot. Royal Shangrila provides modern executive suites, tranquil garden seating, prompt guest services, and an enviable vantage point over the Kaghan valley entrance.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Pine Heights, Bypass Road, Balakot, KPK",
+      "nearby": [
+        "Balakot Bazaar (5 mins)",
+        "Kunhar Riverfront (8 mins)",
+        "Paras Fish Farm (35 mins)",
+        "Kiwi Waterfalls (40 mins)"
+      ]
+    }
+  },
+  {
+    "id": "golden-lodges-chilas",
+    "name": "Golden Lodges Chilas",
+    "location": "Karakoram Highway, Chilas, Gilgit-Baltistan",
+    "destination": "Chilas",
+    "rating": "4.5 / 5.0",
+    "reviewCount": 64,
+    "category": "KKH Transit Hotel",
+    "image": "/images/hotels/golden-lodges-chilas-1.png",
+    "gallery": [
+      "/images/hotels/golden-lodges-chilas-1.png",
+      "/images/hotels/golden-lodges-chilas-2.png",
+      "/images/hotels/golden-lodges-chilas-3.png"
+    ],
+    "pricePerNight": 11000,
+    "description": "The premier comfortable rest oasis situated right along the Karakoram Highway (KKH) in Chilas. Ideal for expeditions transiting between Islamabad, Babusar, Gilgit, Hunza, and Skardu. Boasts air-conditioned rooms, a lush grassy lawn courtyard, clean en-suite baths, and a hearty multi-cuisine restaurant.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "1:00 PM",
+      "checkOut": "11:00 AM",
+      "cancellation": "Free cancellation up to 24 hours prior to arrival date."
+    },
+    "locationDetails": {
+      "address": "Main Karakoram Highway (KKH), Chilas, Diamer, Gilgit-Baltistan",
+      "nearby": [
+        "Indus River Viewpoint (10 mins)",
+        "Babusar Pass Junction (45 mins)",
+        "Raikot Bridge / Fairy Meadows (1 hr)",
+        "Gilgit City (2.5 hrs)"
+      ]
+    }
+  },
+  {
+    "id": "peace-continental-islamabad",
+    "name": "Peace Continental Hotel Islamabad",
+    "location": "Sector G-9 / Blue Area Link, Islamabad",
+    "destination": "Islamabad",
+    "rating": "4.7 / 5.0",
+    "reviewCount": 110,
+    "category": "Executive City Hotel",
+    "image": "/images/hotels/peace-continental-islamabad-1.webp",
+    "gallery": [
+      "/images/hotels/peace-continental-islamabad-1.webp",
+      "/images/hotels/peace-continental-islamabad-2.webp",
+      "/images/hotels/peace-continental-islamabad-3.webp",
+      "/images/hotels/peace-continental-islamabad-4.webp"
+    ],
+    "pricePerNight": 14000,
+    "description": "Centrally situated in the capital city of Islamabad, Peace Continental Hotel is tailored for both corporate travelers and tourists starting their northern adventures. Equipped with refined contemporary guest rooms, high-speed optic fiber internet, swift airport transfer desk, and delicious breakfast buffet.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 24 hours before check-in."
+    },
+    "locationDetails": {
+      "address": "G-9 Markaz / Srinagar Highway, Islamabad, Federal Capital",
+      "nearby": [
+        "Centaurus Mall (8 mins)",
+        "Faisal Mosque (12 mins)",
+        "Daman-e-Koh Margalla (18 mins)",
+        "Islamabad Airport (25 mins)"
+      ]
+    }
+  },
+  {
+    "id": "redline-hotel-islamabad",
+    "name": "Redline Hotel Islamabad",
+    "location": "Sector F-8 / Margalla Foothills, Islamabad",
+    "destination": "Islamabad",
+    "rating": "4.8 / 5.0",
+    "reviewCount": 135,
+    "category": "Boutique Hotel",
+    "image": "/images/hotels/redline-hotel-islamabad-1.webp",
+    "gallery": [
+      "/images/hotels/redline-hotel-islamabad-1.webp",
+      "/images/hotels/redline-hotel-islamabad-2.webp",
+      "/images/hotels/redline-hotel-islamabad-3.webp"
+    ],
+    "pricePerNight": 16000,
+    "description": "An upscale boutique sanctuary tucked near the serene Margalla Hills. Redline Hotel blends tranquil residential ambiance with first-class hospitality, custom timber interiors, smart climate controls, and scenic rooftop dining overlooking the capital skyline.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours before check-in."
+    },
+    "locationDetails": {
+      "address": "Margalla Road, Sector F-8, Islamabad",
+      "nearby": [
+        "Faisal Mosque (5 mins)",
+        "Monal Restaurant Margalla (20 mins)",
+        "Safa Gold Mall (6 mins)",
+        "Islamabad Airport (30 mins)"
+      ]
+    }
+  },
+  {
+    "id": "sunset-hotel-islamabad",
+    "name": "Sunset Hotel Islamabad",
+    "location": "Sector E-11 / Margalla Vista, Islamabad",
+    "destination": "Islamabad",
+    "rating": "4.6 / 5.0",
+    "reviewCount": 88,
+    "category": "Comfort City Hotel",
+    "image": "/images/hotels/sunset-hotel-islamabad-1.png",
+    "gallery": [
+      "/images/hotels/sunset-hotel-islamabad-1.png",
+      "/images/hotels/sunset-hotel-islamabad-2.png",
+      "/images/hotels/sunset-hotel-islamabad-3.png"
+    ],
+    "pricePerNight": 11500,
+    "description": "Sunset Hotel offers budget-conscious travelers, families, and tour groups uncompromised luxury and comfort. Features wide family accommodations, peaceful Margalla mountain backdrop, warm hospitality, and round-the-clock northern tour transit arrangements.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 24 hours before check-in."
+    },
+    "locationDetails": {
+      "address": "Main Double Road, Sector E-11, Islamabad",
+      "nearby": [
+        "Margalla Hiking Trail 5 (12 mins)",
+        "F-10 Markaz (7 mins)",
+        "Motorway Interchange (15 mins)",
+        "Islamabad Airport (25 mins)"
+      ]
+    }
+  },
+  {
+    "id": "khanabadosh-arangkel",
+    "name": "Khanabadosh Resort Arang Kel",
+    "location": "Arang Kel, Neelum Valley, Azad Kashmir",
+    "destination": "Kashmir",
+    "rating": "4.9 / 5.0",
+    "reviewCount": 142,
+    "category": "Alpine High-Altitude Resort",
+    "image": "/images/hotels/khanabadosh-arangkel-1.png",
+    "gallery": [
+      "/images/hotels/khanabadosh-arangkel-1.png",
+      "/images/hotels/khanabadosh-arangkel-2.png",
+      "/images/hotels/khanabadosh-arangkel-3.png",
+      "/images/hotels/khanabadosh-arangkel-4.jpg"
+    ],
+    "pricePerNight": 16000,
+    "description": "Perched in the fairy-tale meadows of Arang Kel (8,379 ft), Khanabadosh is celebrated as one of Azad Kashmir’s most iconic boutique mountain retreats. Accessible via the scenic Kel chairlift and a pine trail hike, offering authentic wooden architecture, panoramic valley vistas, lush flower gardens, and crackling evening bonfires under starry alpine skies.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "1:00 PM",
+      "checkOut": "11:00 AM",
+      "cancellation": "Free cancellation up to 72 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Upper Meadow Plateau, Arang Kel, Neelum Valley, AJK",
+      "nearby": [
+        "Kel Chairlift Terminal (20 mins hike)",
+        "Arang Kel Pine Forest (5 mins)",
+        "Kel Valley (40 mins via lift)",
+        "Sharda Peeth (2.5 hrs drive)"
+      ]
+    }
+  },
+  {
+    "id": "cozy-cottage-upper-neelum",
+    "name": "Cozy Cottage Upper Neelum",
+    "location": "Upper Neelum Village, Keran, Azad Kashmir",
+    "destination": "Kashmir",
+    "rating": "4.7 / 5.0",
+    "reviewCount": 86,
+    "category": "Hilltop Cottage",
+    "image": "/images/hotels/cozy-cottage-upper-neelum-1.jpg",
+    "gallery": [
+      "/images/hotels/cozy-cottage-upper-neelum-1.jpg",
+      "/images/hotels/cozy-cottage-upper-neelum-2.jpg"
+    ],
+    "pricePerNight": 12500,
+    "description": "Located atop Upper Neelum with breathtaking bird’s-eye views of the winding Neelum River and the green hills of the Line of Control. Cozy Cottage offers cozy wooden rooms, serene apple orchard surroundings, private sit-outs, and warm Kashmiri hospitality.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Upper Neelum Village, Keran Sector, Neelum Valley, AJK",
+      "nearby": [
+        "Keran Riverfront (15 mins drive)",
+        "Kutton Jagran Waterfall (1 hr)",
+        "Sharda Ancient University (2 hrs)",
+        "Muzaffarabad (3.5 hrs)"
+      ]
+    }
+  },
+  {
+    "id": "neelum-lodges-upper-neelum",
+    "name": "Neelum Lodges Upper Neelum",
+    "location": "Upper Neelum, Keran, Azad Kashmir",
+    "destination": "Kashmir",
+    "rating": "4.6 / 5.0",
+    "reviewCount": 74,
+    "category": "Scenic Mountain Lodge",
+    "image": "/images/hotels/neelum-lodges-upper-neelum-1.png",
+    "gallery": [
+      "/images/hotels/neelum-lodges-upper-neelum-1.png",
+      "/images/hotels/neelum-lodges-upper-neelum-2.png"
+    ],
+    "pricePerNight": 11000,
+    "description": "A popular mountain lodge perched on the serene slopes of Upper Neelum. Overlooking the lush terraced mountain slopes and river gorge below, offering spacious bedrooms, hot water geysers, outdoor bonfire arrangements, and freshly prepared local dishes.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Upper Neelum Ridgeline, Keran, Azad Kashmir",
+      "nearby": [
+        "Keran Bazaar (15 mins)",
+        "Jagran Hydro Power (45 mins)",
+        "Dhani Waterfall (1.5 hrs)",
+        "Ratti Gali Base Camp Turnoff (1.5 hrs)"
+      ]
+    }
+  },
+  {
+    "id": "neelum-view-taobat",
+    "name": "Neelum View Hotel Taobat",
+    "location": "Taobat Village, Last Point Neelum Valley, Azad Kashmir",
+    "destination": "Kashmir",
+    "rating": "4.8 / 5.0",
+    "reviewCount": 68,
+    "category": "Frontier Alpine Lodge",
+    "image": "/images/hotels/neelum-view-taobat-1.png",
+    "gallery": [
+      "/images/hotels/neelum-view-taobat-1.png",
+      "/images/hotels/neelum-view-taobat-2.png",
+      "/images/hotels/neelum-view-taobat-3.png",
+      "/images/hotels/neelum-view-taobat-4.png"
+    ],
+    "pricePerNight": 12000,
+    "description": "Situated in Taobat, the final jewel of the Neelum Valley bordering the Line of Control where the crystal Gagai rivulet meets the Neelum River. Neelum View Hotel offers cozy frontier lodgings surrounded by untouched alpine meadows, thick deodar forests, and icy glacier streams.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "11:00 AM",
+      "cancellation": "Free cancellation up to 72 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Near Gagai Confluence, Taobat, Neelum Valley, Azad Kashmir",
+      "nearby": [
+        "Taobat Wooden Suspension Bridge (2 mins)",
+        "Gagai Stream (5 mins)",
+        "Halmat Village (45 mins drive)",
+        "Kel Town (2.5 hrs 4x4 drive)"
+      ]
+    }
+  },
+  {
+    "id": "state-continental-arangkel",
+    "name": "State Continental Hotel Arang Kel",
+    "location": "Arang Kel Plateau, Neelum Valley, Azad Kashmir",
+    "destination": "Kashmir",
+    "rating": "4.7 / 5.0",
+    "reviewCount": 95,
+    "category": "Mountain Plateau Hotel",
+    "image": "/images/hotels/state-continental-arangkel-1.jpg",
+    "gallery": [
+      "/images/hotels/state-continental-arangkel-1.jpg",
+      "/images/hotels/state-continental-arangkel-2.jpg"
+    ],
+    "pricePerNight": 14000,
+    "description": "An expansive and welcoming mountain hotel situated in the high plateau of Arang Kel. Featuring wide wooden balconies overlooking the lush meadows, private en-suite bathrooms, continuous geyser hot water, and delicious hot meals prepared after your hike up.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "1:00 PM",
+      "checkOut": "11:00 AM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Central Meadow, Arang Kel, Neelum Valley, AJK",
+      "nearby": [
+        "Kel Chairlift (15 mins walk)",
+        "Arang Kel Forest (5 mins)",
+        "Kel Town (35 mins via chairlift)",
+        "Sharda (2 hrs drive from Kel)"
+      ]
+    }
+  },
+  {
+    "id": "state-continental-kel",
+    "name": "State Continental Hotel Kel",
+    "location": "Main Bazaar, Kel, Neelum Valley, Azad Kashmir",
+    "destination": "Kashmir",
+    "rating": "4.6 / 5.0",
+    "reviewCount": 81,
+    "category": "Town Hub Hotel",
+    "image": "/images/hotels/state-continental-kel-1.webp",
+    "gallery": [
+      "/images/hotels/state-continental-kel-1.webp",
+      "/images/hotels/state-continental-kel-2.webp",
+      "/images/hotels/state-continental-kel-3.webp"
+    ],
+    "pricePerNight": 10500,
+    "description": "Situated conveniently in the historic base town of Kel at the foot of Arang Kel. State Continental Kel serves as the central jumping-off point for expeditions heading to Arang Kel chairlift, Chitta Katha Lake, and Taobat. Clean, secure, and fully equipped with modern conveniences.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Main Bazaar Road, Kel, Neelum Valley, AJK",
+      "nearby": [
+        "Kel Chairlift Base (5 mins)",
+        "Taobat 4x4 Track (Starts outside)",
+        "Sharda Peeth (1.5 hrs)",
+        "Keran (2.5 hrs)"
+      ]
+    }
+  },
+  {
+    "id": "vadi-hotel-sharda",
+    "name": "Vadi Hotel Sharda",
+    "location": "River Road, Sharda, Neelum Valley, Azad Kashmir",
+    "destination": "Kashmir",
+    "rating": "4.7 / 5.0",
+    "reviewCount": 104,
+    "category": "Riverside Deluxe Hotel",
+    "image": "/images/hotels/vadi-hotel-sharda-1.png",
+    "gallery": [
+      "/images/hotels/vadi-hotel-sharda-1.png",
+      "/images/hotels/vadi-hotel-sharda-2.png",
+      "/images/hotels/vadi-hotel-sharda-3.png",
+      "/images/hotels/vadi-hotel-sharda-4.png",
+      "/images/hotels/vadi-hotel-sharda-5.png"
+    ],
+    "pricePerNight": 13000,
+    "description": "Commanding a scenic vantage right beside the rushing waters of the Neelum River in Sharda. Vadi Hotel is one of the premier luxury properties in Sharda, renowned for its manicured riverbank lawn, tasteful wooden interiors, historic Sharda Peeth accessibility, and top-tier culinary offerings.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "River Road, Sharda, Neelum Valley, Azad Kashmir",
+      "nearby": [
+        "Sharda Peeth University Ruins (10 mins walk)",
+        "Sharda Wooden Bridge (5 mins)",
+        "Surgan Valley Track (15 mins)",
+        "Kel Town (1.5 hrs drive)"
+      ]
+    }
+  },
+  {
+    "id": "valley-view-sharda",
+    "name": "Valley View Hotel Sharda",
+    "location": "Hilltop Vista, Sharda, Neelum Valley, Azad Kashmir",
+    "destination": "Kashmir",
+    "rating": "4.6 / 5.0",
+    "reviewCount": 76,
+    "category": "Hillside Scenic Hotel",
+    "image": "/images/hotels/valley-view-sharda-1.png",
+    "gallery": [
+      "/images/hotels/valley-view-sharda-1.png",
+      "/images/hotels/valley-view-sharda-2.png",
+      "/images/hotels/valley-view-sharda-3.png"
+    ],
+    "pricePerNight": 11500,
+    "description": "Elevated on a panoramic bluff overlooking both the Sharda town basin and the winding Neelum River. Valley View Hotel Sharda treats guests to sweeping mountain vistas, comfortable heated rooms, freshly cooked meals, and peaceful evening vistas over the valley.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Upper Sharda Hilltop, Neelum Valley, Azad Kashmir",
+      "nearby": [
+        "Sharda Peeth (15 mins walk)",
+        "Neelum River Bank (8 mins)",
+        "Kishan Ghati Cave (20 mins hike)",
+        "Keran (2 hrs drive)"
+      ]
+    }
+  },
+  {
+    "id": "infinity-hotel-kumrat",
+    "name": "Infinity Hotel & Resort Kumrat",
+    "location": "Kumrat Forest Road, Upper Dir, KPK",
+    "destination": "Kumrat",
+    "rating": "4.8 / 5.0",
+    "reviewCount": 98,
+    "category": "Deodar Forest Eco-Resort",
+    "image": "/images/hotels/infinity-hotel-kumrat-1.webp",
+    "gallery": [
+      "/images/hotels/infinity-hotel-kumrat-1.webp",
+      "/images/hotels/infinity-hotel-kumrat-2.webp",
+      "/images/hotels/infinity-hotel-kumrat-3.webp",
+      "/images/hotels/infinity-hotel-kumrat-4.webp"
+    ],
+    "pricePerNight": 15000,
+    "description": "Immersed deep in the towering virgin Deodar forests of Kumrat Valley along the rushing Panjkora River. Infinity Hotel & Resort offers a premier eco-luxury haven featuring rustic timber chalets, crisp mountain breeze, riverfront campfire clearings, and unmatched proximity to Kumrat Waterfall and Jahaz Banda trails.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "1:00 PM",
+      "checkOut": "11:00 AM",
+      "cancellation": "Free cancellation up to 72 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Main Forest Track, Kumrat Valley, Upper Dir, KPK",
+      "nearby": [
+        "Kumrat Waterfall (25 mins)",
+        "Kala Chashma (40 mins 4x4)",
+        "Jahaz Banda Base Camp / Jandrai (1 hr)",
+        "Thall Historical Mosque (45 mins)"
+      ]
+    }
+  },
+  {
+    "id": "seven-sky-murree",
+    "name": "Seven Sky Hotel Murree",
+    "location": "Near Mall Road / Kashmir Point, Murree",
+    "destination": "Murree",
+    "rating": "4.7 / 5.0",
+    "reviewCount": 116,
+    "category": "Hill Station Resort",
+    "image": "/images/hotels/seven-sky-murree-1.png",
+    "gallery": [
+      "/images/hotels/seven-sky-murree-1.png",
+      "/images/hotels/seven-sky-murree-2.png",
+      "/images/hotels/seven-sky-murree-3.png"
+    ],
+    "pricePerNight": 13500,
+    "description": "Elevated above the hustle of Mall Road near scenic Kashmir Point, Seven Sky Hotel Murree pairs breathtaking views of snow-dusted pine valleys with premium hospitality. Features contemporary heated suites, panoramic glass dining, dedicated family lounges, and hassle-free valet parking.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Kashmir Point Road, Murree Hills, Punjab",
+      "nearby": [
+        "Kashmir Point (5 mins walk)",
+        "Mall Road Murree (10 mins walk)",
+        "Patriata Chairlift (25 mins drive)",
+        "Bhurban (20 mins drive)"
+      ]
+    }
+  },
+  {
+    "id": "kings-inn-naran",
+    "name": "Kings Inn Hotel Naran",
+    "location": "Main Bypass Road, Naran, Kaghan Valley, KPK",
+    "destination": "Naran",
+    "rating": "4.8 / 5.0",
+    "reviewCount": 130,
+    "category": "Premium Valley Hotel",
+    "image": "/images/hotels/kings-inn-naran-1.jpg",
+    "gallery": [
+      "/images/hotels/kings-inn-naran-1.jpg",
+      "/images/hotels/kings-inn-naran-2.jpg",
+      "/images/hotels/kings-inn-naran-3.webp"
+    ],
+    "pricePerNight": 16000,
+    "description": "One of the most reputed and modern hotel destinations in Naran. Located on the quieter bypass road away from bazaar congestion, Kings Inn provides luxurious warm bedrooms, sweeping views of snow-capped Kaghan peaks, river breeze, and quick access to Lake Saiful Malook and Babusar Top.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival date."
+    },
+    "locationDetails": {
+      "address": "Bypass Road, Naran, Mansehra, Khyber Pakhtunkhwa",
+      "nearby": [
+        "Naran Main Bazaar (5 mins walk)",
+        "Kunhar River Bank (3 mins)",
+        "Lake Saiful Malook (35 mins 4x4)",
+        "Babusar Top (1.5 hrs drive)"
+      ]
+    }
+  },
+  {
+    "id": "nawab-hotel-naran",
+    "name": "Nawab Hotel Naran",
+    "location": "Main Bazaar / River Road, Naran, KPK",
+    "destination": "Naran",
+    "rating": "4.7 / 5.0",
+    "reviewCount": 96,
+    "category": "Family Valley Hotel",
+    "image": "/images/hotels/nawab-hotel-naran-1.webp",
+    "gallery": [
+      "/images/hotels/nawab-hotel-naran-1.webp",
+      "/images/hotels/nawab-hotel-naran-2.webp",
+      "/images/hotels/nawab-hotel-naran-3.webp"
+    ],
+    "pricePerNight": 13500,
+    "description": "A trusted family favorite situated centrally in Naran with immediate access to Kunhar river walkways and shopping. Nawab Hotel Naran features immaculate guest rooms, private balconies, hot food kitchen serving piping-hot trout, and dependable amenities.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Main Bazaar Road, Naran, Kaghan Valley, KPK",
+      "nearby": [
+        "Lake Saiful Malook Jeep Stand (3 mins walk)",
+        "Kunhar River Rafting Point (10 mins)",
+        "Jalkhad & Lulusar Lake (1 hr drive)",
+        "Babusar Pass (1.5 hrs)"
+      ]
+    }
+  },
+  {
+    "id": "umda-hotel-nathiagali",
+    "name": "Umda Hotel Nathia Gali",
+    "location": "Pine Heights, Nathia Gali, Galyat, KPK",
+    "destination": "Nathia Gali",
+    "rating": "4.8 / 5.0",
+    "reviewCount": 102,
+    "category": "Pine Hill Resort",
+    "image": "/images/hotels/umda-hotel-nathiagali-1.png",
+    "gallery": [
+      "/images/hotels/umda-hotel-nathiagali-1.png",
+      "/images/hotels/umda-hotel-nathiagali-2.png",
+      "/images/hotels/umda-hotel-nathiagali-3.png",
+      "/images/hotels/umda-hotel-nathiagali-4.png"
+    ],
+    "pricePerNight": 15500,
+    "description": "Nestled amidst the serene, mist-shrouded pine ridges of Nathia Gali in the heart of Galyat. Umda Hotel is celebrated for its peaceful hillside atmosphere, panoramic forest vistas, crisp pine-scented mountain air, heated modern rooms, and quick access to Miranjani and Mukshpuri hiking trails.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Pine Heights, Nathia Gali, Abbottabad District, KPK",
+      "nearby": [
+        "Nathia Gali Bazaar & Church (5 mins)",
+        "Mukshpuri Peak Trail (10 mins)",
+        "Miranjani Peak Trailhead (12 mins)",
+        "Ayubia Chairlift (20 mins)"
+      ]
+    }
+  },
+  {
+    "id": "friday-hotel-shogran",
+    "name": "Friday Hotel & Resort Shogran",
+    "location": "Main Plateau, Shogran, Kaghan Valley, KPK",
+    "destination": "Shogran",
+    "rating": "4.7 / 5.0",
+    "reviewCount": 89,
+    "category": "Alpine Plateau Resort",
+    "image": "/images/hotels/friday-hotel-shogran-1.png",
+    "gallery": [
+      "/images/hotels/friday-hotel-shogran-1.png",
+      "/images/hotels/friday-hotel-shogran-2.png",
+      "/images/hotels/friday-hotel-shogran-3.png"
+    ],
+    "pricePerNight": 14500,
+    "description": "Perched on the famous green plateau of Shogran (7,749 ft) with grand views of Musa Ka Musalla and the snowy peaks of Kaghan. Friday Hotel features charming wooden architecture, sprawling green lawns for bonfires, and serves as the perfect springboard for the thrilling 4x4 jeep ride to Siri Paye Meadows.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "1:00 PM",
+      "checkOut": "11:00 AM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Shogran Plateau, Kaghan Valley, Khyber Pakhtunkhwa",
+      "nearby": [
+        "Siri Paye Meadows Jeep Point (2 mins walk)",
+        "Kawai Waterfall (35 mins 4x4 down)",
+        "Naran (1.5 hrs drive)",
+        "Balakot (1 hr drive)"
+      ]
+    }
+  },
+  {
+    "id": "frontier-malam-jabba",
+    "name": "Frontier Tower & Resort Malam Jabba",
+    "location": "Ski Resort Road, Malam Jabba, Swat, KPK",
+    "destination": "Swat",
+    "rating": "4.8 / 5.0",
+    "reviewCount": 122,
+    "category": "Ski & Mountain Resort",
+    "image": "/images/hotels/frontier-malam-jabba-1.jpg",
+    "gallery": [
+      "/images/hotels/frontier-malam-jabba-1.jpg",
+      "/images/hotels/frontier-malam-jabba-2.webp",
+      "/images/hotels/frontier-malam-jabba-3.webp",
+      "/images/hotels/frontier-malam-jabba-4.webp"
+    ],
+    "pricePerNight": 17000,
+    "description": "Positioned amidst the snow-capped alpine peaks and pine slopes of Malam Jabba (9,199 ft), Pakistan’s premier ski destination. Frontier Tower & Resort offers ski-in ski-out ease, heated modern rooms, sweeping floor-to-ceiling mountain vistas, zipline proximity, and fine Swati culinary dining.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Main Hill Road, Malam Jabba, Swat Valley, KPK",
+      "nearby": [
+        "Malam Jabba Ski Resort & Chairlift (5 mins walk)",
+        "Zipline Adventure Point (5 mins walk)",
+        "Mingora City (1.5 hrs drive)",
+        "Fizagat Park (1.5 hrs)"
+      ]
+    }
+  },
+  {
+    "id": "kuwait-continental-bahrain",
+    "name": "Kuwait Continental Hotel Bahrain Swat",
+    "location": "Main Kalam Road, Bahrain, Swat, KPK",
+    "destination": "Swat",
+    "rating": "4.6 / 5.0",
+    "reviewCount": 84,
+    "category": "Riverside Transit Hotel",
+    "image": "/images/hotels/kuwait-continental-bahrain-1.jpg",
+    "gallery": [
+      "/images/hotels/kuwait-continental-bahrain-1.jpg",
+      "/images/hotels/kuwait-continental-bahrain-2.jpg",
+      "/images/hotels/kuwait-continental-bahrain-3.jpg"
+    ],
+    "pricePerNight": 11000,
+    "description": "Overlooking the roaring confluence of the Daral and Swat rivers in the mountain bazaar of Bahrain. Kuwait Continental is the ideal riverside hub for tourists exploring upper Swat, offering comfortable riverside rooms, riverside dining, and swift transit to Kalam Valley.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "Main Kalam Highway, Bahrain, Swat, KPK",
+      "nearby": [
+        "Bahrain Wooden Bridge & River Confluence (3 mins)",
+        "Bahrain Handicraft Market (2 mins)",
+        "Madyan Trout Hatchery (30 mins)",
+        "Kalam Valley (1.5 hrs drive)"
+      ]
+    }
+  },
+  {
+    "id": "river-view-kalam",
+    "name": "River View Hotel Kalam",
+    "location": "Kalam Valley Road, Swat, KPK",
+    "destination": "Swat",
+    "rating": "4.7 / 5.0",
+    "reviewCount": 112,
+    "category": "Riverside Mountain Resort",
+    "image": "/images/hotels/river-view-kalam-1.webp",
+    "gallery": [
+      "/images/hotels/river-view-kalam-1.webp",
+      "/images/hotels/river-view-kalam-2.webp",
+      "/images/hotels/river-view-kalam-3.webp"
+    ],
+    "pricePerNight": 14000,
+    "description": "Set right along the crystalline Swat River in the alpine wonderland of Kalam. River View Hotel Kalam features open riverfront terraces, pine-scented breezes, scenic views of Falaksar peak, and direct access to Mahodand Lake, Ushu Forest, and Matiltan waterfalls.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to arrival."
+    },
+    "locationDetails": {
+      "address": "River Road, Kalam, Swat, Khyber Pakhtunkhwa",
+      "nearby": [
+        "Kalam Bazaar (5 mins walk)",
+        "Ushu Pine Forest (25 mins)",
+        "Matiltan Waterfall (40 mins)",
+        "Mahodand Lake (2 hrs 4x4 drive)"
+      ]
+    }
+  }
+]

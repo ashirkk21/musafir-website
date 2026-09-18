@@ -1,0 +1,21 @@
+{
+  "name": "Musafir Pakistan",
+  "short_name": "Musafir",
+  "description": "Tour operator offering weekly group departures to Hunza, Skardu, Swat & Kashmir. Private honeymoon tours, verified hotel stays, and executive mountain transport.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafcfb",
+  "theme_color": "#1a6d37",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["travel", "tourism"],
+  "lang": "en",
+  "dir": "ltr"
+}

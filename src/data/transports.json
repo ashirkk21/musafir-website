@@ -1,0 +1,114 @@
+[
+  {
+    "id": "corolla",
+    "name": "Corolla",
+    "category": "Economy Family Sedan",
+    "capacity": "3 – 4 Passengers",
+    "luggage": "2 – 3 Bags",
+    "image": "/images/transports/corolla.jpg",
+    "ratePerDay": "PKR 7,500 / Day",
+    "popularRoutes": "Islamabad City, Murree, Swat Expressway",
+    "features": [
+      "AC",
+      "Professional Driver",
+      "Audio Sound System",
+      "Immaculate Interior"
+    ]
+  },
+  {
+    "id": "brv",
+    "name": "BRV",
+    "category": "Compact SUV",
+    "capacity": "5 – 6 Passengers",
+    "luggage": "3 – 4 Bags",
+    "image": "/images/transports/brv.jpg",
+    "ratePerDay": "PKR 10,000 / Day",
+    "popularRoutes": "Islamabad, Naran, Swat, Kashmir",
+    "features": [
+      "AC",
+      "Professional Driver",
+      "Audio Sound System",
+      "Immaculate Interior"
+    ]
+  },
+  {
+    "id": "apv",
+    "name": "APV",
+    "category": "Family Minivan",
+    "capacity": "5 – 6 Passengers",
+    "luggage": "4 – 5 Bags",
+    "image": "/images/transports/apv.jpg",
+    "ratePerDay": "PKR 9,000 / Day",
+    "popularRoutes": "Murree, Nathiagali, Swat Valley",
+    "features": [
+      "AC",
+      "Professional Driver",
+      "Audio Sound System",
+      "Immaculate Interior"
+    ]
+  },
+  {
+    "id": "hiace",
+    "name": "Hiace",
+    "category": "Passenger Van",
+    "capacity": "8 – 10 Passengers",
+    "luggage": "8 – 10 Bags",
+    "image": "/images/transports/hiace.jpg",
+    "ratePerDay": "PKR 12,000 / Day",
+    "popularRoutes": "Naran, Swat, Hunza, Skardu",
+    "features": [
+      "AC",
+      "Professional Driver",
+      "Audio Sound System",
+      "Immaculate Interior"
+    ]
+  },
+  {
+    "id": "grand-cabin",
+    "name": "Grand Cabin",
+    "category": "Executive Passenger Van",
+    "capacity": "12 – 14 Passengers",
+    "luggage": "8 – 10 Bags",
+    "image": "/images/transports/grand-cabin.jpg",
+    "ratePerDay": "PKR 14,000 / Day",
+    "popularRoutes": "Islamabad to Swat, Naran, Hunza, Skardu",
+    "features": [
+      "AC",
+      "Professional Driver",
+      "Audio Sound System",
+      "Immaculate Interior"
+    ]
+  },
+  {
+    "id": "coaster",
+    "name": "Coaster",
+    "category": "Luxury Tour Bus",
+    "capacity": "20 – 22 Passengers",
+    "luggage": "18 – 20 Bags",
+    "image": "/images/transports/coaster.jpg",
+    "ratePerDay": "PKR 22,000 / Day",
+    "popularRoutes": "Karachi / Islamabad to Northern Corridors",
+    "features": [
+      "AC",
+      "Professional Driver",
+      "Audio Sound System",
+      "Immaculate Interior"
+    ]
+  },
+  {
+    "id": "prado",
+    "name": "Prado",
+    "category": "VIP Luxury SUV",
+    "capacity": "5 – 6 Passengers",
+    "luggage": "3 – 4 Bags",
+    "image": "/images/transports/prado.jpg",
+    "ratePerDay": "PKR 20,000 / Day",
+    "popularRoutes": "Honeymoon & VIP Private Excursions",
+    "features": [
+      "AC",
+      "Professional Driver",
+      "Audio Sound System",
+      "Immaculate Interior"
+    ]
+  }
+]

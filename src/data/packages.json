@@ -1,0 +1,2143 @@
+[
+  {
+    "id": "swat-kalam-5-days",
+    "title": "Swat & Kalam Valley",
+    "tagline": "Switzerland of the East - Alpine Pine Forests & Crystal Rivers",
+    "type": "Signature Package",
+    "badge": "Signature Group Tour",
+    "duration": {
+      "days": 5,
+      "nights": 4
+    },
+    "pricing": {
+      "solo": 24500,
+      "couple": 54500,
+      "currency": "PKR"
+    },
+    "departure": "Every Sunday & Wednesday From Karachi",
+    "poster": "/images/posters/swat-kalam-5-days.png",
+    "image": "/images/swat.jpg",
+    "attractions": [
+      "Fizaghat",
+      "Kalam",
+      "Malamjabba",
+      "Ushu Forest",
+      "Mohdand lake"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Departure & Islamabad Arrival",
+        "description": "Reach Islamabad, move to designated hotel. Hotel check-in and relaxing night stay in Islamabad."
+      },
+      {
+        "day": 2,
+        "title": "Journey to Swat Valley & Fizaghat",
+        "description": "Early morning departure for Swat via Swat Motorway. Breakfast on route. Visit Fizaghat park, Madiyan, and riverside bazaar. Night stay at Kalam / Fiazaghat."
+      },
+      {
+        "day": 3,
+        "title": "Kalam Valley, Ushu Forest & Mohand Lake",
+        "description": "After breakfast, transfer to 4x4 Jeeps to visit pristine Mohadand Lake and the magical Ushu Pine Forest. Evening bonfire with dinner. Night stay at Kalam."
+      },
+      {
+        "day": 4,
+        "title": "Malam Jabba Ski Resort & Return Drive",
+        "description": "Breakfast at hotel. Visit Malam Jabba ski resort for chairlift, zipline, and scenic views. Return drive to Islamabad by evening for hotel check-in and night stay."
+      },
+      {
+        "day": 5,
+        "title": "Homeward Bound to Karachi",
+        "description": "Breakfast at hotel. Check out by 12:00 PM. Move to Islamabad Railway Station / Airport & begin travel back to Karachi with wonderful memories."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Verified Hotels",
+      "Daily Breakfast & Dinner included throughout the tour",
+      "Air-Conditioned Transport via Executive Grand Cabin / Coaster",
+      "Professional Mountain Driver & Fuel Charges",
+      "All Highway Toll Taxes & Route Permits",
+      "Two Islamabad transit night stays (for Karachi departures)",
+      "Bonfire Night & Musical Gathering",
+      "Certified Professional Tour Guides for Group Assistance",
+      "Musafir Travel Souvenir / Complimentary Gift",
+      "24/7 Dedicated Customer Support Hotline"
+    ],
+    "exclusions": [
+      "Train, Bus or Air Tickets to & from Islamabad",
+      "Daily Lunches & Personal Snack Expenses",
+      "Local 4x4 Jeep Charges (where private local jeeps are required)",
+      "Entry tickets for forts, national parks & chairlifts",
+      "Room heating, laundry & ironing charges",
+      "Adventure sports tickets (zipline, rafting, boating)",
+      "Extra mineral water, tea & soft drinks",
+      "Personal medical expenses & emergency evacuation"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ],
+      "dinner": [
+        "Chicken Karahi / Chicken Qorma / Chicken Handi",
+        "Daal Makhni / Mix Vegetable Curry",
+        "Steamed Fragrant Rice / Chicken Biryani (Special nights)",
+        "Fresh Hot Tandoori Roti / Naan",
+        "Fresh Mint Raita & Seasonal Salad",
+        "Traditional Green Tea (Peshawari Qahwa)"
+      ]
+    },
+    "addons": [
+      {
+        "service": "Separate 4x4 Jeep (Private Booking)",
+        "rates": 12000,
+        "unit": "per jeep",
+        "description": "Exclusive private jeep for off-road tracks without sharing."
+      },
+      {
+        "service": "River Rafting Experience",
+        "rates": 3000,
+        "unit": "per person",
+        "description": "Guided white-water rafting with life jackets & safety instructor."
+      },
+      {
+        "service": "Room Room-Heater Facility",
+        "rates": 1500,
+        "unit": "per room/night",
+        "description": "Electric or gas heating for cold high-altitude nights."
+      }
+    ]
+  },
+  {
+    "id": "naran-babusar-5-days",
+    "title": "Naran, Kaghan & Babusar Top",
+    "tagline": "High Mountain Passes & Fairy-Tale Alpine Lakes",
+    "type": "Signature Package",
+    "badge": "Signature Group Tour",
+    "duration": {
+      "days": 5,
+      "nights": 4
+    },
+    "pricing": {
+      "solo": 25500,
+      "couple": 56500,
+      "currency": "PKR"
+    },
+    "departure": "Every Sunday & Wednesday From Karachi",
+    "poster": "/images/posters/naran-babusar-5-days.png",
+    "image": "/images/group.jpg",
+    "attractions": [
+      "Naran Bazar",
+      "Lulusar Lake",
+      "Babusar Top",
+      "Lake Saif ul Mulook",
+      "Kiwi Waterfall"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Islamabad Arrival & Transit",
+        "description": "Arrive in Islamabad, transfer to hotel. Check in and overnight stay in Islamabad."
+      },
+      {
+        "day": 2,
+        "title": "Islamabad to Naran via Balakot & Kiwi Waterfall",
+        "description": "Early departure via Hazara Motorway. Short stop at Balakot Riverside and Kiwi Waterfall. Arrival at Naran, hotel check-in and evening stroll at Naran Bazar."
+      },
+      {
+        "day": 3,
+        "title": "4x4 Jeep Safari to Lake Saif ul Mulook",
+        "description": "Transfer to 4x4 jeeps to explore the legendary glacial Lake Saif ul Mulook. Afternoon at leisure, Kunhar river rafting and bonfire dinner in Naran."
+      },
+      {
+        "day": 4,
+        "title": "Lulusar Lake & Babusar Top Excursion",
+        "description": "Drive along Kaghan valley to pristine Lulusar Lake and ascend to Babusar Top (13,700 ft). Scenic return journey to Islamabad for night stay."
+      },
+      {
+        "day": 5,
+        "title": "Homeward Departure to Karachi",
+        "description": "Breakfast at hotel, check out and travel back to Karachi with unforgettable memories."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Verified Hotels",
+      "Daily Breakfast & Dinner included throughout the tour",
+      "Air-Conditioned Transport via Executive Grand Cabin / Coaster",
+      "Professional Mountain Driver & Fuel Charges",
+      "All Highway Toll Taxes & Route Permits",
+      "Two Islamabad transit night stays (for Karachi departures)",
+      "Bonfire Night & Musical Gathering",
+      "Certified Professional Tour Guides for Group Assistance",
+      "Musafir Travel Souvenir / Complimentary Gift",
+      "24/7 Dedicated Customer Support Hotline"
+    ],
+    "exclusions": [
+      "Train, Bus or Air Tickets to & from Islamabad",
+      "Daily Lunches & Personal Snack Expenses",
+      "Local 4x4 Jeep Charges (where private local jeeps are required)",
+      "Entry tickets for forts, national parks & chairlifts",
+      "Room heating, laundry & ironing charges",
+      "Adventure sports tickets (zipline, rafting, boating)",
+      "Extra mineral water, tea & soft drinks",
+      "Personal medical expenses & emergency evacuation"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ],
+      "dinner": [
+        "Chicken Karahi / Chicken Qorma / Chicken Handi",
+        "Daal Makhni / Mix Vegetable Curry",
+        "Steamed Fragrant Rice / Chicken Biryani (Special nights)",
+        "Fresh Hot Tandoori Roti / Naan",
+        "Fresh Mint Raita & Seasonal Salad",
+        "Traditional Green Tea (Peshawari Qahwa)"
+      ]
+    },
+    "addons": [
+      {
+        "service": "Separate 4x4 Jeep (Private Booking)",
+        "rates": 12000,
+        "unit": "per jeep",
+        "description": "Exclusive private jeep for off-road tracks without sharing."
+      },
+      {
+        "service": "River Rafting Experience",
+        "rates": 3000,
+        "unit": "per person",
+        "description": "Guided white-water rafting with life jackets & safety instructor."
+      },
+      {
+        "service": "Room Room-Heater Facility",
+        "rates": 1500,
+        "unit": "per room/night",
+        "description": "Electric or gas heating for cold high-altitude nights."
+      }
+    ]
+  },
+  {
+    "id": "kashmir-arangkel-5-days",
+    "title": "Azad Kashmir & Arang Kel",
+    "tagline": "Pearl of Neelum - Enchanting Green Meadows & River LOC",
+    "type": "Signature Package",
+    "badge": "Signature Group Tour",
+    "duration": {
+      "days": 5,
+      "nights": 4
+    },
+    "pricing": {
+      "solo": 24500,
+      "couple": 54500,
+      "currency": "PKR"
+    },
+    "departure": "Every Sunday & Wednesday From Karachi",
+    "poster": "/images/posters/kashmir-arangkel-5-days.png",
+    "image": "/images/kashmir.png",
+    "attractions": [
+      "LOC Point",
+      "Kundal Shahi",
+      "Dhani Waterfall",
+      "Arangkel",
+      "Sharda"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Reach Islamabad & Hotel Check-in",
+        "description": "Reach Islamabad,\nMove to Hotel via Cab Service or Local Transport (Self Paid)\nCheck In Hotel Night stay at Islamabad"
+      },
+      {
+        "day": 2,
+        "title": "Gather at Departure Point & Move to Sharda / Keran",
+        "description": "Gather at Departure Pointl (4 - 6 AM Around)\nBreakfast and move to Muzaffarabad\nVisit: Dhani Waterfall, Kutton Waterfall and more...\nContinues Journey toward shardah\nDinner & Night stay in Sharda or Keran"
+      },
+      {
+        "day": 3,
+        "title": "Sharda, Kel & Arang Kel Excursion",
+        "description": "Breakfast call early Morning\nVisit Sharda & Departure for Kel\nReach Arang Kel Explore Till Evening\nBack to Hotel, Check Inn Hotel Keran or Sharda\nBonfire + BBQ and Night Stay"
+      },
+      {
+        "day": 4,
+        "title": "Move Back to Islamabad",
+        "description": "Move Back to Islamabad\nVisit: LOC Pak-India Border\nShort stay at Muzaffarabad\nReach Islamabad\nDinner & Night Stay at Islamabad"
+      },
+      {
+        "day": 5,
+        "title": "Checkout & Return to Karachi",
+        "description": "Breakfast\nCheck out Hotel till 12:00 PM.\nMove to Station (Self) & Travel back to Karachi."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Verified Hotels",
+      "Daily Breakfast & Dinner included throughout the tour",
+      "Air-Conditioned Transport via Executive Grand Cabin / Coaster",
+      "Professional Mountain Driver & Fuel Charges",
+      "All Highway Toll Taxes & Route Permits",
+      "Two Islamabad transit night stays (for Karachi departures)",
+      "Bonfire Night & Musical Gathering",
+      "Certified Professional Tour Guides for Group Assistance",
+      "Musafir Travel Souvenir / Complimentary Gift",
+      "24/7 Dedicated Customer Support Hotline"
+    ],
+    "exclusions": [
+      "Train, Bus or Air Tickets to & from Islamabad",
+      "Daily Lunches & Personal Snack Expenses",
+      "Local 4x4 Jeep Charges (where private local jeeps are required)",
+      "Entry tickets for forts, national parks & chairlifts",
+      "Room heating, laundry & ironing charges",
+      "Adventure sports tickets (zipline, rafting, boating)",
+      "Extra mineral water, tea & soft drinks",
+      "Personal medical expenses & emergency evacuation"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ],
+      "dinner": [
+        "Chicken Karahi / Chicken Qorma / Chicken Handi",
+        "Daal Makhni / Mix Vegetable Curry",
+        "Steamed Fragrant Rice / Chicken Biryani (Special nights)",
+        "Fresh Hot Tandoori Roti / Naan",
+        "Fresh Mint Raita & Seasonal Salad",
+        "Traditional Green Tea (Peshawari Qahwa)"
+      ]
+    },
+    "addons": [
+      {
+        "service": "Separate 4x4 Jeep (Private Booking)",
+        "rates": 12000,
+        "unit": "per jeep",
+        "description": "Exclusive private jeep for off-road tracks without sharing."
+      },
+      {
+        "service": "River Rafting Experience",
+        "rates": 3000,
+        "unit": "per person",
+        "description": "Guided white-water rafting with life jackets & safety instructor."
+      },
+      {
+        "service": "Room Room-Heater Facility",
+        "rates": 1500,
+        "unit": "per room/night",
+        "description": "Electric or gas heating for cold high-altitude nights."
+      }
+    ]
+  },
+  {
+    "id": "kashmir-taobut-6-days",
+    "title": "Azad Kashmir, Neelum Valley & Taobut",
+    "tagline": "Untamed Neelum Valley - Remote Wooden Villages & Kishanganga River",
+    "type": "Signature Package",
+    "badge": "Signature Group Tour",
+    "duration": {
+      "days": 6,
+      "nights": 5
+    },
+    "pricing": {
+      "solo": 30500,
+      "couple": 66500,
+      "currency": "PKR"
+    },
+    "departure": "Every Tuesday From Karachi",
+    "poster": "/images/posters/kashmir-taobut-6-days.png",
+    "image": "/images/kashmir.png",
+    "attractions": [
+      "LOC Point",
+      "Taobut",
+      "Dhani Waterfall",
+      "Arangkel",
+      "Sharda"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Karachi Departure & Islamabad Transit",
+        "description": "Arrival in Islamabad, transfer to hotel and overnight stay."
+      },
+      {
+        "day": 2,
+        "title": "Islamabad to Sharda via Dhani Waterfall & Keran LOC",
+        "description": "Drive through Murree Expressway to Muzaffarabad and Neelum Valley. Short stop at Dhani Waterfall and Keran LOC point. Night stay at Sharda."
+      },
+      {
+        "day": 3,
+        "title": "Full Day 4x4 Jeep Safari to Taobut Valley",
+        "description": "Early morning transfer to 4x4 jeeps for the remote border village of Taobut. Drive through Halmat, pristine pine forests, and crystal waters of Kishanganga. Night stay at Kel / Sharda."
+      },
+      {
+        "day": 4,
+        "title": "Cable Car Trek to Arang Kel & Sharda Peeth",
+        "description": "Take the cable car to explore Arang Kel meadow. Visit the 9th-century temple ruins of Sharda Peeth. Bonfire and musical evening. Night stay at Sharda."
+      },
+      {
+        "day": 5,
+        "title": "Scenic Return Drive to Islamabad",
+        "description": "Breakfast at hotel, drive back through Neelum Valley and Muzaffarabad. Arrival in Islamabad and night stay."
+      },
+      {
+        "day": 6,
+        "title": "Departure for Karachi",
+        "description": "Breakfast, hotel check-out, and return journey to Karachi with wonderful memories."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Verified Hotels",
+      "Daily Breakfast & Dinner included throughout the tour",
+      "Air-Conditioned Transport via Executive Grand Cabin / Coaster",
+      "Professional Mountain Driver & Fuel Charges",
+      "All Highway Toll Taxes & Route Permits",
+      "Two Islamabad transit night stays (for Karachi departures)",
+      "Bonfire Night & Musical Gathering",
+      "Certified Professional Tour Guides for Group Assistance",
+      "Musafir Travel Souvenir / Complimentary Gift",
+      "24/7 Dedicated Customer Support Hotline"
+    ],
+    "exclusions": [
+      "Train, Bus or Air Tickets to & from Islamabad",
+      "Daily Lunches & Personal Snack Expenses",
+      "Local 4x4 Jeep Charges (where private local jeeps are required)",
+      "Entry tickets for forts, national parks & chairlifts",
+      "Room heating, laundry & ironing charges",
+      "Adventure sports tickets (zipline, rafting, boating)",
+      "Extra mineral water, tea & soft drinks",
+      "Personal medical expenses & emergency evacuation"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ],
+      "dinner": [
+        "Chicken Karahi / Chicken Qorma / Chicken Handi",
+        "Daal Makhni / Mix Vegetable Curry",
+        "Steamed Fragrant Rice / Chicken Biryani (Special nights)",
+        "Fresh Hot Tandoori Roti / Naan",
+        "Fresh Mint Raita & Seasonal Salad",
+        "Traditional Green Tea (Peshawari Qahwa)"
+      ]
+    },
+    "addons": [
+      {
+        "service": "Separate 4x4 Jeep (Private Booking)",
+        "rates": 12000,
+        "unit": "per jeep",
+        "description": "Exclusive private jeep for off-road tracks without sharing."
+      },
+      {
+        "service": "River Rafting Experience",
+        "rates": 3000,
+        "unit": "per person",
+        "description": "Guided white-water rafting with life jackets & safety instructor."
+      },
+      {
+        "service": "Room Room-Heater Facility",
+        "rates": 1500,
+        "unit": "per room/night",
+        "description": "Electric or gas heating for cold high-altitude nights."
+      }
+    ]
+  },
+  {
+    "id": "hunza-china-border-7-days",
+    "title": "Hunza Valley & China Border (Khunjerab)",
+    "tagline": "Majestic Karakoram Highway, Ancient Forts & The Highest Border Crossing",
+    "type": "Signature Package",
+    "badge": "Signature Group Tour",
+    "duration": {
+      "days": 7,
+      "nights": 6
+    },
+    "pricing": {
+      "solo": 33500,
+      "couple": 76500,
+      "currency": "PKR"
+    },
+    "departure": "Every Thursday & Monday From Karachi",
+    "poster": "/images/posters/hunza-china-border-7-days.png",
+    "image": "/images/hunza.jpg",
+    "attractions": [
+      "Karimabad",
+      "Husani Bridge",
+      "Passu Cones",
+      "Attabad Lake",
+      "China Border"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Reach Islamabad & Hotel Check-in",
+        "description": "Reach Islamabad, move to hotel via cab service or local transport (self-paid). Check in to hotel, night stay at Islamabad."
+      },
+      {
+        "day": 2,
+        "title": "Gather at Departure Point & Move to Naran / Chilas",
+        "description": "Gather at departure point (4 to 6 AM around). Breakfast and move to Naran. Route visit: Balakot, Kiwai, Naran Bazaar, Lulusar Lake. Night stay at Naran, Batakundi or Chilas (if Naran route is closed, we will stay at Chilas or Besham & take the Besham route)."
+      },
+      {
+        "day": 3,
+        "title": "Move to Hunza Valley & Rakaposhi",
+        "description": "Move to Hunza. Visit: We can visit Gilgit, Nagar, Rakaposhi View Point, Karimabad, Naltar Valley (if time allows). Reach Hunza and night stay at Hunza."
+      },
+      {
+        "day": 4,
+        "title": "Explore Hunza, Attabad Lake & Khunjerab Pass",
+        "description": "Explore Hunza. Visit: Altit & Baltit Forts, Attabad Lake, Hussaini Bridge, Passu Cones, Khunjerab Pass (if accessible). Move back to hotel, night stay at Hunza."
+      },
+      {
+        "day": 5,
+        "title": "Move Back to Naran / Chilas",
+        "description": "Move back to Naran. Visit: If any Hunza back route places missed we can visit now, Gilgit, Nagar, and more... Reach & night stay at Naran, Batakundi or Chilas (if Naran route is closed, we will stay at Chilas or Besham & take the Besham route)."
+      },
+      {
+        "day": 6,
+        "title": "Move Back toward Islamabad",
+        "description": "Move back toward Islamabad. Visit: Naran Bazar, Kiwi Waterfall, Balakot with short stays. (If took route Besham so visit that side). Reach Islamabad drop point, move to hotel (self). Night stay at Islamabad."
+      },
+      {
+        "day": 7,
+        "title": "Breakfast, Checkout & Return to Karachi",
+        "description": "Breakfast at hotel. Check out hotel till 12:00 PM. Move to station (self) & travel back to Karachi."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Verified Hotels",
+      "Daily Breakfast & Dinner included throughout the tour",
+      "Air-Conditioned Transport via Executive Grand Cabin / Coaster",
+      "Professional Mountain Driver & Fuel Charges",
+      "All Highway Toll Taxes & Route Permits",
+      "Two Islamabad transit night stays (for Karachi departures)",
+      "Bonfire Night & Musical Gathering",
+      "Certified Professional Tour Guides for Group Assistance",
+      "Musafir Travel Souvenir / Complimentary Gift",
+      "24/7 Dedicated Customer Support Hotline"
+    ],
+    "exclusions": [
+      "Train, Bus or Air Tickets to & from Islamabad",
+      "Daily Lunches & Personal Snack Expenses",
+      "Local 4x4 Jeep Charges (where private local jeeps are required)",
+      "Entry tickets for forts, national parks & chairlifts",
+      "Room heating, laundry & ironing charges",
+      "Adventure sports tickets (zipline, rafting, boating)",
+      "Extra mineral water, tea & soft drinks",
+      "Personal medical expenses & emergency evacuation"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ],
+      "dinner": [
+        "Chicken Karahi / Chicken Qorma / Chicken Handi",
+        "Daal Makhni / Mix Vegetable Curry",
+        "Steamed Fragrant Rice / Chicken Biryani (Special nights)",
+        "Fresh Hot Tandoori Roti / Naan",
+        "Fresh Mint Raita & Seasonal Salad",
+        "Traditional Green Tea (Peshawari Qahwa)"
+      ]
+    },
+    "addons": [
+      {
+        "service": "Separate 4x4 Jeep (Private Booking)",
+        "rates": 12000,
+        "unit": "per jeep",
+        "description": "Exclusive private jeep for off-road tracks without sharing."
+      },
+      {
+        "service": "River Rafting Experience",
+        "rates": 3000,
+        "unit": "per person",
+        "description": "Guided white-water rafting with life jackets & safety instructor."
+      },
+      {
+        "service": "Room Room-Heater Facility",
+        "rates": 1500,
+        "unit": "per room/night",
+        "description": "Electric or gas heating for cold high-altitude nights."
+      }
+    ]
+  },
+  {
+    "id": "skardu-bashu-8-days",
+    "title": "Skardu & Bashu Valley Expedition",
+    "tagline": "Cold Deserts, Turquoise Alpine Lakes & Untouched Bashu Valleys",
+    "type": "Signature Package",
+    "badge": "Signature Group Tour",
+    "duration": {
+      "days": 8,
+      "nights": 7
+    },
+    "pricing": {
+      "solo": 38500,
+      "couple": 86500,
+      "currency": "PKR"
+    },
+    "departure": "Every Sunday & Thursday From Karachi",
+    "poster": "/images/posters/skardu-bashu-8-days.png",
+    "image": "/images/skardu.jpg",
+    "attractions": [
+      "Shangrila",
+      "Mantokha Waterfall",
+      "Cold Desert",
+      "Bashu Valley",
+      "Shigar"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Islamabad Arrival & Transit",
+        "description": "Karachi participants arrive in Islamabad. Hotel check-in and overnight stay."
+      },
+      {
+        "day": 2,
+        "title": "Islamabad to Chilas via KKH / Babusar",
+        "description": "Early morning start along Hazara Motorway and KKH. Spectacular mountain views along Indus gorge. Night stay at Chilas."
+      },
+      {
+        "day": 3,
+        "title": "Chilas to Skardu Valley",
+        "description": "Drive along the Indus River highway towards Baltistan. Arrival at Skardu by evening. Hotel check-in and night stay."
+      },
+      {
+        "day": 4,
+        "title": "Shangrila Resort, Upper Kachura & Cold Desert",
+        "description": "Visit Shangrila Resort (Lower Kachura Lake) and Upper Kachura Lake. Experience the otherworldly Sarfaranga Cold Desert sand dunes. Night stay at Skardu."
+      },
+      {
+        "day": 5,
+        "title": "4x4 Jeep Expedition to Bashu Valley",
+        "description": "Transfer to 4x4 jeeps for an exhilarating off-road trek into Bashu Valley, featuring wooden suspension bridges, crystal streams, and alpine meadows. Night stay at Skardu."
+      },
+      {
+        "day": 6,
+        "title": "Manthokha Waterfall & Shigar Royal Fort",
+        "description": "Visit the 180-foot natural cascading Manthokha Waterfall and the 400-year-old Serena Shigar Fort. Night stay at Skardu."
+      },
+      {
+        "day": 7,
+        "title": "Skardu to Chilas / Besham Return Drive",
+        "description": "Begin return journey along the Karakoram Highway. Night stay at Chilas / Besham."
+      },
+      {
+        "day": 8,
+        "title": "Return to Islamabad & Departure for Karachi",
+        "description": "Drive back to Islamabad, arriving in time for return train or flight to Karachi."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Verified Hotels",
+      "Daily Breakfast & Dinner included throughout the tour",
+      "Air-Conditioned Transport via Executive Grand Cabin / Coaster",
+      "Professional Mountain Driver & Fuel Charges",
+      "All Highway Toll Taxes & Route Permits",
+      "Two Islamabad transit night stays (for Karachi departures)",
+      "Bonfire Night & Musical Gathering",
+      "Certified Professional Tour Guides for Group Assistance",
+      "Musafir Travel Souvenir / Complimentary Gift",
+      "24/7 Dedicated Customer Support Hotline"
+    ],
+    "exclusions": [
+      "Train, Bus or Air Tickets to & from Islamabad",
+      "Daily Lunches & Personal Snack Expenses",
+      "Local 4x4 Jeep Charges (where private local jeeps are required)",
+      "Entry tickets for forts, national parks & chairlifts",
+      "Room heating, laundry & ironing charges",
+      "Adventure sports tickets (zipline, rafting, boating)",
+      "Extra mineral water, tea & soft drinks",
+      "Personal medical expenses & emergency evacuation"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ],
+      "dinner": [
+        "Chicken Karahi / Chicken Qorma / Chicken Handi",
+        "Daal Makhni / Mix Vegetable Curry",
+        "Steamed Fragrant Rice / Chicken Biryani (Special nights)",
+        "Fresh Hot Tandoori Roti / Naan",
+        "Fresh Mint Raita & Seasonal Salad",
+        "Traditional Green Tea (Peshawari Qahwa)"
+      ]
+    },
+    "addons": [
+      {
+        "service": "Separate 4x4 Jeep (Private Booking)",
+        "rates": 12000,
+        "unit": "per jeep",
+        "description": "Exclusive private jeep for off-road tracks without sharing."
+      },
+      {
+        "service": "River Rafting Experience",
+        "rates": 3000,
+        "unit": "per person",
+        "description": "Guided white-water rafting with life jackets & safety instructor."
+      },
+      {
+        "service": "Room Room-Heater Facility",
+        "rates": 1500,
+        "unit": "per room/night",
+        "description": "Electric or gas heating for cold high-altitude nights."
+      }
+    ]
+  },
+  {
+    "id": "swat-kashmir-8-days",
+    "title": "Swat & Kashmir Grand Combo",
+    "tagline": "The Ultimate Dual Valley Tour - Green Meadows of Swat to Pearls of Neelum",
+    "type": "Signature Package",
+    "badge": "Signature Group Tour",
+    "duration": {
+      "days": 8,
+      "nights": 7
+    },
+    "pricing": {
+      "solo": 45500,
+      "couple": 99500,
+      "currency": "PKR"
+    },
+    "departure": "Every Sunday From Karachi",
+    "poster": "/images/posters/swat-kashmir-8-days.png",
+    "image": "/images/swat.jpg",
+    "attractions": [
+      "Kalam",
+      "Malamjabba",
+      "Mohdand Lake",
+      "Arangkel",
+      "Sharda"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Islamabad Arrival & Transit",
+        "description": "Karachi participants arrive in Islamabad. Hotel check-in and overnight stay."
+      },
+      {
+        "day": 2,
+        "title": "Islamabad to Swat Valley & Malam Jabba",
+        "description": "Departure via Swat Motorway. Ascend to Malam Jabba Ski Resort for chairlift and zipline. Night stay in Swat / Kalam."
+      },
+      {
+        "day": 3,
+        "title": "Kalam Valley, Ushu Forest & Mohand Lake",
+        "description": "4x4 Jeep safari into Kalam alpine valley, dense Ushu cedar forest, and Mohadand glacial lake. Night stay at Kalam."
+      },
+      {
+        "day": 4,
+        "title": "Swat to Azad Kashmir (Keran LOC)",
+        "description": "Scenic transfer from Khyber Pakhtunkhwa to Azad Kashmir via Hazara Motorway and Muzaffarabad. View Keran LOC river border. Night stay at Keran."
+      },
+      {
+        "day": 5,
+        "title": "Drive to Sharda & Cable Car Trek to Arang Kel",
+        "description": "Drive along Neelum River to Sharda and Kel. Take scenic cable car to Arang Kel meadow. Bonfire night stay at Arang Kel / Sharda."
+      },
+      {
+        "day": 6,
+        "title": "Sharda Peeth Ancient Ruins & Neelum Exploration",
+        "description": "Explore ancient temple ruins of Sharda Peeth, riverside trails, and local handicrafts. Night stay at Sharda."
+      },
+      {
+        "day": 7,
+        "title": "Return Journey to Islamabad via Dhani Waterfall",
+        "description": "Drive back towards Islamabad, stopping at Dhani Waterfall and scenic river spots. Hotel check-in and night stay in Islamabad."
+      },
+      {
+        "day": 8,
+        "title": "Departure for Karachi",
+        "description": "Breakfast, check out and transfer to airport or train station for journey back to Karachi."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Verified Hotels",
+      "Daily Breakfast & Dinner included throughout the tour",
+      "Air-Conditioned Transport via Executive Grand Cabin / Coaster",
+      "Professional Mountain Driver & Fuel Charges",
+      "All Highway Toll Taxes & Route Permits",
+      "Two Islamabad transit night stays (for Karachi departures)",
+      "Bonfire Night & Musical Gathering",
+      "Certified Professional Tour Guides for Group Assistance",
+      "Musafir Travel Souvenir / Complimentary Gift",
+      "24/7 Dedicated Customer Support Hotline"
+    ],
+    "exclusions": [
+      "Train, Bus or Air Tickets to & from Islamabad",
+      "Daily Lunches & Personal Snack Expenses",
+      "Local 4x4 Jeep Charges (where private local jeeps are required)",
+      "Entry tickets for forts, national parks & chairlifts",
+      "Room heating, laundry & ironing charges",
+      "Adventure sports tickets (zipline, rafting, boating)",
+      "Extra mineral water, tea & soft drinks",
+      "Personal medical expenses & emergency evacuation"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ],
+      "dinner": [
+        "Chicken Karahi / Chicken Qorma / Chicken Handi",
+        "Daal Makhni / Mix Vegetable Curry",
+        "Steamed Fragrant Rice / Chicken Biryani (Special nights)",
+        "Fresh Hot Tandoori Roti / Naan",
+        "Fresh Mint Raita & Seasonal Salad",
+        "Traditional Green Tea (Peshawari Qahwa)"
+      ]
+    },
+    "addons": [
+      {
+        "service": "Separate 4x4 Jeep (Private Booking)",
+        "rates": 12000,
+        "unit": "per jeep",
+        "description": "Exclusive private jeep for off-road tracks without sharing."
+      },
+      {
+        "service": "River Rafting Experience",
+        "rates": 3000,
+        "unit": "per person",
+        "description": "Guided white-water rafting with life jackets & safety instructor."
+      },
+      {
+        "service": "Room Room-Heater Facility",
+        "rates": 1500,
+        "unit": "per room/night",
+        "description": "Electric or gas heating for cold high-altitude nights."
+      }
+    ]
+  },
+  {
+    "id": "skardu-hunza-10-days",
+    "title": "Grand Skardu & Hunza Expedition",
+    "tagline": "The Ultimate Northern Pakistan Odyssey - 2 Legendary Regions in 1 Epic Tour",
+    "type": "Signature Package",
+    "badge": "Signature Group Tour",
+    "duration": {
+      "days": 10,
+      "nights": 9
+    },
+    "pricing": {
+      "solo": 44500,
+      "couple": 98500,
+      "currency": "PKR"
+    },
+    "departure": "Every Sunday & Thursday From Karachi",
+    "poster": "/images/posters/skardu-hunza-10-days.png",
+    "image": "/images/autumn_hero.jpg",
+    "attractions": [
+      "Shangrila",
+      "Mantokha Waterfall",
+      "Cold Desert",
+      "Attabad Lake",
+      "China Border"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Islamabad Arrival & Transit",
+        "description": "Arrive in Islamabad, transfer to hotel and overnight stay."
+      },
+      {
+        "day": 2,
+        "title": "Islamabad to Chilas via KKH",
+        "description": "Early morning start along Hazara Motorway and KKH. Spectacular mountain scenery. Night stay at Chilas."
+      },
+      {
+        "day": 3,
+        "title": "Chilas to Skardu Valley & Shangrila",
+        "description": "Drive along the Indus River to Skardu. Visit Shangrila Resort and Upper Kachura Lake. Night stay at Skardu."
+      },
+      {
+        "day": 4,
+        "title": "Manthokha Waterfall & Sarfaranga Cold Desert",
+        "description": "Visit Manthokha cascading waterfall, Shigar Royal Fort, and the high-altitude Sarfaranga Cold Desert dunes. Night stay at Skardu."
+      },
+      {
+        "day": 5,
+        "title": "Skardu to Hunza Valley (Karimabad)",
+        "description": "Journey from Baltistan to Hunza along the Karakoram Highway. Stop at Rakaposhi Viewpoint. Visit Baltit / Altit Fort. Night stay at Hunza."
+      },
+      {
+        "day": 6,
+        "title": "Attabad Lake Boating, Hussaini Bridge & Passu",
+        "description": "Boating at the turquoise waters of Attabad Lake. Walk across Hussaini Suspension Bridge and view dramatic Passu Cones. Night stay in Hunza / Passu."
+      },
+      {
+        "day": 7,
+        "title": "Expedition to Khunjerab Pass (Pak-China Border)",
+        "description": "Ascend to 15,397 ft at the Pak-China border post at Khunjerab Pass. Afternoon return to Hunza for night stay."
+      },
+      {
+        "day": 8,
+        "title": "Hunza to Chilas / Besham Return Drive",
+        "description": "Begin return journey along the Karakoram Highway. Night stay at Chilas or Besham."
+      },
+      {
+        "day": 9,
+        "title": "Return Drive to Islamabad",
+        "description": "Scenic drive back to Islamabad. Check in to hotel for a restful night."
+      },
+      {
+        "day": 10,
+        "title": "Homeward Bound to Karachi",
+        "description": "Breakfast at hotel, check out and transfer to airport/station for departure to Karachi."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Verified Hotels",
+      "Daily Breakfast & Dinner included throughout the tour",
+      "Air-Conditioned Transport via Executive Grand Cabin / Coaster",
+      "Professional Mountain Driver & Fuel Charges",
+      "All Highway Toll Taxes & Route Permits",
+      "Two Islamabad transit night stays (for Karachi departures)",
+      "Bonfire Night & Musical Gathering",
+      "Certified Professional Tour Guides for Group Assistance",
+      "Musafir Travel Souvenir / Complimentary Gift",
+      "24/7 Dedicated Customer Support Hotline"
+    ],
+    "exclusions": [
+      "Train, Bus or Air Tickets to & from Islamabad",
+      "Daily Lunches & Personal Snack Expenses",
+      "Local 4x4 Jeep Charges (where private local jeeps are required)",
+      "Entry tickets for forts, national parks & chairlifts",
+      "Room heating, laundry & ironing charges",
+      "Adventure sports tickets (zipline, rafting, boating)",
+      "Extra mineral water, tea & soft drinks",
+      "Personal medical expenses & emergency evacuation"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ],
+      "dinner": [
+        "Chicken Karahi / Chicken Qorma / Chicken Handi",
+        "Daal Makhni / Mix Vegetable Curry",
+        "Steamed Fragrant Rice / Chicken Biryani (Special nights)",
+        "Fresh Hot Tandoori Roti / Naan",
+        "Fresh Mint Raita & Seasonal Salad",
+        "Traditional Green Tea (Peshawari Qahwa)"
+      ]
+    },
+    "addons": [
+      {
+        "service": "Separate 4x4 Jeep (Private Booking)",
+        "rates": 12000,
+        "unit": "per jeep",
+        "description": "Exclusive private jeep for off-road tracks without sharing."
+      },
+      {
+        "service": "River Rafting Experience",
+        "rates": 3000,
+        "unit": "per person",
+        "description": "Guided white-water rafting with life jackets & safety instructor."
+      },
+      {
+        "service": "Room Room-Heater Facility",
+        "rates": 1500,
+        "unit": "per room/night",
+        "description": "Electric or gas heating for cold high-altitude nights."
+      }
+    ]
+  },
+  {
+    "id": "skardu-private-deluxe-5-days",
+    "title": "05 Days Private Deluxe Package for Skardu | Khaplu (By Air)!",
+    "tagline": "Skardu & Khaplu Valley by Air Private Deluxe Honeymoon Package",
+    "type": "Private Deluxe Tour",
+    "badge": "Private Deluxe Tour",
+    "duration": {
+      "days": 5,
+      "nights": 4
+    },
+    "pricing": {
+      "solo": 75000,
+      "couple": 150000,
+      "currency": "PKR"
+    },
+    "departure": "Daily Departures (By Air to Skardu)",
+    "poster": "/images/posters/skardu-private-deluxe-5-days.jpg",
+    "image": "/images/honeymoon.jpg",
+    "attractions": [
+      "Skardu Valley",
+      "Shangrila Resort",
+      "Lower Kachura Lake",
+      "Upper Kachura Lake",
+      "Sadpara Lake",
+      "Manthokha Waterfall",
+      "Shigar Valley & Fort",
+      "Sarfaranga Cold Desert",
+      "Khaplu Valley & Fort",
+      "Bashu Valley or Deosai"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Pickup from Skardu Airport & Kachura Lakes",
+        "description": "Pickup from Skardu Airport in dedicated luxury Corolla. Move to explore Skardu, Shangrila Resort, Lower Kachura, Upper Kachura Lake, and scenic route spots. Check into hotel and relaxing night stay at Skardu."
+      },
+      {
+        "day": 2,
+        "title": "Manthokha Waterfall, Shigar Valley & Shigar Fort",
+        "description": "Breakfast at hotel. Move to explore the cascading 180-foot Manthokha Waterfall, historic Shigar Valley, and the 400-year-old Raja Shigar Fort. Return to hotel for relaxing night stay at Skardu."
+      },
+      {
+        "day": 3,
+        "title": "Dedicated 4x4 Jeep to Basho Valley or Deosai Plains",
+        "description": "Breakfast at hotel. Board your dedicated 4x4 Jeep for an adventurous mountain safari to Basho Valley or Deosai Plains (selected based on seasonal accessibility). Evening return to hotel and night stay at Skardu."
+      },
+      {
+        "day": 4,
+        "title": "Sarfaranga Cold Desert Safari & Skardu Bazaar",
+        "description": "Breakfast at hotel. Move to the famous Sarfaranga Cold Desert for sand dunes exploration, photography, and desert activities. Visit Skardu local bazaar for souvenirs, organic dry fruits, and gemstones. Return to hotel for night stay."
+      },
+      {
+        "day": 5,
+        "title": "Check out Hotel & Skardu Airport Departure",
+        "description": "Breakfast at hotel. Check out from hotel and private transfer in Corolla to Skardu Airport according to your flight tickets. Depart with beautiful and great memories."
+      }
+    ],
+    "inclusions": [
+      "Hotel Accommodation (Master Room Each Night)",
+      "Breakfast on Each Morning",
+      "Luxury Transportation (Dedicated Corolla with Fuel & Driver)",
+      "Dedicated 4x4 Jeep for Deosai or Basho Valley",
+      "All road tolls, taxes / Challans & route permits",
+      "Professional Tour Guide Service",
+      "24/7 Dedicated Customer Support",
+      "Pick & Drop at Skardu Airport"
+    ],
+    "exclusions": [
+      "Domestic airline tickets (subject to availability & fare)",
+      "Room Heater facility",
+      "Dinner, lunch or extra food",
+      "Entry tickets of forts, museums & national parks",
+      "Any extra jeep charges or extra mileage beyond itinerary",
+      "Laundry and ironing charges",
+      "Chairlift, cable car, boating, jet ski or adventure activity charges",
+      "Personal medication and emergency expenses"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ]
+    },
+    "addons": [
+      {
+        "service": "Room Heater Facility",
+        "rates": 1500,
+        "unit": "per room/night",
+        "description": "Electric or gas heating for cold high-altitude mountain nights."
+      },
+      {
+        "service": "Airline Ticket Concierge",
+        "rates": 200,
+        "unit": "service fee",
+        "description": "Direct seat reservation assistance & WhatsApp confirmation for Skardu flights."
+      }
+    ]
+  },
+  {
+    "id": "swat-kalam-private-deluxe-5-days",
+    "title": "05 Days Private Deluxe Package for Swat | Kalam (ISB to ISB)",
+    "tagline": "Pakistan ke Switzerland ka safar Musafir Pakistan ke sath! White Palace, Malam Jabba & Mahodand Lake",
+    "type": "Private Deluxe Tour",
+    "badge": "Private Deluxe Tour",
+    "duration": {
+      "days": 5,
+      "nights": 4
+    },
+    "pricing": {
+      "solo": 65000,
+      "couple": 130000,
+      "currency": "PKR"
+    },
+    "departure": "Flexible Daily Departures From Islamabad",
+    "poster": "/images/posters/swat-kalam-private-deluxe-5-days.jpg",
+    "image": "/images/swat.jpg",
+    "attractions": [
+      "Swat Motorway",
+      "Fizaghat",
+      "White Palace & Murghzar",
+      "Swat River Bank",
+      "Malam Jabba Ski Resort",
+      "Madiyan & Bahrain",
+      "Kalam Valley",
+      "Ushu Forest",
+      "Mahodand Lake",
+      "Paloga Village & Waterfalls"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Reach Islamabad & Hotel Check-in",
+        "description": "Reach Islamabad, check in to designated hotel. Relaxing night stay in Islamabad."
+      },
+      {
+        "day": 2,
+        "title": "Islamabad to Kalam Valley via Swat Motorway",
+        "description": "Breakfast at hotel. Move to Kalam via Swat Motorway. Explore Peach Gardens, Madiyan, Bahrain, Malam Jabba scenic viewpoints. Night stay at Kalam."
+      },
+      {
+        "day": 3,
+        "title": "Excursion to Mahodand Lake & Ushu Forest",
+        "description": "Breakfast at hotel. Move to pristine Mahodand Lake (if accessible). Explore the ancient Ushu Pine Forest, Matiltan, Palogah, cascading waterfalls, and Falak Sar Viewpoint. Night stay at Kalam / Malam Jabba."
+      },
+      {
+        "day": 4,
+        "title": "Malam Jabba Activities & Return to Islamabad",
+        "description": "Breakfast at hotel. Move back towards Islamabad. Explore Fizaghat, Bahrain, Malam Jabba Zipline, and Khanpur Dam (if time available). Reach Islamabad for hotel check-in and night stay."
+      },
+      {
+        "day": 5,
+        "title": "Check out Islamabad Hotel & Departure",
+        "description": "Breakfast at hotel. Check out from Islamabad hotel till 12:00 PM. Move to bus or train station (self-paid). Trip ended with beautiful and great memories."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Hotel Accommodation",
+      "Breakfast on Each Morning",
+      "Luxury Dedicated Transportation (Toyota Corolla)",
+      "Driver & Fuel Expenses",
+      "All road tolls, taxes / Challans",
+      "Professional Tour Guide Service",
+      "4x4 Jeep for Mahodand Lake",
+      "Complimentary Musafir Gift",
+      "24/7 Customer Support"
+    ],
+    "exclusions": [
+      "Dinner or Extra Food",
+      "Entry tickets of forts/museums/national parks/tourist spots",
+      "Any extra jeep charges or extra mileage beyond itinerary",
+      "Laundry and ironing charges",
+      "Chairlift / Cable car / Boating / Zipline charges",
+      "Personal medication and emergency expenses"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ]
+    }
+  },
+  {
+    "id": "swat-shogran-private-deluxe-7-days",
+    "title": "07 Days Private Deluxe Package for Swat | Shogran (ISB to ISB)",
+    "tagline": "Deluxe Combo of Swat & Shogran - Luxury Stays, Kiwai Waterfall, Malam Jabba & Siri Paye",
+    "type": "Private Deluxe Tour",
+    "badge": "Private Deluxe Tour",
+    "duration": {
+      "days": 7,
+      "nights": 6
+    },
+    "pricing": {
+      "solo": 87500,
+      "couple": 175000,
+      "currency": "PKR"
+    },
+    "departure": "Flexible Daily Departures From Islamabad",
+    "poster": "/images/posters/swat-shogran-private-deluxe-7-days.jpg",
+    "image": "/images/shogran.jpg",
+    "attractions": [
+      "Swat Motorway",
+      "River Kunhar & River Swat",
+      "Malam Jabba Ski Resort",
+      "Mahodand Lake",
+      "Ushu Forest",
+      "Bahrain & Kalam",
+      "Fizaghat",
+      "Balakot",
+      "Kiwai Waterfall",
+      "Shogran & Siri Paye Meadows",
+      "Khanpur Dam"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Reach Islamabad & City Sights",
+        "description": "Reach Islamabad. Visit popular Islamabad places according to arrival time. Check in to ISB hotel and relaxing night stay."
+      },
+      {
+        "day": 2,
+        "title": "Islamabad to Swat Valley & Malam Jabba",
+        "description": "Breakfast at hotel. Move to Swat and Malam Jabba via Swat Motorway. Explore Khanpur Dam, Fizaghat, Swat River bank, and Malam Jabba Top. Night stay at Malam Jabba or Kalam."
+      },
+      {
+        "day": 3,
+        "title": "Malam Jabba Activities & Kalam Exploration",
+        "description": "Breakfast at hotel. Move to Kalam. Explore Malam Jabba chairlift, zipline, and local Kalam Bazaar. Night stay at Kalam."
+      },
+      {
+        "day": 4,
+        "title": "4x4 Jeep to Mahodand Lake & Ushu Forest",
+        "description": "Breakfast at hotel. Board dedicated 4x4 Jeep for Mahodand Lake (till accessible), Ushu Pine Forest, and Shangla Top viewpoints. Return to hotel. Night stay at Kalam or Malam Jabba."
+      },
+      {
+        "day": 5,
+        "title": "Journey to Shogran & Siri Paye Meadows",
+        "description": "Breakfast at hotel. Move to Shogran via Balakot and Kiwai Waterfall. Take 4x4 Jeep from Kiwai to explore Shogran and Siri Paye Meadows (if open). Night stay at Shogran or Balakot."
+      },
+      {
+        "day": 6,
+        "title": "Return Drive to Islamabad via Khanpur Dam",
+        "description": "Breakfast at hotel. Move back towards Islamabad. Explore Khanpur Dam for watersports (if time available). Arrive in Islamabad by night. Night stay at Islamabad hotel."
+      },
+      {
+        "day": 7,
+        "title": "Check out & Homeward Departure",
+        "description": "Breakfast at hotel. Check out from hotel. Move to bus or train station for departure. Trip ended with beautiful and great memories."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Hotel Accommodation",
+      "Breakfast on Each Morning",
+      "Luxury Dedicated Transportation (Toyota Corolla)",
+      "Driver & Fuel Expenses",
+      "All road tolls, taxes / Challans",
+      "Professional Tour Guide Service",
+      "Dedicated 4x4 Jeeps for Mahodand Lake & Shogran",
+      "Complimentary Musafir Gift",
+      "24/7 Customer Support"
+    ],
+    "exclusions": [
+      "Dinner or Extra Food",
+      "Entry tickets of forts/museums/national parks/tourist spots",
+      "Any extra jeep charges or extra mileage beyond itinerary",
+      "Laundry and ironing charges",
+      "Chairlift / Cable car / Boating / Zipline charges",
+      "Personal medication and emergency expenses"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ]
+    }
+  },
+  {
+    "id": "hunza-naltar-private-deluxe-7-days",
+    "title": "07 Days Private Deluxe Package for Hunza | Naltar (ISB to ISB)",
+    "tagline": "Hunza ka Safar, Musafir Pakistan ke saath! Rakaposhi, Naltar Valley, Altit & Baltit Forts & Khunjerab Pass",
+    "type": "Private Deluxe Tour",
+    "badge": "Private Deluxe Tour",
+    "duration": {
+      "days": 7,
+      "nights": 6
+    },
+    "pricing": {
+      "solo": 97500,
+      "couple": 195000,
+      "currency": "PKR"
+    },
+    "departure": "Flexible Daily Departures From Islamabad",
+    "poster": "/images/posters/hunza-naltar-private-deluxe-7-days.jpg",
+    "image": "/images/hunza.jpg",
+    "attractions": [
+      "Islamabad",
+      "Hazara Motorway",
+      "Besham or Naran",
+      "Chillas",
+      "Gilgit",
+      "3 Mountain Junction Point",
+      "Nanga Parbat View Point",
+      "Rakaposhi View Point",
+      "Naltar Valley & Satrangi Lake",
+      "Altit & Baltit Forts",
+      "Karimabad Bazaar",
+      "Attabad Lake",
+      "Passu Cones",
+      "Hussaini Suspension Bridge",
+      "Sost",
+      "Khunjerab Pass China Border"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Reach Islamabad & Hotel Check-in",
+        "description": "Reach Islamabad. Check in to Islamabad hotel and relaxing night stay."
+      },
+      {
+        "day": 2,
+        "title": "Islamabad to Chilas via Hazara Motorway & KKH",
+        "description": "Breakfast at hotel. Move to Chilas. Explore Hazara Motorway, Abbottabad Tunnels, short stay at Besham, Dasu Dam and scenic KKH route. Night stay at Chilas (If Naran route is open, we will stay and take that route)."
+      },
+      {
+        "day": 3,
+        "title": "4x4 Jeep Safari to Naltar Valley & Lakes",
+        "description": "Breakfast at hotel. Move to Naltar Valley. Reach Zero Point and board 4x4 Jeep. Explore Nanga Parbat Viewpoint, 3 Mountain Junction, Gilgit River, Rakaposhi Viewpoint, Naltar Valley, Satrangi Lake, and Blue Lake. Move to Hunza. Night stay at Hunza."
+      },
+      {
+        "day": 4,
+        "title": "Attabad Lake, Passu Cones & Khunjerab Pass",
+        "description": "Breakfast at hotel. Move towards Upper Hunza. Explore Altit & Baltit Forts, Attabad Lake, Passu Cones, Hussaini Suspension Bridge, Sost, and Khunjerab Pass Pak-China Border (if accessible). Dinner & night stay in Hunza."
+      },
+      {
+        "day": 5,
+        "title": "Karimabad Bazaar & Journey to Chilas",
+        "description": "Breakfast at hotel. Move back towards Chilas. Explore Karimabad Bazaar, local dry fruit & gemstone shops, or any route places missed earlier. Night stay at Chilas (or Naran if open)."
+      },
+      {
+        "day": 6,
+        "title": "Chilas to Islamabad via KKH & Motorway",
+        "description": "Breakfast at hotel. Move back towards Islamabad via Besham, Dasu, and Hazara Motorway. Short stop at Khanpur Dam (according to time). Arrive in Islamabad. Night stay at Islamabad."
+      },
+      {
+        "day": 7,
+        "title": "Check out & Departure",
+        "description": "Breakfast at hotel. Check out from Islamabad hotel. Move to bus or train station (self-paid). Trip ended with beautiful and great memories."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Hotel Accommodation",
+      "Breakfast on Each Morning",
+      "Luxury Dedicated Transportation (Toyota Corolla)",
+      "Driver & Fuel Expenses",
+      "All road tolls, taxes / Challans",
+      "Professional Tour Guide Service",
+      "Dedicated 4x4 Jeep (Naltar Valley & Lakes)",
+      "Complimentary Musafir Gift",
+      "24/7 Dedicated Customer Support"
+    ],
+    "exclusions": [
+      "Dinner or Extra Food",
+      "Entry tickets of forts/museums/national parks/tourist spots",
+      "Any extra jeep charges or extra mileage beyond itinerary",
+      "Laundry and ironing charges",
+      "Chairlift / Cable car / Boating / Jetski charges",
+      "Personal medication and emergency expenses"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ]
+    }
+  },
+  {
+    "id": "murree-nathiagali-private-deluxe-5-days",
+    "title": "05 Days Private Deluxe Package for Murree | Nathia Gali (ISB to ISB)",
+    "tagline": "Murree aur Nathia Gali ka shandar deluxe safar! Faisal Mosque, Daman-e-Koh, Mall Road & Patriata Chairlift",
+    "type": "Private Deluxe Tour",
+    "badge": "Private Deluxe Tour",
+    "duration": {
+      "days": 5,
+      "nights": 4
+    },
+    "pricing": {
+      "solo": 50000,
+      "couple": 100000,
+      "currency": "PKR"
+    },
+    "departure": "Flexible Daily Departures From Islamabad",
+    "poster": "/images/posters/murree-nathiagali-private-deluxe-5-days.jpg",
+    "image": "/images/hotels/seven-sky-murree-1.png",
+    "attractions": [
+      "Islamabad",
+      "Faisal Mosque",
+      "Daman-e-Koh",
+      "Murree Expressway",
+      "Murree Hills",
+      "Mall Road Murree",
+      "Patriata New Murree Chairlift",
+      "Kashmir Point",
+      "Nathia Gali",
+      "Ayubia National Park"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Reach Islamabad & City Sights",
+        "description": "Reach Islamabad. Explore popular Islamabad places according to arrival time. Check in to Islamabad hotel and night stay."
+      },
+      {
+        "day": 2,
+        "title": "Islamabad to Murree & Patriata Chairlift",
+        "description": "Breakfast at hotel. Move to Murree. Explore route places, Murree Hills, and Patriata Chairlift / Cable Car. Explore Mall Road in the evening. Night stay at Murree."
+      },
+      {
+        "day": 3,
+        "title": "Nathia Gali, Kashmir Point & Ayubia Exploration",
+        "description": "Breakfast at hotel. Move to Nathia Gali. Explore Murree route places, Kashmir Point, Nathia Gali church & pine trails, and Ayubia National Park. Night stay at Murree."
+      },
+      {
+        "day": 4,
+        "title": "Return to Islamabad & Capital Sightseeing",
+        "description": "Breakfast at hotel. Move back to Islamabad. Visit any missing sights on route. Explore Faisal Mosque, Daman-e-Koh, and scenic viewpoints. Night stay at Islamabad."
+      },
+      {
+        "day": 5,
+        "title": "Check out & Departure",
+        "description": "Breakfast at hotel. Check out from hotel. Move to bus or train station (self-paid). Trip ended with beautiful and great memories."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Hotel Accommodation",
+      "Breakfast on Each Morning",
+      "Luxury Dedicated Transportation (Toyota Corolla)",
+      "Driver & Fuel Expenses",
+      "All road tolls, taxes / Challans",
+      "Professional Tour Guide Service",
+      "Complimentary Musafir Gift",
+      "24/7 Dedicated Customer Support"
+    ],
+    "exclusions": [
+      "Dinner or Extra Food",
+      "Entry tickets of forts/museums/national parks/tourist spots",
+      "Laundry and ironing charges",
+      "Chairlift / Cable car / Boating / Jetski charges",
+      "Personal medication and emergency expenses",
+      "Extra Mileage"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ]
+    }
+  },
+  {
+    "id": "naran-kaghan-private-deluxe-5-days",
+    "title": "05 Days Naran & Kaghan Valley Private Deluxe Trip (ISB to ISB)",
+    "tagline": "Naran aur Kaghan ki khubsurat wadiyon ka safar! Saif-ul-Malook, Lulusar Lake & Babusar Top",
+    "type": "Private Deluxe Tour",
+    "badge": "Private Deluxe Tour",
+    "duration": {
+      "days": 5,
+      "nights": 4
+    },
+    "pricing": {
+      "solo": 75000,
+      "couple": 150000,
+      "currency": "PKR"
+    },
+    "departure": "Flexible Daily Departures From Islamabad",
+    "poster": "/images/posters/naran-kaghan-private-deluxe-5-days.jpg",
+    "image": "/images/naran.jpg",
+    "attractions": [
+      "Islamabad",
+      "Balakot",
+      "Kunhar River",
+      "Kiwai Waterfall",
+      "Kaghan Valley",
+      "Naran Bazaar",
+      "Saif-ul-Malook Lake",
+      "Lulusar Lake",
+      "Besal View Point",
+      "Babusar Top Pass"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Reach Islamabad & Hotel Check-in",
+        "description": "Reach Islamabad. Check in to Islamabad hotel and relaxing night stay."
+      },
+      {
+        "day": 2,
+        "title": "Islamabad to Naran via Balakot & Kiwai",
+        "description": "Breakfast at hotel. Departure for Naran. Visit Balakot, Kunhar River, Kaghan Valley, Kiwai Waterfall, and evening walk in Naran Bazaar. Night stay at Naran."
+      },
+      {
+        "day": 3,
+        "title": "Excursion to Lulusar Lake & Babusar Top",
+        "description": "Breakfast at hotel. Departure for Babusar Top (13,691 ft). Visit crystal-clear Lulusar Lake, Upper Kaghan Valley, and Besal Viewpoint. Return to hotel by evening. Night stay at Naran."
+      },
+      {
+        "day": 4,
+        "title": "4x4 Jeep to Lake Saif-ul-Malook & Return to Islamabad",
+        "description": "Breakfast at hotel. Take dedicated 4x4 Jeep to legendary Lake Saif-ul-Malook. Explore fairy meadows by lake. Return to Naran and move towards Islamabad. Short stay at Kiwai Waterfall. Visit Islamabad spots if time available. Reach Islamabad and night stay."
+      },
+      {
+        "day": 5,
+        "title": "Check out & Homeward Departure",
+        "description": "Breakfast at hotel. Check out from hotel till 12:00 PM. Move to bus or train station / flight back home. Trip ended with great memories."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Hotel Accommodation",
+      "Breakfast on Each Morning",
+      "Luxury Dedicated Transportation (Toyota Corolla)",
+      "Driver & Fuel Expenses",
+      "All road tolls, taxes / Challans",
+      "Professional Tour Guide Service",
+      "Dedicated 4x4 Jeep for Lake Saif-ul-Malook",
+      "Complimentary Musafir Gift",
+      "24/7 Dedicated Customer Support"
+    ],
+    "exclusions": [
+      "Dinner or Extra Food",
+      "Entry tickets of forts/museums/national parks/tourist spots",
+      "Any extra jeep charges or extra mileage",
+      "Laundry and ironing charges",
+      "Rafting / Boating / Zipline charges",
+      "Personal medication and emergency expenses"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ]
+    }
+  },
+  {
+    "id": "kashmir-swat-private-deluxe-10-days",
+    "title": "10 Days Private Deluxe Package for Kashmir & Swat (ISB to ISB)",
+    "tagline": "Swat aur Kashmir tak, har manzar hai dilchasp! Kalam, Malam Jabba, Shogran, Keran, Sharda & Arang Kel",
+    "type": "Private Deluxe Tour",
+    "badge": "Private Deluxe Tour",
+    "duration": {
+      "days": 10,
+      "nights": 9
+    },
+    "pricing": {
+      "solo": 120000,
+      "couple": 240000,
+      "currency": "PKR"
+    },
+    "departure": "Flexible Daily Departures From Islamabad",
+    "poster": "/images/posters/kashmir-swat-private-deluxe-10-days.jpg",
+    "image": "/images/kashmir.jpg",
+    "attractions": [
+      "Swat Motorway",
+      "Fizaghat",
+      "Malam Jabba Ski Resort",
+      "Madiyan & Bahrain",
+      "Kalam Valley",
+      "Ushu Forest",
+      "Mahodand Lake",
+      "Balakot & Mansehra",
+      "Kiwai Waterfall",
+      "Shogran & Siri Paye Meadows",
+      "Kashmir Waterfall",
+      "Dhani Waterfall",
+      "Kutton Waterfall",
+      "LOC Viewpoint",
+      "Keran",
+      "Sharda",
+      "Kel & Arang Kel Cable Car",
+      "Muzaffarabad",
+      "Murree Mall Road"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Reach Islamabad & Hotel Check-in",
+        "description": "Reached Islamabad. Check in to ISB hotel and relaxing night stay."
+      },
+      {
+        "day": 2,
+        "title": "Islamabad to Kalam via Swat Motorway",
+        "description": "Breakfast at hotel. Move to Kalam. Explore Swat Motorway, Bahrain, Malam Jabba viewpoints, and riverside bazaars. Night stay at Kalam."
+      },
+      {
+        "day": 3,
+        "title": "4x4 Jeep to Mahodand Lake & Ushu Forest",
+        "description": "Breakfast at hotel. Move to Mahodand Lake (if accessible) & Ushu Pine Forest via dedicated 4x4 Jeep. Explore Chashma-e-Shifa and Matiltan village. Night stay at Kalam."
+      },
+      {
+        "day": 4,
+        "title": "Malam Jabba Ski Resort & Chairlift",
+        "description": "Breakfast at hotel. Move to Malam Jabba. Explore Fizaghat, Malam Jabba top, chairlift, and zipline. Night stay at Malam Jabba / Fizaghat."
+      },
+      {
+        "day": 5,
+        "title": "Journey to Shogran & Siri Paye Meadows",
+        "description": "Breakfast at hotel. Move to Shogran via Hazara Motorway, Mansehra, Balakot, and Kiwai Waterfall. Transfer to 4x4 Jeep to visit Shogran & Siri Paye Meadows (if accessible). Night stay at Shogran or Balakot."
+      },
+      {
+        "day": 6,
+        "title": "Move to Neelum Valley Kashmir",
+        "description": "Breakfast at hotel. Move to Kashmir. Explore Muzaffarabad, Keran, Kutton, and Kutton Waterfall. Night stay at Upper Neelum."
+      },
+      {
+        "day": 7,
+        "title": "Sharda, Kel & Arang Kel Excursion",
+        "description": "Breakfast at hotel. Move to Arang Kel. Explore Sharda, Kel, scenic cable car ride, and walk into lush Arang Kel. Night stay at Arang Kel or Kel."
+      },
+      {
+        "day": 8,
+        "title": "LOC Viewpoint, Dhani & Kutton Waterfalls",
+        "description": "Breakfast at hotel. Move back to Kel via cable car. Explore LOC Border viewpoint, Dhani Waterfall, Kutton Waterfall, and riverside views. Night stay at Keran or Upper Neelum."
+      },
+      {
+        "day": 9,
+        "title": "Return to Islamabad via Murree",
+        "description": "Breakfast at hotel. Move back towards Islamabad. Explore Muzaffarabad, Kashmir Waterfall, and Murree Mall Road (if accessible / according to time). Night stay at Islamabad."
+      },
+      {
+        "day": 10,
+        "title": "Check out & Departure",
+        "description": "Breakfast at hotel. Check out from ISB hotel. Move to bus or train station (self-paid). Trip ended with beautiful and great memories."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Hotel Accommodation",
+      "Breakfast on Each Morning",
+      "Luxury Dedicated Transportation (Toyota Corolla)",
+      "Driver & Fuel Expenses",
+      "All road tolls, taxes / Challans",
+      "Professional Tour Guide Service",
+      "Dedicated 4x4 Jeeps (Mahodand Lake & Shogran)",
+      "Complimentary Musafir Gift",
+      "24/7 Dedicated Customer Support"
+    ],
+    "exclusions": [
+      "Dinner or Extra Food",
+      "Entry tickets of forts/museums/national parks/tourist spots",
+      "Any extra jeep charges or extra mileage",
+      "Laundry and ironing charges",
+      "Chairlift / Cable car / Boating / Jetski charges",
+      "Personal medication and emergency expenses"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ]
+    }
+  },
+  {
+    "id": "kashmir-arangkel-private-deluxe-5-days",
+    "title": "05 Days Private Deluxe Package for Kashmir | Arang Kel (ISB to ISB)",
+    "tagline": "Exclusive Private Deluxe Kashmir & Arang Kel Tour - Neelum Point, Dhani Waterfall, Sharda & Arang Kel",
+    "type": "Private Deluxe Tour",
+    "badge": "Private Deluxe Tour",
+    "duration": {
+      "days": 5,
+      "nights": 4
+    },
+    "pricing": {
+      "solo": 65000,
+      "couple": 130000,
+      "currency": "PKR"
+    },
+    "departure": "Flexible Daily Departures From Islamabad",
+    "poster": "/images/posters/kashmir-arangkel-private-deluxe-5-days.jpg",
+    "image": "/images/kashmir.jpg",
+    "attractions": [
+      "Islamabad",
+      "Murree Expressway",
+      "Neelum Point",
+      "Muzaffarabad",
+      "Dhani Waterfall",
+      "Kutton Waterfall",
+      "Sharda",
+      "Kel",
+      "Arang Kel Cable Car",
+      "Kashmir Waterfall",
+      "Keran",
+      "LOC Border Viewpoint",
+      "Murree"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Reach Islamabad & City Exploration",
+        "description": "Reached Islamabad. Visit Islamabad popular places according to arrival time. Check in to ISB hotel and relaxing night stay."
+      },
+      {
+        "day": 2,
+        "title": "Islamabad to Kashmir & Sharda",
+        "description": "Breakfast at hotel. Move to Kashmir. Explore Neelum Point, Kashmir Abshar, LOC Viewpoint, & Dhani Waterfall on the scenic highway. Night stay at Sharda."
+      },
+      {
+        "day": 3,
+        "title": "Kel & Arang Kel Cable Car Adventure",
+        "description": "Breakfast at hotel. Move to Arang Kel. Explore historic Sharda, Kel, Arang Kel & thrilling cable car lift. Night stay at Arang Kel or Kel."
+      },
+      {
+        "day": 4,
+        "title": "Return Journey to Islamabad via Murree",
+        "description": "Breakfast at hotel. Move back towards Islamabad. Explore return route spots of Kashmir and visit points in Murree (according to time). Reach Islamabad by night. Night stay at Islamabad."
+      },
+      {
+        "day": 5,
+        "title": "Check out & Departure",
+        "description": "Breakfast at hotel. Check out from hotel till 12:00 PM. Move to bus or train station (self-paid). Trip ended with beautiful and great memories."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Hotel Accommodation",
+      "Breakfast on Each Morning",
+      "Luxury Dedicated Transportation (Toyota Corolla)",
+      "Driver & Fuel Expenses",
+      "All road tolls, taxes / Challans",
+      "Professional Tour Guide Service",
+      "Complimentary Musafir Gift",
+      "24/7 Dedicated Customer Support"
+    ],
+    "exclusions": [
+      "Dinner or Extra Food",
+      "Entry tickets of forts/museums/national parks/tourist spots",
+      "Any extra jeep charges or extra mileage",
+      "Laundry and ironing charges",
+      "Chairlift / Cable car / Boating / Jetski charges",
+      "Personal medication and emergency expenses"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ]
+    }
+  },
+  {
+    "id": "kashmir-shogran-private-deluxe-7-days",
+    "title": "07 Days Private Deluxe Package for Kashmir | Shogran (ISB to ISB)",
+    "tagline": "Kya aap Kashmir aur Shogran ka safar plan kar rahe hain? Neelum Valley, Arang Kel & Siri Paye Meadows",
+    "type": "Private Deluxe Tour",
+    "badge": "Private Deluxe Tour",
+    "duration": {
+      "days": 7,
+      "nights": 6
+    },
+    "pricing": {
+      "solo": 87500,
+      "couple": 175000,
+      "currency": "PKR"
+    },
+    "departure": "Flexible Daily Departures From Islamabad",
+    "poster": "/images/posters/kashmir-shogran-private-deluxe-7-days.jpg",
+    "image": "/images/shogran.jpg",
+    "attractions": [
+      "Islamabad",
+      "Murree Expressway",
+      "Neelum Point",
+      "Muzaffarabad",
+      "Balakot",
+      "Kutton Waterfall",
+      "Sharda",
+      "Kel",
+      "Arang Kel Cable Car",
+      "Shogran",
+      "Siri Paye Meadows",
+      "Keran",
+      "LOC Border",
+      "Kiwai Waterfall",
+      "Khanpur Dam"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Reach Islamabad & City Exploration",
+        "description": "Reached Islamabad. Visit Islamabad popular places according to arrival time. Check in to ISB hotel and relaxing night stay."
+      },
+      {
+        "day": 2,
+        "title": "Move to Kashmir via Neelum Point & Dhani Waterfall",
+        "description": "Breakfast at hotel. Move to Kashmir. Explore Neelum Point, Kashmir Abshar, LOC Viewpoint, & Dhani Waterfall on the way. Night stay at Sharda or Kel."
+      },
+      {
+        "day": 3,
+        "title": "Excursion to Arang Kel via Cable Car",
+        "description": "Breakfast at hotel. Move to Arang Kel. Explore Sharda, Kel, & Arang Kel via cable car lift. Night stay at Kel or Arang Kel."
+      },
+      {
+        "day": 4,
+        "title": "Neelum Valley to Balakot & Muzaffarabad",
+        "description": "Breakfast at hotel. Move to Balakot. Explore Upper Neelum, Keran Valley, Kundal Shahi Waterfall, & Muzaffarabad Viewpoint in the evening. Night stay at Muzaffarabad or Balakot."
+      },
+      {
+        "day": 5,
+        "title": "4x4 Jeep Excursion to Shogran & Siri Paye",
+        "description": "Breakfast at hotel. Move to Shogran. Explore Kiwai Waterfall, Shogran, & Siri Paye Meadows (if open) via 4x4 jeeps till evening. Night stay at Shogran."
+      },
+      {
+        "day": 6,
+        "title": "Return to Islamabad via Khanpur Dam",
+        "description": "Breakfast at hotel. Move back towards Islamabad. Explore Khanpur Dam for watersports (if time available). Arrive in Islamabad by night. Night stay at Islamabad."
+      },
+      {
+        "day": 7,
+        "title": "Check out & Departure",
+        "description": "Breakfast at hotel. Check out from hotel. Move to bus or train station (self-paid). Trip ended with beautiful and great memories."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Hotel Accommodation",
+      "Breakfast on Each Morning",
+      "Luxury Dedicated Transportation (Toyota Corolla)",
+      "Driver & Fuel Expenses",
+      "All road tolls, taxes / Challans",
+      "Professional Tour Guide Service",
+      "Dedicated 4x4 Jeep (Shogran & Siri Paye)",
+      "Complimentary Musafir Gift",
+      "24/7 Dedicated Customer Support"
+    ],
+    "exclusions": [
+      "Dinner or Extra Food",
+      "Entry tickets of forts/museums/national parks/tourist spots",
+      "Any extra jeep charges or extra mileage",
+      "Laundry and ironing charges",
+      "Chairlift / Cable car / Boating / Jetski charges",
+      "Personal medication and emergency expenses"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ]
+    }
+  },
+  {
+    "id": "kashmir-taobat-private-deluxe-7-days",
+    "title": "07 Days Private Deluxe Package for Kashmir | Taobat (ISB to ISB)",
+    "tagline": "Kashmir ki Khubsorti ko karein explore! Taobat Village, Sharda University, Arang Kel & Dhani Waterfall",
+    "type": "Private Deluxe Tour",
+    "badge": "Private Deluxe Tour",
+    "duration": {
+      "days": 7,
+      "nights": 6
+    },
+    "pricing": {
+      "solo": 92500,
+      "couple": 185000,
+      "currency": "PKR"
+    },
+    "departure": "Flexible Daily Departures From Islamabad",
+    "poster": "/images/posters/kashmir-taobat-private-deluxe-7-days.jpg",
+    "image": "/images/kashmir.jpg",
+    "attractions": [
+      "Islamabad",
+      "Murree Expressway",
+      "Neelum Point",
+      "Muzaffarabad",
+      "Dhani Waterfall",
+      "Kutton Waterfall",
+      "Neelum Valley & Upper Neelum",
+      "Kundal Shahi Waterfall",
+      "Keran & LOC Border",
+      "Athmaqam Bazaar",
+      "Sharda & Sharda University",
+      "Kel & Arang Kel Cable Car",
+      "Kashmir Waterfall",
+      "Taobat Village & Taobat Bala"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Reach Islamabad & Hotel Check-in",
+        "description": "Reached Islamabad. Check in to ISB hotel and relaxing night stay."
+      },
+      {
+        "day": 2,
+        "title": "Move to Upper Neelum Kashmir",
+        "description": "Breakfast at hotel. Move to Kashmir. Explore Muzaffarabad, Dhani Waterfall, LOC, Kundal Shahi Waterfall, Keran, and Athmaqam Bazaar. Night stay at Upper Neelum."
+      },
+      {
+        "day": 3,
+        "title": "Journey to Kel & Arang Kel",
+        "description": "Breakfast at hotel. Move to Kel. Explore Sharda, Kel, enjoy scenic cable car ride to reach Arang Kel, and explore fairy meadows. Night stay at Kel or Arang Kel."
+      },
+      {
+        "day": 4,
+        "title": "4x4 Jeep Safari to Remote Taobat Village",
+        "description": "Breakfast at hotel. Board dedicated 4x4 Jeep for Taobat. Explore scenic Taobat route places, lush green valley, and riverside village surroundings. Reach Taobat and relaxing night stay."
+      },
+      {
+        "day": 5,
+        "title": "Explore Taobat Bala & Return to Kel",
+        "description": "Breakfast at hotel. Move back to Kel via 4x4 Jeep. Explore Taobat surrounding meadows and Taobat Bala. Reach Kel and night stay."
+      },
+      {
+        "day": 6,
+        "title": "Return Journey towards Islamabad",
+        "description": "Breakfast at hotel. Move back towards Islamabad. Explore Dhani Waterfall, Kutton Bazaar, or any missed route places. Reach Islamabad and night stay."
+      },
+      {
+        "day": 7,
+        "title": "Check out & Departure",
+        "description": "Breakfast at hotel. Check out from ISB hotel. Move to bus or train station (self-paid). Trip ended with beautiful and great memories."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Hotel Accommodation",
+      "Breakfast on Each Morning",
+      "Luxury Dedicated Transportation (Toyota Corolla)",
+      "Driver & Fuel Expenses",
+      "All road tolls, taxes / Challans",
+      "Professional Tour Guide Service",
+      "Dedicated 4x4 Jeeps (Taobat Valley)",
+      "Complimentary Musafir Gift",
+      "24/7 Dedicated Customer Support"
+    ],
+    "exclusions": [
+      "Dinner or Extra Food",
+      "Entry tickets of forts/museums/national parks/tourist spots",
+      "Any extra jeep charges or extra mileage",
+      "Laundry and ironing charges",
+      "Chairlift / Cable car / Boating / Jetski charges",
+      "Personal medication and emergency expenses"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ]
+    }
+  },
+  {
+    "id": "hunza-skardu-air-private-deluxe-7-days",
+    "title": "07 Days Private Deluxe Package for Hunza | Skardu (By Air)!",
+    "tagline": "Skardu aur Hunza ke Rang, Musafir Pakistan kay sang! Karakoram, Shangrila, Attabad Lake, Deosai & Passu Cones",
+    "type": "Private Deluxe Tour",
+    "badge": "Private Deluxe Tour",
+    "duration": {
+      "days": 7,
+      "nights": 6
+    },
+    "pricing": {
+      "solo": 100000,
+      "couple": 200000,
+      "currency": "PKR"
+    },
+    "departure": "Daily Departures (By Air to Skardu Airport)",
+    "poster": "/images/posters/hunza-skardu-air-private-deluxe-7-days.jpg",
+    "image": "/images/skardu.jpg",
+    "attractions": [
+      "3 Mountain Junction Point",
+      "Nanga Parbat View Point",
+      "Gilgit & Nagar",
+      "Naltar Valley (if accessible)",
+      "Rakaposhi View Point",
+      "Altit Fort & Baltit Fort",
+      "Karimabad Bazaar",
+      "Attabad Lake & Tunnels",
+      "Hussaini Suspension Bridge",
+      "Passu Bridge & Passu Cones",
+      "Khunjerab Pass (if accessible)",
+      "Shangrila Resort",
+      "Lower & Upper Kachura Lake",
+      "Manthokha Waterfall",
+      "Shigar Valley & Shigar Fort",
+      "Sarfaranga Cold Desert",
+      "Katpana Cold Desert & Lake",
+      "Sadpara Lake",
+      "Deosai Plains (Kala Pani, Bara Pani, Sheosar Lake)"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Arrival Skardu Airport & Kachura Lakes",
+        "description": "Flight to Skardu. Pickup from Skardu Airport (according to flight arrival time). Move to explore Skardu, Shangrila Resort, Lower Kachura Lake, and route sights. Night stay at Skardu."
+      },
+      {
+        "day": 2,
+        "title": "Manthokha Waterfall, Shigar Valley & Sarfaranga Desert",
+        "description": "Breakfast at hotel. Move to explore Manthokha Waterfall, historic Shigar Valley, and 400-year-old Shigar Fort. Experience thrilling safari at Sarfaranga Cold Desert. Night stay at Skardu."
+      },
+      {
+        "day": 3,
+        "title": "4x4 Jeep Safari to Deosai Plains or Basho Valley",
+        "description": "Breakfast at hotel. Board dedicated 4x4 Jeep to explore Basho Valley or Deosai Plains (Kala Pani, Bara Pani, Sheosar Lake - depending on seasonal accessibility). Return to hotel and night stay at Skardu."
+      },
+      {
+        "day": 4,
+        "title": "Scenic Drive from Skardu to Central Hunza",
+        "description": "Breakfast at hotel. Move to Hunza. Explore any missed Skardu route places, Gilgit, Nagar Valley, and Naltar Valley (if time available). Reach Hunza and night stay at Hunza."
+      },
+      {
+        "day": 5,
+        "title": "Explore Hunza, Attabad Lake & Passu Cones",
+        "description": "Breakfast at hotel. Explore Hunza Valley: Altit & Baltit Forts, Attabad Lake boating, Hussaini Bridge, Passu Cones, and Khunjerab Pass (if accessible & time permits). Return to hotel. Night stay at Hunza."
+      },
+      {
+        "day": 6,
+        "title": "Return Drive to Skardu & Local Bazaar",
+        "description": "Breakfast at hotel. Move back to Skardu. Explore any route places and missed sights. Reach Skardu and explore Skardu Bazaar for dry fruits and gemstones (if time allows). Night stay at Skardu."
+      },
+      {
+        "day": 7,
+        "title": "Hotel Checkout & Skardu Airport Departure",
+        "description": "Breakfast at hotel. Check out from hotel till 12:00 PM. Private transfer to Skardu Airport according to flight tickets. Drop at Skardu Airport. Trip ended with beautiful and great memories."
+      }
+    ],
+    "inclusions": [
+      "Hotel Accommodation (Master Room Each Night)",
+      "Breakfast on Each Morning",
+      "Luxury Dedicated Transportation (Toyota Corolla)",
+      "Driver & Fuel Expenses",
+      "Dedicated 4x4 Jeep (Deosai Plains or Basho Valley)",
+      "All road tolls, taxes / Challans",
+      "Professional Tour Guide Service",
+      "24/7 Dedicated Customer Support",
+      "Pick & Drop at Skardu Airport"
+    ],
+    "exclusions": [
+      "Room Heater Facility",
+      "Dinner or Extra Food",
+      "Entry tickets of forts/museums/national parks/tourist spots",
+      "Any extra jeep charges or extra mileage",
+      "Laundry and ironing charges",
+      "Chairlift / Cable car / Boating / Jetski charges",
+      "Personal medication and emergency expenses",
+      "Domestic flight tickets"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ]
+    }
+  },
+  {
+    "id": "hunza-skardu-private-deluxe-10-days",
+    "title": "10 Days Private Deluxe Package for Hunza | Skardu (ISB to ISB)",
+    "tagline": "Skardu aur Hunza ke Rang, Musafir Pakistan kay sang! Karakoram, Shangrila, Attabad Lake, Deosai & Passu Cones",
+    "type": "Private Deluxe Tour",
+    "badge": "Private Deluxe Tour",
+    "duration": {
+      "days": 10,
+      "nights": 9
+    },
+    "pricing": {
+      "solo": 130000,
+      "couple": 260000,
+      "currency": "PKR"
+    },
+    "departure": "Flexible Daily Departures From Islamabad",
+    "poster": "/images/posters/skardu-hunza-private-deluxe-10-days.jpg",
+    "image": "/images/skardu.jpg",
+    "attractions": [
+      "Hazara Expressway & Tunnels",
+      "River Indus & Dasu Dam",
+      "Besham & Chilas",
+      "3 Mountain Junction Point",
+      "Nanga Parbat View Point",
+      "Gilgit & Nagar",
+      "Naltar Valley & Lakes",
+      "Rakaposhi View Point",
+      "Altit Fort & Baltit Fort",
+      "Karimabad Bazaar",
+      "Attabad Lake & Tunnels",
+      "Hussaini Suspension Bridge",
+      "Passu Cones & Passu Bridge",
+      "Khunjerab Pass China Border",
+      "Shangrila Resort",
+      "Lower & Upper Kachura Lake",
+      "Manthokha Waterfall",
+      "Shigar Valley & Shigar Fort",
+      "Sarfaranga Cold Desert",
+      "Katpana Cold Desert & Lake",
+      "Deosai Plains (Kala Pani, Bara Pani, Sheosar Lake) or Basho Valley"
+    ],
+    "routePlan": [
+      {
+        "day": 1,
+        "title": "Reach Islamabad & Hotel Check-in",
+        "description": "Reached Islamabad. Check in to ISB hotel and relaxing night stay."
+      },
+      {
+        "day": 2,
+        "title": "Islamabad to Chilas via Hazara Expressway",
+        "description": "Breakfast at hotel. Move to Chilas. Explore Hazara Expressway, Hazara Tunnels, short stop at Besham and Dasu Dam. Night stay at Chilas."
+      },
+      {
+        "day": 3,
+        "title": "Chilas to Skardu via Nanga Parbat & Indus River",
+        "description": "Breakfast at hotel. Move to Skardu. Explore Nanga Parbat Viewpoint, 3 Mountain Junction Point, Shangrila Resort, Lower Kachura Lake, and on-route scenic spots. Night stay at Skardu."
+      },
+      {
+        "day": 4,
+        "title": "Manthokha Waterfall, Shigar Fort & Sarfaranga Desert",
+        "description": "Breakfast at hotel. Move to explore Skardu. Explore Manthokha Waterfall, Shigar Valley, and historic Shigar Fort. Experience desert safari adventure at Sarfaranga Cold Desert. Return to hotel. Night stay at Skardu."
+      },
+      {
+        "day": 5,
+        "title": "4x4 Jeep Safari to Deosai Plains or Basho Valley",
+        "description": "Breakfast at hotel. Board dedicated 4x4 Jeep to explore Basho Valley or Deosai Plains (Kala Pani, Bara Pani, Sheosar Lake - depending on accessibility). Return to hotel. Night stay at Skardu."
+      },
+      {
+        "day": 6,
+        "title": "Journey from Skardu to Hunza Valley",
+        "description": "Breakfast at hotel. Move to Hunza. Explore missed Skardu route places, Gilgit, Nagar, and Naltar Valley (if time available). Reach Hunza. Night stay at Hunza."
+      },
+      {
+        "day": 7,
+        "title": "Explore Hunza, Attabad Lake, Passu & Khunjerab",
+        "description": "Breakfast at hotel. Explore Hunza Valley: Altit & Baltit Forts, Attabad Lake, Hussaini Suspension Bridge, Passu Cones, and Khunjerab Pass China Border (if accessible). Return to hotel. Night stay at Hunza."
+      },
+      {
+        "day": 8,
+        "title": "Return Drive to Chilas via Gilgit & Nagar",
+        "description": "Breakfast at hotel. Move back towards Chilas. Explore Karimabad Bazaar and any route places missed in Hunza, Nagar, or Gilgit. Arrive in Chilas. Night stay at Chilas."
+      },
+      {
+        "day": 9,
+        "title": "Chilas to Islamabad via KKH & Khanpur Dam",
+        "description": "Breakfast at hotel. Move back towards Islamabad. Explore Besham route spots and Dasu with short stays. Visit Khanpur Dam (if time available). Reach Islamabad by evening. Night stay at Islamabad."
+      },
+      {
+        "day": 10,
+        "title": "Check out Hotel & Departure",
+        "description": "Breakfast at hotel. Check out from hotel till 12:00 PM. Transfer to station / airport and travel back home. Trip ended with beautiful and great memories."
+      }
+    ],
+    "inclusions": [
+      "Standard Quality Hotel Accommodation",
+      "Breakfast on Each Morning",
+      "Luxury Dedicated Transportation (Toyota Corolla)",
+      "Driver & Fuel Expenses",
+      "All road tolls, taxes / Challans",
+      "Professional Tour Guide Service",
+      "Dedicated 4x4 Jeep (Basho Valley or Deosai Plains)",
+      "Complimentary Musafir Gift",
+      "24/7 Dedicated Customer Support"
+    ],
+    "exclusions": [
+      "Dinner or Extra Food",
+      "Entry tickets of forts/museums/national parks/tourist spots",
+      "Any extra jeep charges or extra mileage beyond itinerary",
+      "Laundry and ironing charges",
+      "Chairlift / Cable car / Boating / Jetski charges",
+      "Personal medication and emergency expenses"
+    ],
+    "menu": {
+      "breakfast": [
+        "Omelette / Fried Eggs prepared fresh to order",
+        "Crispy Parathas / Bread Toast with Butter & Jam",
+        "Chana Masala / Traditional Bhaji",
+        "Hot Milk Chai (Karak Mountain Tea)"
+      ]
+    }
+  }
+]
