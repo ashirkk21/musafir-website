@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./Home.module.css";
 import initialPackages from "../data/packages.json";
+import destinations from "../data/destinations.json";
 import ScrollReveal from "../components/ScrollReveal";
 import {
   IconArrowRight,
@@ -25,7 +26,7 @@ import {
 const heroSlides = [
   {
     image: "/images/skardu.jpg",
-    title: "Skardu Valley",
+    title: "Skardu",
     region: "Baltistan",
     tag: "Gateway to K2 & Deosai"
   },
@@ -49,17 +50,17 @@ const heroSlides = [
   },
   {
     image: "/images/autumn_hero.jpg",
-    title: "Hunza Valley",
+    title: "Hunza",
     region: "Gilgit-Baltistan",
     tag: "Golden Autumn Foliage"
   }
 ];
 
 const trendingTags = [
-  { label: "Hunza Valley", query: "hunza" },
+  { label: "Hunza", query: "hunza" },
   { label: "Skardu & Deosai", query: "skardu" },
   { label: "Swat & Kalam", query: "swat" },
-  { label: "Neelum Valley", query: "kashmir" },
+  { label: "Neelum", query: "kashmir" },
   { label: "Babusar Pass", query: "naran" }
 ];
 
@@ -315,73 +316,16 @@ export default function Home() {
 
             <div className={styles.destCarouselWrapper} ref={destCarouselRef}>
               <div className={styles.destCarouselTrack}>
-                {/* Set 1 */}
-                <Link href="/destinations" className={styles.destCard}>
-                  <Image src="/images/hunza.jpg" alt="Hunza Valley" fill style={{ objectFit: "cover" }} className={styles.destImage} />
-                  <div className={styles.destOverlay}></div>
-                  <div className={styles.destContent}>
-                    <h3 className={styles.destName}>Hunza Valley</h3>
-                    <div className={styles.exploreBtn}><IconArrowRight size={18} /></div>
-                  </div>
-                </Link>
-                <Link href="/destinations" className={styles.destCard}>
-                  <Image src="/images/skardu.jpg" alt="Skardu Valley" fill style={{ objectFit: "cover" }} className={styles.destImage} />
-                  <div className={styles.destOverlay}></div>
-                  <div className={styles.destContent}>
-                    <h3 className={styles.destName}>Skardu</h3>
-                    <div className={styles.exploreBtn}><IconArrowRight size={18} /></div>
-                  </div>
-                </Link>
-                <Link href="/destinations" className={styles.destCard}>
-                  <Image src="/images/swat.jpg" alt="Swat Valley" fill style={{ objectFit: "cover" }} className={styles.destImage} />
-                  <div className={styles.destOverlay}></div>
-                  <div className={styles.destContent}>
-                    <h3 className={styles.destName}>Swat Valley</h3>
-                    <div className={styles.exploreBtn}><IconArrowRight size={18} /></div>
-                  </div>
-                </Link>
-                <Link href="/destinations" className={styles.destCard}>
-                  <Image src="/images/hero.jpg" alt="Neelum Valley" fill style={{ objectFit: "cover" }} className={styles.destImage} />
-                  <div className={styles.destOverlay}></div>
-                  <div className={styles.destContent}>
-                    <h3 className={styles.destName}>Neelum Valley</h3>
-                    <div className={styles.exploreBtn}><IconArrowRight size={18} /></div>
-                  </div>
-                </Link>
-
-                {/* Additional Cards */}
-                <Link href="/destinations" className={styles.destCard}>
-                  <Image src="/images/swat.jpg" alt="Kalam Valley" fill style={{ objectFit: "cover" }} className={styles.destImage} />
-                  <div className={styles.destOverlay}></div>
-                  <div className={styles.destContent}>
-                    <h3 className={styles.destName}>Kalam Valley</h3>
-                    <div className={styles.exploreBtn}><IconArrowRight size={18} /></div>
-                  </div>
-                </Link>
-                <Link href="/destinations" className={styles.destCard}>
-                  <Image src="/images/hunza.jpg" alt="Naran Kaghan" fill style={{ objectFit: "cover" }} className={styles.destImage} />
-                  <div className={styles.destOverlay}></div>
-                  <div className={styles.destContent}>
-                    <h3 className={styles.destName}>Naran Kaghan</h3>
-                    <div className={styles.exploreBtn}><IconArrowRight size={18} /></div>
-                  </div>
-                </Link>
-                <Link href="/destinations" className={styles.destCard}>
-                  <Image src="/images/skardu.jpg" alt="Fairy Meadows" fill style={{ objectFit: "cover" }} className={styles.destImage} />
-                  <div className={styles.destOverlay}></div>
-                  <div className={styles.destContent}>
-                    <h3 className={styles.destName}>Fairy Meadows</h3>
-                    <div className={styles.exploreBtn}><IconArrowRight size={18} /></div>
-                  </div>
-                </Link>
-                <Link href="/destinations" className={styles.destCard}>
-                  <Image src="/images/hero.jpg" alt="Chitral" fill style={{ objectFit: "cover" }} className={styles.destImage} />
-                  <div className={styles.destOverlay}></div>
-                  <div className={styles.destContent}>
-                    <h3 className={styles.destName}>Chitral</h3>
-                    <div className={styles.exploreBtn}><IconArrowRight size={18} /></div>
-                  </div>
-                </Link>
+                {destinations.map((dest) => (
+                  <Link key={dest.id} href={`/destinations/${dest.id}`} className={styles.destCard}>
+                    <Image src={dest.image} alt={dest.name} fill style={{ objectFit: "cover" }} className={styles.destImage} />
+                    <div className={styles.destOverlay}></div>
+                    <div className={styles.destContent}>
+                      <h3 className={styles.destName}>{dest.name.replace(/ Valley/gi, "")}</h3>
+                      <div className={styles.exploreBtn}><IconArrowRight size={18} /></div>
+                    </div>
+                  </Link>
+                ))}
               </div>
             </div>
           </div>
@@ -548,7 +492,7 @@ export default function Home() {
         <section className={styles.pkgWrapper} style={{ background: "linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%)", paddingTop: "2rem" }}>
           <div className={styles.sectionHeader}>
             <span className={styles.sectionTag}>Exclusive Escapes</span>
-            <h2>Featured Private Tours</h2>
+            <h2>Featured Private & Honeymoon Tours</h2>
             <p>Dedicated 4x4 Prado transport, flexible itineraries, and luxury stays crafted for your family or honeymoon.</p>
           </div>
 
@@ -676,7 +620,7 @@ export default function Home() {
         <section className={styles.privateTourSection}>
           <div className={styles.privateTourContainer}>
             <div className={styles.privateTourContent}>
-              <h2>DESIGN YOUR PRIVATE TOUR</h2>
+              <h2>DESIGN YOUR CUSTOM TRIP</h2>
               <ul className={styles.privateTourList}>
                 <li>
                   <span className={styles.bulletPoint}></span>
@@ -691,7 +635,7 @@ export default function Home() {
                   <span>Our Private Trip Designer service allows you to share your travel preferences, interests, and expectations so our experts can create a personalized travel itinerary tailored to your needs.</span>
                 </li>
               </ul>
-              <Link href="/tours/private" className={styles.privateTourBtn}>
+              <Link href="/custom-trip" className={styles.privateTourBtn}>
                 DESIGN YOUR TRIP <IconArrowRight size={18} />
               </Link>
             </div>

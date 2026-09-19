@@ -1,7 +1,7 @@
 [
   {
     "id": "hunza-valley",
-    "name": "Hunza Valley",
+    "name": "Hunza",
     "region": "Gilgit-Baltistan",
     "tagline": "The Shangri-La of the Karakoram - Forts, Glaciers & Turquoise Lakes",
     "description": "Famed for its awe-inspiring views of Mount Rakaposhi, pristine apricot orchards, ancient heritage forts, and the dramatic Passu Cones standing along the legendary Karakoram Highway.",
@@ -40,7 +40,7 @@
   },
   {
     "id": "swat-kalam",
-    "name": "Swat & Kalam Valley",
+    "name": "Swat & Kalam",
     "region": "Khyber Pakhtunkhwa",
     "tagline": "Switzerland of the East - Alpine Pine Forests & Crystal Rivers",
     "description": "A lush haven of rushing mountain streams, dense cedar and pine woods, thrilling chairlifts at Malam Jabba, and the stunning glacial waters of Mohadand Lake.",
@@ -78,7 +78,7 @@
   },
   {
     "id": "kashmir-neelum-taobut",
-    "name": "Azad Kashmir & Neelum Valley",
+    "name": "Azad Kashmir & Neelum",
     "region": "Azad Kashmir",
     "tagline": "Heaven on Earth - Emerald Forests, River LOC & Arang Kel",
     "description": "Draped in thick conifer forests and framed by roaring mountain rivers, Neelum Valley features fairy-tale wooden hamlets like Arang Kel and pristine untamed villages like Taobut.",
@@ -97,7 +97,7 @@
   },
   {
     "id": "kumrat-valley",
-    "name": "Kumrat Valley & Katora Lake",
+    "name": "Kumrat & Katora Lake",
     "region": "Khyber Pakhtunkhwa",
     "tagline": "The Hidden Gem - Dense Deodar Canopies, Rushing Rivers & Glacial Basins",
     "description": "Unspoiled northern wilderness featuring colossal deodar cedar forests, crystal cold streams of Panjkora River, and high alpine treks up to Katora Lake.",

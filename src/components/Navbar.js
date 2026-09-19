@@ -65,6 +65,28 @@ export default function Navbar() {
       <div className={styles.topBar}>
         <div className={styles.topBarContainer}>
           <div className={styles.topBarLeft}>
+            <span className={styles.pulseDot} />
+            <span className={styles.topBarText}>
+              Your Trusted Travel Partner for Every Journey
+            </span>
+          </div>
+          <div className={styles.topBarRight}>
+            <div className={styles.contactGroup}>
+              <a href="tel:+923366832018" className={styles.topBarLink}>
+                <IconPhone size={13} color="#4ade80" />
+                <span>+92 336 6832018</span>
+              </a>
+              <a
+                href="https://wa.me/923366832018?text=Hello%20Musafir%20Pakistan!%20I%20would%20like%20to%20inquire%20about%20a%20tour."
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.topBarWhatsApp}
+              >
+                <IconWhatsApp size={14} />
+                <span>WhatsApp Us</span>
+              </a>
+            </div>
+            <span className={styles.divider}>|</span>
             <div className={styles.utilityGroup}>
               <a href="https://www.facebook.com/profile.php?id=100092377088237" target="_blank" rel="noopener noreferrer" className={styles.utilityLink}>
                 <IconFacebook size={15} color="#e2e8f0" />
@@ -82,28 +104,6 @@ export default function Navbar() {
                 <IconYoutube size={15} color="#e2e8f0" />
               </a>
             </div>
-            <span className={styles.divider}>|</span>
-            <div className={styles.contactGroup}>
-              <a href="tel:+923366832018" className={styles.topBarLink}>
-                <IconPhone size={13} color="#4ade80" />
-                <span>+92 336 6832018</span>
-              </a>
-              <a
-                href="https://wa.me/923366832018?text=Hello%20Musafir%20Pakistan!%20I%20would%20like%20to%20inquire%20about%20a%20tour."
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.topBarWhatsApp}
-              >
-                <IconWhatsApp size={14} />
-                <span>WhatsApp Us</span>
-              </a>
-            </div>
-          </div>
-          <div className={styles.topBarRight}>
-            <span className={styles.pulseDot} />
-            <span className={styles.topBarText}>
-              Your Trusted Travel Partner for Every Journey
-            </span>
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import styles from "./About.module.css";
 import ScrollReveal from "../../components/ScrollReveal";
 import galleryData from "../../data/gallery.json";
 import reviewsData from "../../data/reviews.json";
+import AnimatedCounter from "../../components/AnimatedCounter";
 import {
   IconCheck,
   IconShield,
@@ -192,9 +193,9 @@ export default function AboutPage() {
     },
     {
       id: 2,
-      title: "Karakoram Highway 4x4 Prado Safari",
+      title: "Hunza & Passu Cones",
       location: "Hunza & Passu Cones",
-      image: "/images/profile/gallery/trip2.jpg",
+      image: "/images/gallery/gallery-11.jpg",
       duration: "6-9 Days",
       type: "Private 4x4",
       highlights: "Cruising the world-famous KKH in Musafir Pakistan branded Prado SUVs with stops at Attabad Lake and Hussaini Bridge."
@@ -303,19 +304,27 @@ export default function AboutPage() {
 
             <div className={styles.heroStats}>
               <div className={styles.heroStatItem}>
-                <span className={styles.heroStatVal}>5,000+</span>
+                <span className={styles.heroStatVal}>
+                  <AnimatedCounter end={5000} suffix="+" duration={2500} />
+                </span>
                 <span className={styles.heroStatLabel}>Happy Travelers</span>
               </div>
               <div className={styles.heroStatItem}>
-                <span className={styles.heroStatVal}>120+</span>
+                <span className={styles.heroStatVal}>
+                  <AnimatedCounter end={500} suffix="+" duration={2500} />
+                </span>
                 <span className={styles.heroStatLabel}>Tours Executed</span>
               </div>
               <div className={styles.heroStatItem}>
-                <span className={styles.heroStatVal}>4.9 / 5.0</span>
+                <span className={styles.heroStatVal}>
+                  <AnimatedCounter end={4.9} isDecimal={true} suffix=" / 5.0" duration={2500} />
+                </span>
                 <span className={styles.heroStatLabel}>Guest Satisfaction</span>
               </div>
               <div className={styles.heroStatItem}>
-                <span className={styles.heroStatVal}>100%</span>
+                <span className={styles.heroStatVal}>
+                  <AnimatedCounter end={100} suffix="%" duration={2500} />
+                </span>
                 <span className={styles.heroStatLabel}>Safety & Comfort Record</span>
               </div>
             </div>
