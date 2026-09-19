@@ -191,7 +191,9 @@ export default function Home() {
             autoPlay 
             loop 
             muted 
-            playsInline 
+            playsInline
+            preload="auto"
+            poster="/images/hero.jpg"
             className={styles.heroVideo}
           >
             <source src="/hero_video/hero.mp4" type="video/mp4" />
