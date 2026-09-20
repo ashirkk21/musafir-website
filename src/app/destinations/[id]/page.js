@@ -287,7 +287,7 @@ export default async function DestinationDetailPage({ params }) {
                   <div key={tour.id} className={styles.tourCard}>
                     <Link href={`/tours/${tour.id}`} className={styles.tourImageLink}>
                       <Image
-                        src={tour.image}
+                        src={tour.poster || tour.image}
                         alt={tour.title}
                         fill
                         style={{ objectFit: "cover" }}
