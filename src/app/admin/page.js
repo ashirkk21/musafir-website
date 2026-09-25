@@ -18,6 +18,7 @@ export default function AdminDashboard() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [password, setPassword] = useState("");
   const [loginError, setLoginError] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
 
   const [packages, setPackages] = useState([]);
   const [activePackage, setActivePackage] = useState(null);
@@ -276,7 +277,28 @@ export default function AdminDashboard() {
 
         <div className={styles.packageListHeader}>
           <span>Tour Packages</span>
-          <span className={styles.packageCount}>{packages.length}</span>
+          <span className={styles.packageCount}>
+            {packages.filter(pkg => pkg.title.toLowerCase().includes(searchTerm.toLowerCase()) || (pkg.type && pkg.type.toLowerCase().includes(searchTerm.toLowerCase()))).length}
+          </span>
+        </div>
+
+        <div style={{ padding: '0 1rem 1rem 1rem' }}>
+          <input 
+            type="text"
+            placeholder="Search packages..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            style={{ 
+              width: '100%', 
+              padding: '0.6rem 0.8rem', 
+              borderRadius: '6px', 
+              border: '1px solid #334155', 
+              backgroundColor: '#0f172a', 
+              color: '#f8fafc',
+              fontSize: '0.9rem',
+              outline: 'none'
+            }}
+          />
         </div>
 
         <div className={styles.packageList}>
@@ -290,7 +312,9 @@ export default function AdminDashboard() {
               No packages found.
             </div>
           ) : (
-            packages.map(pkg => (
+            packages
+              .filter(pkg => pkg.title.toLowerCase().includes(searchTerm.toLowerCase()) || (pkg.type && pkg.type.toLowerCase().includes(searchTerm.toLowerCase())))
+              .map(pkg => (
               <button 
                 key={pkg.id} 
                 className={`${styles.packageItem} ${activePackage?.id === pkg.id ? styles.packageItemActive : ''}`}

@@ -247,6 +247,15 @@ export default function Navbar() {
               </div>
             </div>
 
+            {/* Gallery */}
+            <Link
+              href="/gallery/photos"
+              className={styles.navItem}
+              onClick={() => setMobileOpen(false)}
+            >
+              <span>Gallery</span>
+            </Link>
+
             {/* About Us */}
             <Link
               href="/about"

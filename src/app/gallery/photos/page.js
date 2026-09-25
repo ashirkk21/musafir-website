@@ -8,15 +8,9 @@ import { IconMapPin, IconCross } from "../../../components/Icons";
 import ScrollReveal from "../../../components/ScrollReveal";
 
 export default function PhotosPage() {
-  const [selectedCategory, setSelectedCategory] = useState("All");
   const [activePhoto, setActivePhoto] = useState(null);
 
-  const categories = ["All", "Group Expeditions", "Landscapes", "Bonfire & Camping"];
-
-  const filteredPhotos =
-    selectedCategory === "All"
-      ? photos
-      : photos.filter((p) => p.category === selectedCategory);
+  const filteredPhotos = photos.filter((p) => p.category === "Recent Tours");
 
   return (
     <main className={styles.pageContainer}>
@@ -30,20 +24,6 @@ export default function PhotosPage() {
             across Gilgit-Baltistan, Khyber Pakhtunkhwa, and Azad Kashmir.
           </p>
 
-          {/* Category Filters */}
-          <div className={styles.filterBar}>
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => setSelectedCategory(cat)}
-                className={`${styles.filterBtn} ${
-                  selectedCategory === cat ? styles.filterBtnActive : ""
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
-          </div>
         </section>
       </ScrollReveal>
 

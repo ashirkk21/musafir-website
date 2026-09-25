@@ -33,20 +33,7 @@
   line-height: 1.6;
 }
 
-@media (max-width: 992px) {
-  .tripsGrid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 
-@media (max-width: 768px) {
-  .tripsGrid {
-    grid-template-columns: 1fr;
-  }
-  .sectionTitle {
-    font-size: 2.2rem;
-  }
-}
 
 .container {
   max-width: 1200px;
@@ -214,4 +201,23 @@
 
 .lightTheme .tripImageWrapper {
   background: #e2e8f0;
+}
+
+@media (max-width: 992px) {
+  .tripsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .recentTripsSection {
+    padding: 4rem 0;
+  }
+  .tripsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .sectionTitle {
+    font-size: 2.2rem;
+  }
 }
