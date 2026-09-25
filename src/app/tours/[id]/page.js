@@ -40,15 +40,18 @@ export async function generateMetadata({ params }) {
 
   const destinations = pkg.attractions ? pkg.attractions.slice(0, 3).join(", ") : pkg.title;
 
+  const isPrivate = (pkg.type || "").toLowerCase().includes("private");
+  const priceString = isPrivate ? `PKR ${pkg.pricing.couple.toLocaleString()} for couple` : `PKR ${pkg.pricing.solo.toLocaleString()}/person`;
+
   return {
     title: `${pkg.title} — ${pkg.duration.days} Days / ${pkg.duration.nights} Nights Tour Package`,
-    description: `${pkg.tagline}. ${pkg.duration.days}-day ${pkg.type} from PKR ${pkg.pricing.solo.toLocaleString()}/person. Destinations: ${destinations}. Verified hotels, meals & transport included.`,
+    description: `${pkg.tagline}. ${pkg.duration.days}-day ${pkg.type} from ${priceString}. Destinations: ${destinations}. Verified hotels, meals & transport included.`,
     alternates: {
       canonical: `/tours/${id}`
     },
     openGraph: {
       title: `${pkg.title} | Musafir Pakistan`,
-      description: `${pkg.tagline}. Starting from PKR ${pkg.pricing.solo.toLocaleString()}/person.`,
+      description: `${pkg.tagline}. Starting from ${priceString}.`,
       url: `/tours/${id}`,
       images: [{ url: pkg.poster || pkg.image, width: 1200, height: 630, alt: `${pkg.title} tour package` }]
     }
@@ -129,6 +132,8 @@ export default async function TourDetailPage({ params }) {
   );
   const whatsappUrl = `https://wa.me/923366832018?text=${whatsappMessage}`;
 
+  const isPrivate = (pkg.type || "").toLowerCase().includes("private");
+
   return (
     <>
       <TourJsonLd pkg={pkg} />
@@ -189,11 +194,15 @@ export default async function TourDetailPage({ params }) {
 
                 {/* Price & Immediate Booking Trigger */}
                 <div className={styles.heroPricingBar}>
-                  <div className={styles.heroPriceBlock}>
-                    <span className={styles.heroPriceLabel}>Solo / Per Person</span>
-                    <span className={styles.heroPriceVal}>PKR {pkg.pricing.solo.toLocaleString()}</span>
-                  </div>
-                  <div className={styles.heroPriceDivider} />
+                  {!isPrivate && (
+                    <>
+                      <div className={styles.heroPriceBlock}>
+                        <span className={styles.heroPriceLabel}>Solo / Per Person</span>
+                        <span className={styles.heroPriceVal}>PKR {pkg.pricing.solo.toLocaleString()}</span>
+                      </div>
+                      <div className={styles.heroPriceDivider} />
+                    </>
+                  )}
                   <div className={styles.heroPriceBlock}>
                     <span className={styles.heroPriceLabel}>Couple Package</span>
                     <span className={styles.heroPriceVal}>PKR {pkg.pricing.couple.toLocaleString()}</span>
@@ -322,7 +331,7 @@ export default async function TourDetailPage({ params }) {
                   </div>
                   <div className={styles.relatedInfo}>
                     <h3>{t.title}</h3>
-                    <p>{t.duration.days} Days • From PKR {t.pricing.solo.toLocaleString()}</p>
+                    <p>{t.duration.days} Days • From PKR {((t.type || "").toLowerCase().includes("private") ? t.pricing.couple : t.pricing.solo).toLocaleString()}</p>
                   </div>
                 </Link>
               ))}

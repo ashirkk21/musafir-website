@@ -1,5 +1,61 @@
 [
   {
+    "id": 19,
+    "image": "/Gallery Photos new/Gallery Photos/Family Customize Trip.jpg",
+    "title": "Family Customize Trip",
+    "location": "Family Customize Trip",
+    "category": "Recent Tours"
+  },
+  {
+    "id": 20,
+    "image": "/Gallery Photos new/Gallery Photos/Grand Trip 2026 Hunza Skardu.jpg",
+    "title": "Grand Trip 2026 Hunza Skardu",
+    "location": "Grand Trip 2026 Hunza Skardu",
+    "category": "Recent Tours"
+  },
+  {
+    "id": 21,
+    "image": "/Gallery Photos new/Gallery Photos/Hunza Skardu Corporate Trip.png",
+    "title": "Hunza Skardu Corporate Trip",
+    "location": "Hunza Skardu Corporate Trip",
+    "category": "Recent Tours"
+  },
+  {
+    "id": 22,
+    "image": "/Gallery Photos new/Gallery Photos/Kashmir Taobut Group Trip.jpg",
+    "title": "Kashmir Taobut Group Trip",
+    "location": "Kashmir Taobut Group Trip",
+    "category": "Recent Tours"
+  },
+  {
+    "id": 23,
+    "image": "/Gallery Photos new/Gallery Photos/Naran Group Trip.png",
+    "title": "Naran Group Trip",
+    "location": "Naran Group Trip",
+    "category": "Recent Tours"
+  },
+  {
+    "id": 24,
+    "image": "/Gallery Photos new/Gallery Photos/Only Couples Special Trip of Hunza.jpg",
+    "title": "Only Couples Special Trip of Hunza",
+    "location": "Only Couples Special Trip of Hunza",
+    "category": "Recent Tours"
+  },
+  {
+    "id": 25,
+    "image": "/Gallery Photos new/Gallery Photos/Private Family Trip for Skardu.png",
+    "title": "Private Family Trip for Skardu",
+    "location": "Private Family Trip for Skardu",
+    "category": "Recent Tours"
+  },
+  {
+    "id": 26,
+    "image": "/Gallery Photos new/Gallery Photos/Unversity Group Trip.png",
+    "title": "Unversity Group Trip",
+    "location": "Unversity Group Trip",
+    "category": "Recent Tours"
+  },
+  {
     "id": 1,
     "image": "/images/gallery/gallery-10.png",
     "title": "Group Expedition Celebration",

@@ -7,6 +7,8 @@ import styles from "./Home.module.css";
 import initialPackages from "../data/packages.json";
 import destinations from "../data/destinations.json";
 import ScrollReveal from "../components/ScrollReveal";
+import RecentTrips from "../components/RecentTrips";
+import { recentTrips } from "../data/recentTrips";
 import {
   IconArrowRight,
   IconArrowLeft,
@@ -657,6 +659,7 @@ export default function Home() {
         </section>
       </ScrollReveal>
 
+      <RecentTrips trips={recentTrips} theme="light" />
     </main>
   );
 }

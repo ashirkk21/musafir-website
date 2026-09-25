@@ -321,8 +321,17 @@ export default async function DestinationDetailPage({ params }) {
                         <div className={styles.tourPriceBlock}>
                           <span className={styles.tourPriceLabel}>Starting Fare</span>
                           <span className={styles.tourPriceVal}>
-                            PKR {tour.pricing.solo.toLocaleString()}
-                            <small> / person</small>
+                            {(tour.type || "").toLowerCase().includes("private") ? (
+                              <>
+                                PKR {tour.pricing.couple.toLocaleString()}
+                                <small> / couple</small>
+                              </>
+                            ) : (
+                              <>
+                                PKR {tour.pricing.solo.toLocaleString()}
+                                <small> / person</small>
+                              </>
+                            )}
                           </span>
                         </div>
 

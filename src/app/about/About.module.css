@@ -476,7 +476,7 @@
    TODAY'S QUOTE BANNER (Dark Section)
    ======================================================== */
 .quoteSection {
-  padding: 5.5rem 0;
+  padding: 5.5rem 0 2rem;
   background-color: #0b1220;
   position: relative;
 }
@@ -534,7 +534,7 @@
    SECTION 3: VERIFIED ALLIANCES & PARTNERS (Solid High Contrast Dark #141F30)
    ======================================================== */
 .partnersSection {
-  padding: 6rem 0 0 0;
+  padding: 2rem 0 6rem;
   background-color: #0b1220;
 }
 
@@ -634,6 +634,84 @@
   font-weight: 700;
   border: 1px solid rgba(74, 222, 128, 0.3);
   white-space: nowrap;
+}
+
+/* ========================================================
+   PARTNER LOGO CAROUSEL — Infinite Auto-scroll Marquee
+   ======================================================== */
+.logoCarouselWrapper {
+  margin-top: 1rem;
+  padding: 2.5rem 0 3.5rem;
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 6%,
+    black 94%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 6%,
+    black 94%,
+    transparent 100%
+  );
+}
+
+.logoCarouselTrack {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  width: max-content;
+  animation: marqueeScroll 40s linear infinite;
+}
+
+.logoCarouselTrack:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.logoCarouselItem {
+  flex-shrink: 0;
+  width: 280px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 1rem;
+  transition: all 0.35s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.logoCarouselItem:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 35px rgba(34, 197, 94, 0.2);
+  border-color: rgba(34, 197, 94, 0.5);
+}
+
+.logoCarouselImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: all 0.35s ease;
+}
+
+.logoCarouselItem:hover .logoCarouselImg {
+  transform: scale(1.04);
 }
 
 /* ========================================================
@@ -1414,6 +1492,17 @@
   .partnerCategories {
     grid-template-columns: 1fr;
     gap: 1.25rem;
+  }
+
+  .logoCarouselTrack {
+    gap: 2.5rem;
+    animation-duration: 28s;
+  }
+
+  .logoCarouselItem {
+    width: 220px;
+    height: 120px;
+    padding: 0.75rem 1rem;
   }
 
   .execCard {

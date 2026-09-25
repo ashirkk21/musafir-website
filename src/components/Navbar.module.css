@@ -169,7 +169,7 @@
 }
 
 .logoImg {
-  height: 44px;
+  height: 60px;
   width: auto;
   object-fit: contain;
 }
@@ -549,7 +549,7 @@
   }
 
   .logoImg {
-    height: 32px !important;
+    height: 44px !important;
     width: auto !important;
   }
 }

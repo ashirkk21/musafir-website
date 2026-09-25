@@ -123,6 +123,19 @@ export default function AboutPage() {
     }
   ];
 
+  // Partner Hotel Logos for auto-scrolling carousel
+  const partnerLogos = [
+    { name: "Azure Lagoon Resort", src: "/images/partners/azure-lagoon.jpg" },
+    { name: "Redline Premier Hotel", src: "/images/partners/redline-hotel.jpg" },
+    { name: "Khanabadosh Resort", src: "/images/partners/khanabadosh.jpg" },
+    { name: "Peace Continental Guesthouse", src: "/images/partners/peace-continental.jpg" },
+    { name: "Qayyam Hospitality", src: "/images/partners/qayyam-hospitality.png" },
+    { name: "Pearl Continental Hotels", src: "/images/partners/pearl-continental.png" },
+    { name: "Nawab's Hotels & Resorts", src: "/images/partners/nawabs-hotel.png" },
+    { name: "Mount Hayat Hotels & Resorts", src: "/images/partners/mount-hayat.png" },
+    { name: "Luxus Hospitality Group", src: "/images/partners/luxus-hospitality.jpg" }
+  ];
+
   // Section 4: Meet Our Team — Executive Leadership (CEO & Co-Founder)
   const executiveLeaders = [
     {
@@ -184,57 +197,75 @@ export default function AboutPage() {
   const recentTrips = [
     {
       id: 1,
-      title: "Skardu & Waterfall Expedition",
-      location: "Baltistan, Pakistan",
-      image: "/images/profile/gallery/trip1.jpg",
+      title: "Family Customize Trip",
+      location: "Family Customize Trip",
+      image: "/Gallery Photos new/Gallery Photos/Family Customize Trip.jpg",
       duration: "5-10 Days",
-      type: "Signature Tour",
-      highlights: "Group exploration of Upper Kachura Lake, Shangrila Resort, Cold Desert Katpana, and Manthoka Waterfall."
+      type: "Recent Tour",
+      highlights: "Amazing trip organized by Musafir Pakistan."
     },
     {
       id: 2,
-      title: "Hunza & Passu Cones",
-      location: "Hunza & Passu Cones",
-      image: "/images/gallery/gallery-11.jpg",
-      duration: "6-9 Days",
-      type: "Private 4x4",
-      highlights: "Cruising the world-famous KKH in Musafir Pakistan branded Prado SUVs with stops at Attabad Lake and Hussaini Bridge."
+      title: "Grand Trip 2026 Hunza Skardu",
+      location: "Grand Trip 2026 Hunza Skardu",
+      image: "/Gallery Photos new/Gallery Photos/Grand Trip 2026 Hunza Skardu.jpg",
+      duration: "5-10 Days",
+      type: "Recent Tour",
+      highlights: "Amazing trip organized by Musafir Pakistan."
     },
     {
       id: 3,
-      title: "Alpine Lakes & Turquoise Waters",
-      location: "Gilgit-Baltistan Plateau",
-      image: "/images/profile/gallery/trip3.jpg",
-      duration: "7 Days",
-      type: "Group Adventure",
-      highlights: "Travelers celebrating at pristine high-altitude lakes with crystal glacial waters and majestic reflections."
+      title: "Hunza Skardu Corporate Trip",
+      location: "Hunza Skardu Corporate Trip",
+      image: "/Gallery Photos new/Gallery Photos/Hunza Skardu Corporate Trip.png",
+      duration: "5-10 Days",
+      type: "Recent Tour",
+      highlights: "Amazing trip organized by Musafir Pakistan."
     },
     {
       id: 4,
-      title: "High Mountain Summit & Viewpoints",
-      location: "Babusar Top (13,700 ft)",
-      image: "/images/profile/gallery/trip4.jpg",
-      duration: "6 Days",
-      type: "Mountain Trek",
-      highlights: "Standing in awe before towering peaks, panoramic sunrise vistas, and guided valley ridge walks."
+      title: "Kashmir Taobut Group Trip",
+      location: "Kashmir Taobut Group Trip",
+      image: "/Gallery Photos new/Gallery Photos/Kashmir Taobut Group Trip.jpg",
+      duration: "5-10 Days",
+      type: "Recent Tour",
+      highlights: "Amazing trip organized by Musafir Pakistan."
     },
     {
       id: 5,
-      title: "Babusar Pass & Kaghan Valley Corridor",
-      location: "13,700 ft Mountain Pass",
-      image: "/images/profile/gallery/trip5.jpg",
-      duration: "7 Days",
-      type: "Group Tour",
-      highlights: "Scenic mountain crossing connecting Naran Valley with Gilgit-Baltistan amidst snow peaks and alpine clouds."
+      title: "Naran Group Trip",
+      location: "Naran Group Trip",
+      image: "/Gallery Photos new/Gallery Photos/Naran Group Trip.png",
+      duration: "5-10 Days",
+      type: "Recent Tour",
+      highlights: "Amazing trip organized by Musafir Pakistan."
     },
     {
       id: 6,
-      title: "Khunjerab Pass & Border Expedition",
-      location: "Pak-China Border 4,693m",
-      image: "/images/profile/gallery/trip6.jpg",
-      duration: "9 Days",
-      type: "Flagship Departure",
-      highlights: "Reaching the highest paved international border crossing in the world with snow mountain flag celebrations."
+      title: "Only Couples Special Trip of Hunza",
+      location: "Only Couples Special Trip of Hunza",
+      image: "/Gallery Photos new/Gallery Photos/Only Couples Special Trip of Hunza.jpg",
+      duration: "5-10 Days",
+      type: "Recent Tour",
+      highlights: "Amazing trip organized by Musafir Pakistan."
+    },
+    {
+      id: 7,
+      title: "Private Family Trip for Skardu",
+      location: "Private Family Trip for Skardu",
+      image: "/Gallery Photos new/Gallery Photos/Private Family Trip for Skardu.png",
+      duration: "5-10 Days",
+      type: "Recent Tour",
+      highlights: "Amazing trip organized by Musafir Pakistan."
+    },
+    {
+      id: 8,
+      title: "Unversity Group Trip",
+      location: "Unversity Group Trip",
+      image: "/Gallery Photos new/Gallery Photos/Unversity Group Trip.png",
+      duration: "5-10 Days",
+      type: "Recent Tour",
+      highlights: "Amazing trip organized by Musafir Pakistan."
     }
   ];
 
@@ -517,26 +548,24 @@ export default function AboutPage() {
             </div>
           </ScrollReveal>
 
-          <div className={styles.partnerCategories}>
-            {partnerCategories.map((cat, idx) => (
-              <ScrollReveal key={idx} animation="fade-up" delay={idx * 0.1}>
-                <div className={styles.partnerCategoryCard}>
-                  <div className={styles.partnerCatHeader}>
-                    <div className={styles.partnerCatIcon}>{cat.icon}</div>
-                    <h3 className={styles.partnerCatTitle}>{cat.title}</h3>
+          {/* Partner Logo Carousel — auto-scrolling infinite marquee */}
+          <ScrollReveal animation="fade-up" delay={0.2}>
+            <div className={styles.logoCarouselWrapper}>
+              <div className={styles.logoCarouselTrack}>
+                {[...partnerLogos, ...partnerLogos].map((logo, idx) => (
+                  <div key={idx} className={styles.logoCarouselItem}>
+                    <Image
+                      src={logo.src}
+                      alt={logo.name}
+                      width={240}
+                      height={130}
+                      className={styles.logoCarouselImg}
+                    />
                   </div>
-                  <div className={styles.partnerPillList}>
-                    {cat.partners.map((partner, pIdx) => (
-                      <div key={pIdx} className={styles.partnerPill}>
-                        <span>{partner.name}</span>
-                        <span className={styles.partnerPillBadge}>{partner.badge}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </ScrollReveal>
-            ))}
-          </div>
+                ))}
+              </div>
+            </div>
+          </ScrollReveal>
         </div>
       </section>
 
@@ -785,16 +814,14 @@ export default function AboutPage() {
               <div className={styles.officeInfoCol}>
                 <IconBuilding size={18} color="#22c55e" />
                 <span>
-                  <strong>Head Office:</strong> Suit # G-40, Ground Floor, Falaknaz Tower, Opp. Airport,
-                  Sharah-E-Faisal, Karachi
+                  <strong>Head Office:</strong> Mezzanine Floor, Falaknaz Heights, Shahrah-e-Faisal
                 </span>
               </div>
               <div className={styles.officeInfoCol}>
                 <IconPhone size={18} color="#22c55e" />
                 <div style={{ display: "flex", flexWrap: "wrap", gap: "6px" }}>
                   <a href="tel:+923366832018" style={{ whiteSpace: "nowrap" }}>+92-336-683-2018</a>
-                  <span>/</span>
-                  <a href="tel:02134684011" style={{ whiteSpace: "nowrap" }}>021-34684011</a>
+
                 </div>
               </div>
               <div className={styles.officeInfoCol}>

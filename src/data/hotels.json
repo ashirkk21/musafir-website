@@ -14,7 +14,7 @@
       "/images/hotels/arcadian-3.jpg",
       "/images/hotels/arcadian-4.jpg"
     ],
-    "pricePerNight": 28000,
+    "pricePerNight": 12500,
     "description": "Nestled along the pristine Indus and Kachura valley streams with uninterrupted panoramic Karakoram vistas. Arcadian Resort Skardu is celebrated for its bespoke timber chalets, riverfront bonfire setups, fine Balti culinary heritage, and serene natural ambiance. Every chalet is designed with thermal insulation, warm wooden craftsmanship, and expansive mountain-facing glass fronts.",
     "amenities": [
       "Hot Water",
@@ -42,6 +42,47 @@
     }
   },
   {
+    "id": "arcadian-kachura-skardu",
+    "name": "Arcadian Riverside Hotel Kachura",
+    "location": "Kachura Valley, Skardu, Gilgit-Baltistan",
+    "destination": "Skardu",
+    "rating": "4.7 / 5.0",
+    "reviewCount": 72,
+    "category": "Riverside Hotel",
+    "image": "/images/hotels/arcadian-kachura-1.jpg",
+    "gallery": [
+      "/images/hotels/arcadian-kachura-1.jpg",
+      "/images/hotels/arcadian-kachura-2.jpg",
+      "/images/hotels/arcadian-kachura-3.jpg"
+    ],
+    "pricePerNight": 9500,
+    "description": "A scenic riverside retreat in the heart of Kachura Valley, Arcadian Riverside Hotel offers modern comfort surrounded by towering Karakoram peaks and lush poplar-lined orchards. Featuring elegant marble interiors, Arcadian-branded executive rooms, mountain-facing balconies, and warm Balti hospitality — ideal for couples, families, and explorers seeking a tranquil base near Shangrila and Upper Kachura Lake.",
+    "amenities": [
+      "Hot Water",
+      "Free Wifi",
+      "Complimentary Breakfast",
+      "Scenic View",
+      "Dining Area",
+      "Parking",
+      "Power Backup",
+      "Friendly and Cooperative Staff"
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours before arrival date."
+    },
+    "locationDetails": {
+      "address": "Kachura Road, Near Shangrila, Skardu, Gilgit-Baltistan",
+      "nearby": [
+        "Upper Kachura Lake (10 mins)",
+        "Shangrila Resort & Lower Kachura Lake (12 mins)",
+        "Skardu Airport (20 mins)",
+        "Sarfaranga Cold Desert (40 mins)"
+      ]
+    }
+  },
+  {
     "id": "candela-resort-skardu",
     "name": "Candela Resort Skardu",
     "location": "Skardu Valley, Gilgit-Baltistan",
@@ -56,7 +97,7 @@
       "/images/hotels/candela-3.webp",
       "/images/hotels/candela-4.webp"
     ],
-    "pricePerNight": 22000,
+    "pricePerNight": 8500,
     "description": "A premier retreat offering spacious master suites, landscaped valley gardens, 24/7 concierge, and direct access to Sarfaranga desert and Shigar expeditions. Built with contemporary mountain architecture, Candela Resort ensures maximum tranquility and modern comfort in the heart of Baltistan.",
     "amenities": [
       "Hot Water",
@@ -98,7 +139,7 @@
       "/images/hotels/qayyam-skardu-3.webp",
       "/images/hotels/qayyam-skardu-4.webp"
     ],
-    "pricePerNight": 14000,
+    "pricePerNight": 23500,
     "description": "Ideal for families and group travelers looking for premier city-center convenience. Centrally situated near Skardu bazaar, offering comfortable executive rooms, secure parking, power generator backup, and round-the-clock room service with authentic local hospitality.",
     "amenities": [
       "Hot Water",
@@ -140,7 +181,7 @@
       "/images/hotels/eliet-3.webp",
       "/images/hotels/eliet-4.webp"
     ],
-    "pricePerNight": 18000,
+    "pricePerNight": 10500,
     "description": "Overlooking the legendary Ultar Sar, Ladyfinger Peak, and Rakaposhi sunrise. Within walking distance to ancient Baltit Fort and Karimabad cobblestone handicrafts market, Eliet Hotel combines traditional Hunza woodcraft with luxury modern amenities and organic farm-to-table dining.",
     "amenities": [
       "Hot Water",
@@ -182,7 +223,7 @@
       "/images/hotels/alvi-2.webp",
       "/images/hotels/alvi-3.webp"
     ],
-    "pricePerNight": 15000,
+    "pricePerNight": 8500,
     "description": "A favorite for discerning travelers along the Karakoram Highway. Featuring modern architectural design, spotless hygiene, direct KKH highway access, and warm Gilgiti hospitality. Ideal for families and tour convoys exploring Upper and Central Hunza.",
     "amenities": [
       "Hot Water",
@@ -224,7 +265,7 @@
       "/images/hotels/qayyam-hunza-3.webp",
       "/images/hotels/qayyam-hunza-4.webp"
     ],
-    "pricePerNight": 16000,
+    "pricePerNight": 11500,
     "description": "Spectacular sunrise views over Mount Rakaposhi and Diran peak. Specifically designed to cater to families and tour groups with expansive bedding layouts, lush garden lawns, and curated northern culinary offerings.",
     "amenities": [
       "Hot Water",
@@ -308,7 +349,7 @@
       "/images/hotels/royal-shangrila-balakot-3.png",
       "/images/hotels/royal-shangrila-balakot-4.png"
     ],
-    "pricePerNight": 12000,
+    "pricePerNight": 7500,
     "description": "A stylish and contemporary hillside retreat overlooking the lush pine terraced mountains of Balakot. Royal Shangrila provides modern executive suites, tranquil garden seating, prompt guest services, and an enviable vantage point over the Kaghan valley entrance.",
     "amenities": [
       "Hot Water",
@@ -349,7 +390,7 @@
       "/images/hotels/golden-lodges-chilas-2.png",
       "/images/hotels/golden-lodges-chilas-3.png"
     ],
-    "pricePerNight": 11000,
+    "pricePerNight": 5500,
     "description": "The premier comfortable rest oasis situated right along the Karakoram Highway (KKH) in Chilas. Ideal for expeditions transiting between Islamabad, Babusar, Gilgit, Hunza, and Skardu. Boasts air-conditioned rooms, a lush grassy lawn courtyard, clean en-suite baths, and a hearty multi-cuisine restaurant.",
     "amenities": [
       "Hot Water",
@@ -391,7 +432,7 @@
       "/images/hotels/peace-continental-islamabad-3.webp",
       "/images/hotels/peace-continental-islamabad-4.webp"
     ],
-    "pricePerNight": 14000,
+    "pricePerNight": 7500,
     "description": "Centrally situated in the capital city of Islamabad, Peace Continental Hotel is tailored for both corporate travelers and tourists starting their northern adventures. Equipped with refined contemporary guest rooms, high-speed optic fiber internet, swift airport transfer desk, and delicious breakfast buffet.",
     "amenities": [
       "Hot Water",
@@ -432,7 +473,7 @@
       "/images/hotels/redline-hotel-islamabad-2.webp",
       "/images/hotels/redline-hotel-islamabad-3.webp"
     ],
-    "pricePerNight": 16000,
+    "pricePerNight": 8500,
     "description": "An upscale boutique sanctuary tucked near the serene Margalla Hills. Redline Hotel blends tranquil residential ambiance with first-class hospitality, custom timber interiors, smart climate controls, and scenic rooftop dining overlooking the capital skyline.",
     "amenities": [
       "Hot Water",
@@ -473,7 +514,7 @@
       "/images/hotels/sunset-hotel-islamabad-2.png",
       "/images/hotels/sunset-hotel-islamabad-3.png"
     ],
-    "pricePerNight": 11500,
+    "pricePerNight": 7500,
     "description": "Sunset Hotel offers budget-conscious travelers, families, and tour groups uncompromised luxury and comfort. Features wide family accommodations, peaceful Margalla mountain backdrop, warm hospitality, and round-the-clock northern tour transit arrangements.",
     "amenities": [
       "Hot Water",
@@ -515,7 +556,7 @@
       "/images/hotels/khanabadosh-arangkel-3.png",
       "/images/hotels/khanabadosh-arangkel-4.jpg"
     ],
-    "pricePerNight": 16000,
+    "pricePerNight": 10500,
     "description": "Perched in the fairy-tale meadows of Arang Kel (8,379 ft), Khanabadosh is celebrated as one of Azad Kashmir’s most iconic boutique mountain retreats. Accessible via the scenic Kel chairlift and a pine trail hike, offering authentic wooden architecture, panoramic valley vistas, lush flower gardens, and crackling evening bonfires under starry alpine skies.",
     "amenities": [
       "Hot Water",
@@ -550,10 +591,13 @@
     "rating": "4.7 / 5.0",
     "reviewCount": 86,
     "category": "Hilltop Cottage",
-    "image": "/images/hotels/cozy-cottage-upper-neelum-1.jpg",
+    "image": "/images/hotels/cozy-cottage-4.jpg",
     "gallery": [
-      "/images/hotels/cozy-cottage-upper-neelum-1.jpg",
-      "/images/hotels/cozy-cottage-upper-neelum-2.jpg"
+      "/images/hotels/cozy-cottage-1.jpg",
+      "/images/hotels/cozy-cottage-2.jpg",
+      "/images/hotels/cozy-cottage-3.jpg",
+      "/images/hotels/cozy-cottage-4.jpg",
+      "/images/hotels/cozy-cottage-5.jpg"
     ],
     "pricePerNight": 12500,
     "description": "Located atop Upper Neelum with breathtaking bird’s-eye views of the winding Neelum River and the green hills of the Line of Control. Cozy Cottage offers cozy wooden rooms, serene apple orchard surroundings, private sit-outs, and warm Kashmiri hospitality.",
@@ -595,7 +639,7 @@
       "/images/hotels/neelum-lodges-upper-neelum-1.png",
       "/images/hotels/neelum-lodges-upper-neelum-2.png"
     ],
-    "pricePerNight": 11000,
+    "pricePerNight": 7500,
     "description": "A popular mountain lodge perched on the serene slopes of Upper Neelum. Overlooking the lush terraced mountain slopes and river gorge below, offering spacious bedrooms, hot water geysers, outdoor bonfire arrangements, and freshly prepared local dishes.",
     "amenities": [
       "Hot Water",
@@ -637,7 +681,7 @@
       "/images/hotels/neelum-view-taobat-3.png",
       "/images/hotels/neelum-view-taobat-4.png"
     ],
-    "pricePerNight": 12000,
+    "pricePerNight": 8500,
     "description": "Situated in Taobat, the final jewel of the Neelum Valley bordering the Line of Control where the crystal Gagai rivulet meets the Neelum River. Neelum View Hotel offers cozy frontier lodgings surrounded by untouched alpine meadows, thick deodar forests, and icy glacier streams.",
     "amenities": [
       "Hot Water",
@@ -677,7 +721,7 @@
       "/images/hotels/state-continental-arangkel-1.jpg",
       "/images/hotels/state-continental-arangkel-2.jpg"
     ],
-    "pricePerNight": 14000,
+    "pricePerNight": 6500,
     "description": "An expansive and welcoming mountain hotel situated in the high plateau of Arang Kel. Featuring wide wooden balconies overlooking the lush meadows, private en-suite bathrooms, continuous geyser hot water, and delicious hot meals prepared after your hike up.",
     "amenities": [
       "Hot Water",
@@ -718,7 +762,7 @@
       "/images/hotels/state-continental-kel-2.webp",
       "/images/hotels/state-continental-kel-3.webp"
     ],
-    "pricePerNight": 10500,
+    "pricePerNight": 7500,
     "description": "Situated conveniently in the historic base town of Kel at the foot of Arang Kel. State Continental Kel serves as the central jumping-off point for expeditions heading to Arang Kel chairlift, Chitta Katha Lake, and Taobat. Clean, secure, and fully equipped with modern conveniences.",
     "amenities": [
       "Hot Water",
@@ -761,7 +805,7 @@
       "/images/hotels/vadi-hotel-sharda-4.png",
       "/images/hotels/vadi-hotel-sharda-5.png"
     ],
-    "pricePerNight": 13000,
+    "pricePerNight": 12500,
     "description": "Commanding a scenic vantage right beside the rushing waters of the Neelum River in Sharda. Vadi Hotel is one of the premier luxury properties in Sharda, renowned for its manicured riverbank lawn, tasteful wooden interiors, historic Sharda Peeth accessibility, and top-tier culinary offerings.",
     "amenities": [
       "Hot Water",
@@ -802,7 +846,7 @@
       "/images/hotels/valley-view-sharda-2.png",
       "/images/hotels/valley-view-sharda-3.png"
     ],
-    "pricePerNight": 11500,
+    "pricePerNight": 7500,
     "description": "Elevated on a panoramic bluff overlooking both the Sharda town basin and the winding Neelum River. Valley View Hotel Sharda treats guests to sweeping mountain vistas, comfortable heated rooms, freshly cooked meals, and peaceful evening vistas over the valley.",
     "amenities": [
       "Hot Water",
@@ -844,7 +888,7 @@
       "/images/hotels/infinity-hotel-kumrat-3.webp",
       "/images/hotels/infinity-hotel-kumrat-4.webp"
     ],
-    "pricePerNight": 15000,
+    "pricePerNight": 13500,
     "description": "Immersed deep in the towering virgin Deodar forests of Kumrat Valley along the rushing Panjkora River. Infinity Hotel & Resort offers a premier eco-luxury haven featuring rustic timber chalets, crisp mountain breeze, riverfront campfire clearings, and unmatched proximity to Kumrat Waterfall and Jahaz Banda trails.",
     "amenities": [
       "Hot Water",
@@ -926,7 +970,7 @@
       "/images/hotels/kings-inn-naran-2.jpg",
       "/images/hotels/kings-inn-naran-3.webp"
     ],
-    "pricePerNight": 16000,
+    "pricePerNight": 8500,
     "description": "One of the most reputed and modern hotel destinations in Naran. Located on the quieter bypass road away from bazaar congestion, Kings Inn provides luxurious warm bedrooms, sweeping views of snow-capped Kaghan peaks, river breeze, and quick access to Lake Saiful Malook and Babusar Top.",
     "amenities": [
       "Hot Water",
@@ -967,7 +1011,7 @@
       "/images/hotels/nawab-hotel-naran-2.webp",
       "/images/hotels/nawab-hotel-naran-3.webp"
     ],
-    "pricePerNight": 13500,
+    "pricePerNight": 11500,
     "description": "A trusted family favorite situated centrally in Naran with immediate access to Kunhar river walkways and shopping. Nawab Hotel Naran features immaculate guest rooms, private balconies, hot food kitchen serving piping-hot trout, and dependable amenities.",
     "amenities": [
       "Hot Water",
@@ -1009,7 +1053,7 @@
       "/images/hotels/umda-hotel-nathiagali-3.png",
       "/images/hotels/umda-hotel-nathiagali-4.png"
     ],
-    "pricePerNight": 15500,
+    "pricePerNight": 10500,
     "description": "Nestled amidst the serene, mist-shrouded pine ridges of Nathia Gali in the heart of Galyat. Umda Hotel is celebrated for its peaceful hillside atmosphere, panoramic forest vistas, crisp pine-scented mountain air, heated modern rooms, and quick access to Miranjani and Mukshpuri hiking trails.",
     "amenities": [
       "Hot Water",
@@ -1050,7 +1094,7 @@
       "/images/hotels/friday-hotel-shogran-2.png",
       "/images/hotels/friday-hotel-shogran-3.png"
     ],
-    "pricePerNight": 14500,
+    "pricePerNight": 7500,
     "description": "Perched on the famous green plateau of Shogran (7,749 ft) with grand views of Musa Ka Musalla and the snowy peaks of Kaghan. Friday Hotel features charming wooden architecture, sprawling green lawns for bonfires, and serves as the perfect springboard for the thrilling 4x4 jeep ride to Siri Paye Meadows.",
     "amenities": [
       "Hot Water",
@@ -1092,7 +1136,7 @@
       "/images/hotels/frontier-malam-jabba-3.webp",
       "/images/hotels/frontier-malam-jabba-4.webp"
     ],
-    "pricePerNight": 17000,
+    "pricePerNight": 9500,
     "description": "Positioned amidst the snow-capped alpine peaks and pine slopes of Malam Jabba (9,199 ft), Pakistan’s premier ski destination. Frontier Tower & Resort offers ski-in ski-out ease, heated modern rooms, sweeping floor-to-ceiling mountain vistas, zipline proximity, and fine Swati culinary dining.",
     "amenities": [
       "Hot Water",
@@ -1133,7 +1177,7 @@
       "/images/hotels/kuwait-continental-bahrain-2.jpg",
       "/images/hotels/kuwait-continental-bahrain-3.jpg"
     ],
-    "pricePerNight": 11000,
+    "pricePerNight": 9500,
     "description": "Overlooking the roaring confluence of the Daral and Swat rivers in the mountain bazaar of Bahrain. Kuwait Continental is the ideal riverside hub for tourists exploring upper Swat, offering comfortable riverside rooms, riverside dining, and swift transit to Kalam Valley.",
     "amenities": [
       "Hot Water",
@@ -1174,7 +1218,7 @@
       "/images/hotels/river-view-kalam-2.webp",
       "/images/hotels/river-view-kalam-3.webp"
     ],
-    "pricePerNight": 14000,
+    "pricePerNight": 8500,
     "description": "Set right along the crystalline Swat River in the alpine wonderland of Kalam. River View Hotel Kalam features open riverfront terraces, pine-scented breezes, scenic views of Falaksar peak, and direct access to Mahodand Lake, Ushu Forest, and Matiltan waterfalls.",
     "amenities": [
       "Hot Water",

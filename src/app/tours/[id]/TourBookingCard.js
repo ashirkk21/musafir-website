@@ -159,13 +159,22 @@ export default function TourBookingCard({ pkg, whatsappUrl }) {
       {/* 1. Header: Price + Couple Rate + Moved Trust Badges */}
       <div className={styles.bookingCardHeader}>
         <div className={styles.priceLabel}>Starting Fare</div>
-        <div className={styles.priceValue}>
-          PKR {pkg.pricing.solo.toLocaleString()}
-          <span className={styles.priceSub}> / person</span>
-        </div>
-        <div className={styles.couplePrice}>
-          Couple Rate: <strong>PKR {pkg.pricing.couple.toLocaleString()}</strong>
-        </div>
+        {(pkg.type || "").toLowerCase().includes("private") ? (
+          <div className={styles.priceValue}>
+            PKR {pkg.pricing.couple.toLocaleString()}
+            <span className={styles.priceSub}> / couple</span>
+          </div>
+        ) : (
+          <>
+            <div className={styles.priceValue}>
+              PKR {pkg.pricing.solo.toLocaleString()}
+              <span className={styles.priceSub}> / person</span>
+            </div>
+            <div className={styles.couplePrice}>
+              Couple Rate: <strong>PKR {pkg.pricing.couple.toLocaleString()}</strong>
+            </div>
+          </>
+        )}
 
         {/* Trust Badges moved under Couple Rate */}
         <div className={styles.headerTrustBadges}>

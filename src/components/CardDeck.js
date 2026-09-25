@@ -48,7 +48,7 @@ const DEFAULT_SERVICE_CARDS = [
     meta1: { label: "Skardu Valley", icon: "location" },
     meta2: { label: "4.8 ★ Luxury Stay", icon: "star" },
     priceLabel: "Room Rate",
-    priceValue: "PKR 28,000 / Night",
+    priceValue: "PKR 12,500 / Night",
     link: "/services/hotels/arcadian-skardu"
   },
   {
@@ -84,7 +84,7 @@ const DEFAULT_SERVICE_CARDS = [
     meta1: { label: "Karimabad Hunza", icon: "location" },
     meta2: { label: "4.9 ★ Mountain View", icon: "star" },
     priceLabel: "Room Rate",
-    priceValue: "PKR 18,000 / Night",
+    priceValue: "PKR 10,500 / Night",
     link: "/services/hotels/eliet-hotel-hunza"
   }
 ];

@@ -117,8 +117,8 @@ export default function Navbar() {
               <Image
                 src="/logo.png"
                 alt="Musafir Travel and Tours"
-                width={160}
-                height={48}
+                width={200}
+                height={60}
                 className={styles.logoImg}
                 priority
               />
