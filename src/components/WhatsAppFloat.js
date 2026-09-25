@@ -1,9 +1,16 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import styles from "./WhatsAppFloat.module.css";
 import { IconWhatsApp } from "./Icons";
 
 export default function WhatsAppFloat() {
+  const pathname = usePathname();
+
+  if (pathname && pathname.startsWith("/admin")) {
+    return null;
+  }
+
   return (
     <a
       href="https://wa.me/923366832018"
