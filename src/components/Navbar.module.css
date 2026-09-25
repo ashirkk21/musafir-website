@@ -156,6 +156,7 @@
 .logoContainer {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .logoBadge {
@@ -291,6 +292,7 @@
 .navActionWrapper {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .customTripBtn {

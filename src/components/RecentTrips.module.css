@@ -170,7 +170,10 @@
    ======================================================== */
 
 .recentTripsSection.lightTheme {
-  background-color: #ffffff;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.88), #432727c2), url('/images/autumn_hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .lightTheme .sectionTitle {
@@ -178,7 +181,7 @@
 }
 
 .lightTheme .sectionSubtitle {
-  color: #475569;
+  color: #000000;
 }
 
 .lightTheme .tripCard {

@@ -303,8 +303,9 @@ export default function Home() {
 
       {/* Popular Destinations Gallery */}
       <ScrollReveal direction="right">
-        <section className={styles.section}>
-          <div className={styles.sectionHeader}>
+        <div className={styles.sectionWhite}>
+          <section className={styles.section}>
+            <div className={styles.sectionHeader}>
             <span className={styles.sectionTag}>Explore Pakistan</span>
             <h2>Top Travel Destinations</h2>
             <p>Explore seasonal itineraries and mountain corridors across Gilgit-Baltistan and Khyber Pakhtunkhwa.</p>
@@ -333,7 +334,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+          </section>
+        </div>
       </ScrollReveal>
 
       {/* Why Choose Us Section */}
@@ -493,7 +495,7 @@ export default function Home() {
       </ScrollReveal>
 
       <ScrollReveal direction="right">
-        <section className={styles.pkgWrapper} style={{ background: "linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%)", paddingTop: "2rem" }}>
+        <section className={`${styles.pkgWrapper} ${styles.sectionDark}`}>
           <div className={styles.sectionHeader}>
             <span className={styles.sectionTag}>Exclusive Escapes</span>
             <h2>Featured Private & Honeymoon Tours</h2>
@@ -621,8 +623,9 @@ export default function Home() {
 
       {/* Private Tour Designer Section */}
       <ScrollReveal animation="fade-up">
-        <section className={styles.privateTourSection}>
-          <div className={styles.privateTourContainer}>
+        <div className={styles.sectionLight}>
+          <section className={styles.privateTourSection}>
+            <div className={styles.privateTourContainer}>
             <div className={styles.privateTourContent}>
               <h2>DESIGN YOUR CUSTOM TRIP</h2>
               <ul className={styles.privateTourList}>
@@ -656,7 +659,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+          </section>
+        </div>
       </ScrollReveal>
 
       <RecentTrips trips={recentTrips} theme="light" />
