@@ -520,6 +520,17 @@
   color: #cbd5e1;
 }
 
+.sectionDark .viewAllBtn {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.sectionDark .viewAllBtn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
 .sectionHeader {
   display: flex;
   flex-direction: column;
