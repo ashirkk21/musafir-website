@@ -362,7 +362,26 @@
 .menuActive .hamburgerLine:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -5px);
 }
-
+/* Responsive scaling for laptops before hamburger kicks in */
+@media (max-width: 1380px) and (min-width: 1025px) {
+  .navItem {
+    padding: 0.4rem 0.55rem;
+    font-size: 0.82rem;
+  }
+  .navLinks {
+    gap: 0.2rem;
+  }
+  .customTripBtn {
+    padding: 0.5rem 1rem;
+    font-size: 0.82rem;
+  }
+  .navbar {
+    padding: 0.6rem 1rem;
+  }
+  .logoImg {
+    height: 48px;
+  }
+}
 /* Responsive Styles */
 @media (max-width: 1024px) {
   .topBarText {

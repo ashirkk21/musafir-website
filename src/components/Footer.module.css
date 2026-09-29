@@ -243,6 +243,12 @@
   margin: 0;
 }
 
+.agencyText {
+  font-size: 0.7rem;
+  color: #64748b;
+  margin: 4px 0 0 0;
+}
+
 .bottomLinks {
   display: flex;
   align-items: center;

@@ -167,9 +167,14 @@ export default function Footer() {
       {/* Bottom Copyright & Legal Bar */}
       <div className={styles.bottomBar}>
         <div className={styles.bottomContainer}>
-          <p className={styles.copyrightText}>
-            &copy; {new Date().getFullYear()} Musafir Pakistan Tours & Travels. All Rights Reserved. Northern Tour Operator.
-          </p>
+          <div>
+            <p className={styles.copyrightText}>
+              &copy; {new Date().getFullYear()} Musafir Pakistan Tours & Travels. All Rights Reserved. Northern Tour Operator.
+            </p>
+            <p className={styles.agencyText}>
+              Developed by Saad Ali (SM IT Agency)
+            </p>
+          </div>
           <div className={styles.bottomLinks}>
             <Link href="/policies" className={styles.bottomLink}>Terms & Policies</Link>
             <span className={styles.bottomDivider}>•</span>

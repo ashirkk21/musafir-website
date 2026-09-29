@@ -181,6 +181,15 @@ export default function Navbar() {
               </div>
             </div>
 
+            {/* International Trips */}
+            <Link
+              href="/international-trip"
+              className={styles.navItem}
+              onClick={() => setMobileOpen(false)}
+            >
+              <span>International Trips</span>
+            </Link>
+
             {/* Destinations */}
             <Link
               href="/destinations"
@@ -247,23 +256,51 @@ export default function Navbar() {
               </div>
             </div>
 
-            {/* Gallery */}
-            <Link
-              href="/gallery/photos"
-              className={styles.navItem}
-              onClick={() => setMobileOpen(false)}
+            {/* About Us Dropdown */}
+            <div
+              className={`${styles.navItem} ${styles.hasDropdown} ${
+                activeDropdown === "about" ? styles.dropdownItemActive : ""
+              }`}
+              onClick={() => toggleDropdown("about")}
             >
-              <span>Gallery</span>
-            </Link>
+              <span className={styles.navItemLabel}>
+                <span>About Us</span>
+                <IconChevronDown
+                  size={13}
+                  className={`${styles.chevron} ${
+                    activeDropdown === "about" ? styles.chevronOpen : ""
+                  }`}
+                />
+              </span>
 
-            {/* About Us */}
-            <Link
-              href="/about"
-              className={styles.navItem}
-              onClick={() => setMobileOpen(false)}
-            >
-              <span>About Us</span>
-            </Link>
+              <div
+                className={`${styles.dropdownMenu} ${
+                  activeDropdown === "about" ? styles.dropdownOpenMobile : ""
+                }`}
+              >
+                <Link
+                  href="/about"
+                  className={styles.dropdownLink}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setMobileOpen(false);
+                  }}
+                >
+                  Company Overview
+                </Link>
+
+                <Link
+                  href="/gallery/photos"
+                  className={styles.dropdownLink}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setMobileOpen(false);
+                  }}
+                >
+                  Gallery
+                </Link>
+              </div>
+            </div>
 
             {/* Contact */}
             <Link
