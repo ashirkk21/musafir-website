@@ -1,5 +1,6 @@
 import styles from "./InternationalTrip.module.css";
 import Link from "next/link";
+import Image from "next/image";
 import { IconArrowRight } from "@/components/Icons";
 
 export const metadata = {
@@ -11,6 +12,14 @@ export default function InternationalTripPage() {
   return (
     <main className={styles.main}>
       <div className={styles.heroSection}>
+        <Image
+          src="/images/international-bg.jpg"
+          alt="International Trips Background"
+          fill
+          priority
+          quality={85}
+          className={styles.bgImage}
+        />
         <div className={styles.overlay}></div>
         <div className={styles.content}>
           <div className={styles.badge}>Exciting News</div>
