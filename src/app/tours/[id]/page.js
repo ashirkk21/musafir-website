@@ -187,7 +187,7 @@ export default async function TourDetailPage({ params }) {
                   </div>
                   <div className={styles.heroPill}>
                     <IconCalendar size={15} color="#4ade80" />
-                    <span>Every Tuesday & Friday From Islamabad</span>
+                    <span>Every Tuesday & Saturday From Islamabad</span>
                   </div>
 
                 </div>

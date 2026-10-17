@@ -934,7 +934,7 @@
 
 .deptImage {
   object-fit: cover;
-  object-position: center 20%;
+  object-position: center center;
   filter: contrast(1.04) saturate(0.96);
   transition: transform 0.4s ease;
 }

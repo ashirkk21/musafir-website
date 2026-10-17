@@ -170,26 +170,26 @@ export default function AboutPage() {
       name: "Abdul Moiz",
       role: "Customer Services Executive",
       subRole: "Head of 24/7 Traveler Care & Booking Desk",
-      image: "/images/profile/team/abdul_moiz.jpg",
+      image: "/images/profile/team/abdul_moiz_lead.jpg",
       bio: "The primary point of contact for our travelers. Abdul Moiz oversees end-to-end booking reservations, instant customized trip quotations, transparent payment confirmations, and 24/7 on-tour guest check-ins to ensure rapid assistance for any journey questions.",
       tags: ["Traveler Care", "Instant Support", "Booking Desk"]
     },
     {
-      id: "naveed",
-      name: "Naveed Ahmed",
+      id: "saad",
+      name: "Saad Ali",
       role: "Corporate Sales Manager",
       subRole: "Head of B2B Retreats & Institutional Excursions",
-      image: "/images/profile/team/naveed_ahmed.jpg",
-      bio: "Specializing in corporate team-building retreats, university student excursions, and institutional transport contracts. Naveed designs custom group itineraries with verified hotel room blocks, conference arrangements, and executive Coaster fleet logistics.",
+      image: "/images/profile/team/saad_ali_lead.jpg",
+      bio: "Specializing in corporate team-building retreats, university student excursions, and institutional transport contracts. Saad designs custom group itineraries with verified hotel room blocks, conference arrangements, and executive Coaster fleet logistics.",
       tags: ["Corporate Sales", "B2B Retreats", "Fleet Logistics"]
     },
     {
-      id: "saad",
-      name: "Saad Ali",
+      id: "naveed",
+      name: "Naveed Ahmed",
       role: "Social Media Executive",
       subRole: "Head of Field Storytelling & Community",
-      image: "/images/profile/team/saad_ali.jpg",
-      bio: "Bringing the wonders of Pakistan to life across digital channels. Saad captures on-ground field photography, scenic drone vistas, authentic traveler reviews, and manages our vibrant #TravelWithMusafirPakistan community.",
+      image: "/images/profile/team/naveed_ahmed_lead.jpg",
+      bio: "Bringing the wonders of Pakistan to life across digital channels. Naveed captures on-ground field photography, scenic drone vistas, authentic traveler reviews, and manages our vibrant #TravelWithMusafirPakistan community.",
       tags: ["Social Media", "Field Storytelling", "Community Host"]
     }
   ];
