@@ -101,15 +101,24 @@ export default async function TourDetailPage({ params }) {
   const { id } = await params;
   
   let pkgData = null;
+  const jsonData = packagesData.find((p) => p.id === id);
   try {
     await connectToDatabase();
-    pkgData = await Package.findOne({ id }).lean();
+    const dbData = await Package.findOne({ id }).lean();
+    if (dbData) {
+      // Merge: JSON base data + DB overrides (DB takes priority, but JSON fills missing fields)
+      pkgData = jsonData ? { ...jsonData, ...JSON.parse(JSON.stringify(dbData)) } : dbData;
+      // Ensure departureIslamabad from JSON is preserved if DB doesn't have it
+      if (!pkgData.departureIslamabad && jsonData?.departureIslamabad) {
+        pkgData.departureIslamabad = jsonData.departureIslamabad;
+      }
+    }
   } catch (err) {
     console.warn("MongoDB fetch warning in TourDetailPage:", err.message);
   }
 
   if (!pkgData) {
-    pkgData = packagesData.find((p) => p.id === id);
+    pkgData = jsonData;
   }
 
   if (!pkgData) {
@@ -185,10 +194,12 @@ export default async function TourDetailPage({ params }) {
                     <IconCalendar size={15} color="#4ade80" />
                     <span>{pkg.departure}</span>
                   </div>
+                  {pkg.departureIslamabad && (
                   <div className={styles.heroPill}>
                     <IconCalendar size={15} color="#4ade80" />
-                    <span>Every Tuesday & Saturday From Islamabad</span>
+                    <span>{pkg.departureIslamabad}</span>
                   </div>
+                  )}
 
                 </div>
 

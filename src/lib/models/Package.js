@@ -22,6 +22,7 @@ const PackageSchema = new mongoose.Schema({
     currency: { type: String, default: 'PKR' }
   },
   departure: { type: String },
+  departureIslamabad: { type: String },
   poster: { type: String },
   image: { type: String },
   attractions: [{ type: String }],

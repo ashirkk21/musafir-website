@@ -274,6 +274,36 @@
   min-height: 2.35em;
 }
 
+/* Departure Schedule */
+.departureSchedule {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: 0.65rem;
+  padding: 0.55rem 0.75rem;
+  background: linear-gradient(135deg, #f0fdf4 0%, #eff6ff 100%);
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.departureRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.73rem;
+  color: #334155;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.departureRow span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .highlightsList {
   list-style: none;
   display: flex;

@@ -77,7 +77,7 @@ export default function GroupToursPage() {
 
             <span className={styles.heroBadge}>
               <IconSparkles size={14} />
-              <span>Guaranteed Weekly Departures • Islamabad, Lahore & Karachi</span>
+              <span>Guaranteed Weekly Departures • Karachi & Islamabad</span>
             </span>
 
             <h1 className={styles.heroTitle}>Scheduled Group Expeditions</h1>
@@ -85,7 +85,7 @@ export default function GroupToursPage() {
             <p className={styles.heroSubtitle}>
               Join fellow adventurers on fixed-departure expeditions across Northern Pakistan.
               Travel in executive Grand Cabins & Coasters with certified mountain guides,
-              pre-screened hotel stays, and guaranteed departures every week from Islamabad, Lahore, and Karachi.
+              pre-screened hotel stays, and guaranteed departures every week from Karachi & Islamabad.
             </p>
 
             {/* Region Quick Filters */}
